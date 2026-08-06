@@ -19,6 +19,8 @@
   --good-soft: rgba(47, 168, 100, 0.14);
   --bad: #e0453f;
   --bad-soft: rgba(224, 69, 63, 0.12);
+  --untested: #9b9b93;
+  --untested-soft: rgba(28, 28, 30, 0.08);
   --lime: #cfe61a;
   --font-display: "Bebas Neue", "Manrope", sans-serif;
   --font-body: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -427,6 +429,7 @@ img { max-width: 100%; display: block; }
 .dot.good { background: var(--good); }
 .dot.mid { background: var(--accent-2); }
 .dot.bad { background: var(--bad); }
+.dot.untested { background: var(--untested); }
 
 /* Custom marker: a round avatar with a colored verdict ring + a small pin tail,
    so you can tell at a glance where a shop is AND how it rated — without it
@@ -474,6 +477,25 @@ img { max-width: 100%; display: block; }
 .doener-marker.bad .doener-marker-avatar { border-color: var(--bad); }
 .doener-marker.bad .doener-marker-tail { border-top-color: var(--bad); }
 
+/* Untested shops (imported locations Martin hasn't reviewed yet): a small plain
+   dot, not a face — deliberately less prominent than tested markers so the map
+   doesn't turn into 285 identical avatar pins. */
+.doener-marker.untested {
+  width: 14px;
+}
+
+.doener-marker-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--untested);
+  border: 2px solid #fff;
+  box-shadow: 0 2px 5px rgba(28, 28, 30, 0.3);
+}
+
+.popup-shop-verdict.untested { background: var(--untested-soft); color: var(--untested); }
+.popup-text-untested .popup-shop-name { margin-bottom: 6px; }
+
 /* Grow from the bottom tip (the actual pinned coordinate), not the center */
 .doener-marker:hover { transform: scale(1.1); }
 .doener-marker:active { transform: scale(0.94); }
@@ -518,6 +540,11 @@ img { max-width: 100%; display: block; }
 
 .popup-text {
   padding-right: 92px;
+}
+
+.popup-text-untested {
+  padding-right: 0;
+  max-width: 220px;
 }
 
 .maplibregl-popup-tip { border-top-color: rgba(255, 255, 255, 0.9) !important; border-bottom-color: rgba(255, 255, 255, 0.9) !important; }
