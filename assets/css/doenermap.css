@@ -20,7 +20,12 @@
   --lime: #d4ff3d;
   --font-display: "Bebas Neue", "Manrope", sans-serif;
   --font-body: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  /* Critically-damped-feeling ease-out — used for anything not driven live by a gesture */
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-press: cubic-bezier(0.4, 0, 0.2, 1);
+  --response-fast: 0.12s;
+  --response: 0.3s;
+  --response-slow: 0.4s;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -33,6 +38,44 @@ body {
   color: var(--text);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.005em;
+}
+
+/* Reduced motion: swap spring/slide motion for a short cross-fade, drop overshoot */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 120ms !important;
+    scroll-behavior: auto !important;
+  }
+  .shop-card:hover,
+  .search-bar button:hover,
+  .btn-mini:hover { transform: none !important; }
+  .maplibregl-popup { animation: popup-fade 150ms ease !important; }
+  .doener-marker:hover, .doener-marker:active { transform: rotate(-45deg) !important; }
+}
+
+@keyframes popup-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Reduced transparency: make floating chrome solid instead of blurred glass */
+@media (prefers-reduced-transparency: reduce) {
+  .site-nav, .map-badge, .map-legend, .maplibregl-popup-content {
+    backdrop-filter: none !important;
+    background: var(--bg-card) !important;
+  }
+}
+
+/* Increased contrast: near-solid chrome with a defined border */
+@media (prefers-contrast: more) {
+  .site-nav, .map-badge, .map-legend, .shop-card, .search-bar, .martin-tip {
+    background: var(--bg-soft) !important;
+    border-color: rgba(245, 245, 247, 0.35) !important;
+  }
 }
 
 a { color: inherit; text-decoration: none; }
@@ -46,6 +89,7 @@ img { max-width: 100%; display: block; }
 }
 
 /* ---------- Nav ---------- */
+/* Translucent material, not an opaque bar: content scrolls under it. */
 .site-nav {
   position: sticky;
   top: 0;
@@ -54,9 +98,21 @@ img { max-width: 100%; display: block; }
   align-items: center;
   justify-content: space-between;
   padding: 16px 24px;
-  background: rgba(10, 10, 12, 0.85);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--line);
+  background: rgba(10, 10, 12, 0.72);
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+}
+
+/* Scroll-edge effect instead of a hard 1px divider: a soft fade where content meets chrome */
+.site-nav::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -12px;
+  height: 12px;
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(10, 10, 12, 0.5), transparent);
 }
 
 .nav-logo {
@@ -65,7 +121,7 @@ img { max-width: 100%; display: block; }
   gap: 10px;
   font-family: var(--font-display);
   font-size: 22px;
-  letter-spacing: 0.5px;
+  letter-spacing: -0.01em;
 }
 
 .nav-logo .pin {
@@ -96,6 +152,7 @@ img { max-width: 100%; display: block; }
   color: var(--text-dim);
 }
 
+.nav-links a { transition: color var(--response-fast) var(--ease-press); }
 .nav-links a:hover { color: var(--text); }
 
 /* ---------- Hero ---------- */
@@ -122,7 +179,10 @@ img { max-width: 100%; display: block; }
   font-family: var(--font-display);
   font-size: clamp(40px, 8vw, 84px);
   line-height: 0.95;
-  letter-spacing: 0.5px;
+  /* Tracking is size-specific: large display text wants negative tracking. Using em
+     means it tightens automatically as the clamp scales the font up. */
+  letter-spacing: -0.015em;
+  font-optical-sizing: auto;
 }
 
 .hero h1 .accent { color: var(--accent); }
@@ -144,6 +204,12 @@ img { max-width: 100%; display: block; }
   border: 1px solid var(--line);
   border-radius: 16px;
   padding: 8px;
+  transition: border-color var(--response-fast) var(--ease-press), box-shadow var(--response-fast) var(--ease-press);
+}
+
+.search-bar:focus-within {
+  border-color: rgba(255, 61, 61, 0.5);
+  box-shadow: 0 0 0 4px var(--accent-soft);
 }
 
 .search-bar input {
@@ -169,10 +235,19 @@ img { max-width: 100%; display: block; }
   border-radius: 12px;
   padding: 0 22px;
   cursor: pointer;
-  transition: transform 0.2s var(--ease), opacity 0.2s var(--ease);
+  /* hover moves on the slower "response" curve; press feedback is instant and separate */
+  transition: transform var(--response) var(--ease), opacity var(--response) var(--ease);
 }
 
 .search-bar button:hover { transform: translateY(-1px); opacity: 0.92; }
+
+/* Feedback lives on the press (pointer-down), not on release — and it's instant */
+.search-bar button:active,
+.tip-refresh:active,
+.btn-mini:active {
+  transform: scale(0.96);
+  transition: transform var(--response-fast) var(--ease-press);
+}
 
 .search-hint {
   margin-top: 12px;
@@ -215,6 +290,12 @@ img { max-width: 100%; display: block; }
 .martin-tip .tip-text {
   font-size: 15px;
   color: var(--text);
+  transition: opacity var(--response) var(--ease), transform var(--response) var(--ease);
+}
+
+.martin-tip .tip-text.is-swapping {
+  opacity: 0;
+  transform: translateY(4px);
 }
 
 .martin-tip .tip-refresh {
@@ -228,6 +309,7 @@ img { max-width: 100%; display: block; }
   font-size: 12px;
   cursor: pointer;
   align-self: center;
+  transition: color var(--response-fast) var(--ease-press), border-color var(--response-fast) var(--ease-press);
 }
 
 .martin-tip .tip-refresh:hover { color: var(--text); border-color: var(--accent); }
@@ -252,12 +334,14 @@ img { max-width: 100%; display: block; }
   top: 14px;
   left: 14px;
   z-index: 5;
-  background: rgba(10, 10, 12, 0.85);
-  backdrop-filter: blur(8px);
-  border: 1px solid var(--line);
+  background: rgba(10, 10, 12, 0.68);
+  backdrop-filter: blur(16px) saturate(160%);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 12px;
   padding: 8px 12px;
   font-size: 12px;
+  font-weight: 600;
   color: var(--text-dim);
 }
 
@@ -268,12 +352,14 @@ img { max-width: 100%; display: block; }
   z-index: 5;
   display: flex;
   gap: 12px;
-  background: rgba(10, 10, 12, 0.85);
-  backdrop-filter: blur(8px);
-  border: 1px solid var(--line);
+  background: rgba(10, 10, 12, 0.68);
+  backdrop-filter: blur(16px) saturate(160%);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 12px;
   padding: 8px 14px;
   font-size: 12px;
+  font-weight: 600;
   color: var(--text-dim);
 }
 
@@ -293,23 +379,46 @@ img { max-width: 100%; display: block; }
   border: 2px solid rgba(10,10,12,0.6);
   cursor: pointer;
   box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+  transition: transform var(--response-fast) var(--ease-press), box-shadow var(--response-fast) var(--ease-press);
 }
+
+/* Respect the rotated base transform on press/hover — grow from where it sits, don't reset it */
+.doener-marker:hover { transform: rotate(-45deg) scale(1.12); box-shadow: 0 4px 10px rgba(0,0,0,0.45); }
+.doener-marker:active { transform: rotate(-45deg) scale(0.94); }
 
 .doener-marker.good { background: var(--good); }
 .doener-marker.mid { background: var(--accent-2); }
 .doener-marker.bad { background: var(--bad); }
 
+/* Materialize, don't just fade: the popup arrives as a real surface (blur + scale together) */
+.maplibregl-popup {
+  animation: popup-materialize var(--response) var(--ease) both;
+}
+
+@keyframes popup-materialize {
+  from { opacity: 0; transform: scale(0.92) translateY(4px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
 .maplibregl-popup-content {
-  background: var(--bg-card) !important;
+  background: rgba(22, 22, 27, 0.88) !important;
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
   color: var(--text) !important;
   border-radius: 14px !important;
   border: 1px solid var(--line);
   font-family: var(--font-body);
   padding: 14px !important;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
 }
 
-.maplibregl-popup-tip { border-top-color: var(--bg-card) !important; border-bottom-color: var(--bg-card) !important; }
-.maplibregl-popup-close-button { color: var(--text-dim) !important; font-size: 18px !important; }
+.maplibregl-popup-tip { border-top-color: rgba(22, 22, 27, 0.88) !important; border-bottom-color: rgba(22, 22, 27, 0.88) !important; }
+.maplibregl-popup-close-button {
+  color: var(--text-dim) !important;
+  font-size: 18px !important;
+  transition: color var(--response-fast) var(--ease-press);
+}
+.maplibregl-popup-close-button:hover { color: var(--text) !important; }
 
 .popup-shop-name { font-weight: 700; font-size: 15px; margin-bottom: 4px; }
 .popup-shop-meta { font-size: 12px; color: var(--text-dim); margin-bottom: 8px; }
@@ -351,7 +460,7 @@ img { max-width: 100%; display: block; }
 .list-header h2 {
   font-family: var(--font-display);
   font-size: 34px;
-  letter-spacing: 0.4px;
+  letter-spacing: -0.01em;
 }
 
 .list-header p { font-size: 13px; color: var(--text-faint); }
@@ -367,10 +476,26 @@ img { max-width: 100%; display: block; }
   border: 1px solid var(--line);
   border-radius: 18px;
   padding: 18px;
-  transition: transform 0.2s var(--ease), border-color 0.2s var(--ease);
+  transition: transform var(--response) var(--ease), border-color var(--response) var(--ease), box-shadow var(--response) var(--ease);
+  animation: card-materialize var(--response-slow) var(--ease) both;
 }
 
-.shop-card:hover { transform: translateY(-2px); border-color: rgba(255,61,61,0.35); }
+.shop-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(255,61,61,0.35);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+}
+
+/* Press feedback is instant and overrides the slower hover lift while held */
+.shop-card:active {
+  transform: translateY(-1px) scale(0.99);
+  transition: transform var(--response-fast) var(--ease-press);
+}
+
+@keyframes card-materialize {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 
 .shop-card-top {
   display: flex;
@@ -427,6 +552,7 @@ img { max-width: 100%; display: block; }
   border-radius: 10px;
   border: 1px solid var(--line);
   color: var(--text-dim);
+  transition: color var(--response-fast) var(--ease-press), border-color var(--response-fast) var(--ease-press);
 }
 
 .btn-mini.video {

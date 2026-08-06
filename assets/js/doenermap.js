@@ -188,11 +188,23 @@ function initMap() {
   });
 }
 
-function showRandomTip() {
+function showRandomTip(animate) {
   const tipEl = document.getElementById("martinTipText");
   if (!tipEl) return;
-  const tip = MARTIN_TIPS[Math.floor(Math.random() * MARTIN_TIPS.length)];
-  tipEl.textContent = tip;
+  const pool = MARTIN_TIPS.filter(t => t !== tipEl.textContent);
+  const tip = pool[Math.floor(Math.random() * pool.length)] || MARTIN_TIPS[0];
+
+  if (!animate) {
+    tipEl.textContent = tip;
+    return;
+  }
+
+  // Cross-fade the swap instead of a hard text jump — feedback stays continuous, not a jump cut.
+  tipEl.classList.add("is-swapping");
+  window.setTimeout(() => {
+    tipEl.textContent = tip;
+    tipEl.classList.remove("is-swapping");
+  }, 150);
 }
 
 function initSearch() {
@@ -225,5 +237,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initSearch();
 
   const refreshBtn = document.getElementById("tipRefresh");
-  if (refreshBtn) refreshBtn.addEventListener("click", showRandomTip);
+  if (refreshBtn) refreshBtn.addEventListener("click", () => showRandomTip(true));
 });
