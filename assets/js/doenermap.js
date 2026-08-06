@@ -108,6 +108,21 @@ const DOENER_SHOPS = [
     googleCount: 623,
     note: "Hausgemachtes Brot, perfekt gewürztes Fleisch. Klarer Geheimtipp.",
     videoUrl: null
+  },
+  {
+    name: "Sirali Kebab",
+    district: "Harburg",
+    address: "Lüneburger Str. 20",
+    plz: "21073",
+    // Koordinaten via TomTom-Geocoding (exakter Treffer auf die Adresse)
+    lat: 53.458507, lng: 9.98317,
+    verdict: "good",
+    verdictLabel: "Top-Empfehlung",
+    martinRating: 9.0,
+    googleRating: null,
+    googleCount: null,
+    note: "Martins Favorit in Harburg",
+    videoUrl: "https://www.tiktok.com/@martin.dehn/video/7459499375107083542"
   }
 ];
 
@@ -134,13 +149,19 @@ const VERDICT_FACE = {
   bad: "assets/img/martin/face-04-martin-kritischer-tester.png"
 };
 
+function googleRatingHtml(shop) {
+  return shop.googleRating != null
+    ? `<span>Google: <strong>${shop.googleRating.toFixed(1)}★</strong> (${shop.googleCount})</span>`
+    : `<span>Google: <strong>folgt</strong></span>`;
+}
+
 function shopCardHtml(shop) {
   return `
     <article class="shop-card" data-plz="${shop.plz}">
       <div class="shop-card-top">
         <div>
           <h3>${shop.name}</h3>
-          <div class="district">${shop.district} · ${shop.plz}</div>
+          <div class="district">${shop.address ? shop.address + ", " : ""}${shop.district} · ${shop.plz}</div>
         </div>
         <span class="verdict-badge ${verdictClass(shop.verdict)}">
           <img class="verdict-figure" src="${VERDICT_FIGURE[shop.verdict]}" alt="">
@@ -149,14 +170,14 @@ function shopCardHtml(shop) {
       </div>
       <div class="ratings">
         <span>Martin: <strong>${shop.martinRating.toFixed(1)}/10</strong></span>
-        <span>Google: <strong>${shop.googleRating.toFixed(1)}★</strong> (${shop.googleCount})</span>
+        ${googleRatingHtml(shop)}
       </div>
       <p class="note">${shop.note}</p>
       <div class="shop-card-actions">
         <a class="btn-mini video" href="${shop.videoUrl || '#'}" ${shop.videoUrl ? 'target="_blank" rel="noopener"' : 'aria-disabled="true"'}>
           ${shop.videoUrl ? "▶ Video ansehen" : "Video folgt"}
         </a>
-        <a class="btn-mini" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(shop.name + ' ' + shop.district + ' Hamburg')}" target="_blank" rel="noopener">Auf Google Maps</a>
+        <a class="btn-mini" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((shop.address ? shop.address + ' ' : '') + shop.name + ' ' + shop.district + ' Hamburg')}" target="_blank" rel="noopener">Auf Google Maps</a>
       </div>
     </article>
   `;
@@ -198,11 +219,11 @@ function initMap() {
           <img class="popup-avatar" src="${VERDICT_FACE[shop.verdict]}" alt="">
           <div>
             <div class="popup-shop-name">${shop.name}</div>
-            <div class="popup-shop-meta">${shop.district} · ${shop.plz}</div>
+            <div class="popup-shop-meta">${shop.address ? shop.address + ", " : ""}${shop.district} · ${shop.plz}</div>
           </div>
         </div>
         <span class="popup-shop-verdict ${verdictClass(shop.verdict)}">${shop.verdictLabel}</span><br/>
-        <div class="popup-shop-meta">Martin: <strong>${shop.martinRating.toFixed(1)}/10</strong> · Google: <strong>${shop.googleRating.toFixed(1)}★</strong></div>
+        <div class="popup-shop-meta">Martin: <strong>${shop.martinRating.toFixed(1)}/10</strong> · ${shop.googleRating != null ? `Google: <strong>${shop.googleRating.toFixed(1)}★</strong>` : `Google: <strong>folgt</strong>`}</div>
         ${shop.note ? `<p class="popup-note">${shop.note}</p>` : ""}
         ${shop.videoUrl ? `<a class="popup-video-link" href="${shop.videoUrl}" target="_blank" rel="noopener">▶ Martins Video ansehen</a>` : `<span class="popup-video-link" style="color:var(--text-faint)">Video folgt bald</span>`}
       `;
