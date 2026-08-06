@@ -6,7 +6,7 @@
 <title>Dönermap Hamburg — Alle Dönerläden, getestet von Martin Dehn</title>
 <meta name="description" content="Die Dönermap für Hamburg: alle Dönerläden der Stadt, getestet und bewertet von Martin Dehn. PLZ eingeben, guten Döner in der Nähe finden, Testvideos ansehen.">
 <meta name="robots" content="index, follow">
-<meta name="theme-color" content="#0a0a0c">
+<meta name="theme-color" content="#f6f3ec">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,7 @@
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css">
 <link rel="stylesheet" href="assets/css/doenermap.css">
 
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230a0a0c'/%3E%3Cpath d='M50 15 C30 15 18 30 18 48 C18 65 50 88 50 88 C50 88 82 65 82 48 C82 30 70 15 50 15 Z' fill='%23ff3d3d'/%3E%3Ccircle cx='50' cy='46' r='14' fill='%230a0a0c'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23f6f3ec'/%3E%3Cpath d='M50 15 C30 15 18 30 18 48 C18 65 50 88 50 88 C50 88 82 65 82 48 C82 30 70 15 50 15 Z' fill='%23ff3d3d'/%3E%3Ccircle cx='50' cy='46' r='14' fill='%23f6f3ec'/%3E%3C/svg%3E">
 </head>
 <body>
 
@@ -36,41 +36,44 @@
 </header>
 
 <section class="hero" id="top">
-  <div class="section-inner">
-    <span class="hero-kicker">200+ Dönerläden in Hamburg</span>
-    <h1>Der beste Döner<br>in <span class="accent">Hamburg</span></h1>
-    <p class="lede">
-      Ich bin Martin — Content Creator und Döner-Fanatiker. Ich habe schon
-      unzählige Läden in Hamburg getestet und sage dir ehrlich, wo es sich lohnt
-      und wo du besser weiterfährst.
-    </p>
+  <!-- The map itself is the page's backdrop — light, friendly, always visible behind the content -->
+  <div class="hero-map-layer">
+    <div id="map"></div>
+    <div class="hero-map-scrim" aria-hidden="true"></div>
+  </div>
 
-    <form class="search-bar" id="plzForm">
-      <input type="text" id="plzInput" placeholder="Gib deine PLZ ein oder such nach einem Stadtteil …" autocomplete="off">
-      <button type="submit">Döner finden</button>
-    </form>
-    <p class="search-hint">Oder: Auf was für einen Döner hast du heute Lust?</p>
-
-    <div class="martin-tip">
-      <img src="assets/img/martin-dehn.jpg" alt="Martin Dehn">
-      <div>
-        <div class="tip-label">Martins Tipp des Tages</div>
-        <div class="tip-text" id="martinTipText">Lädt …</div>
-      </div>
-      <button class="tip-refresh" id="tipRefresh" type="button">Neuer Tipp</button>
+  <div class="hero-floating-chrome" id="karte">
+    <div class="map-badge">📍 Beispiel-Läden — echte Karte folgt</div>
+    <div class="map-legend">
+      <span><span class="dot good"></span> Top</span>
+      <span><span class="dot mid"></span> Solide</span>
+      <span><span class="dot bad"></span> Meiden</span>
     </div>
   </div>
-</section>
 
-<section class="map-section" id="karte">
-  <div class="section-inner">
-    <div class="map-shell">
-      <div id="map"></div>
-      <div class="map-badge">📍 Beispiel-Läden — echte Karte folgt</div>
-      <div class="map-legend">
-        <span><span class="dot good"></span> Top</span>
-        <span><span class="dot mid"></span> Solide</span>
-        <span><span class="dot bad"></span> Meiden</span>
+  <div class="section-inner hero-content">
+    <div class="hero-card">
+      <span class="hero-kicker">200+ Dönerläden in Hamburg</span>
+      <h1>Der beste Döner<br>in <span class="accent">Hamburg</span></h1>
+      <p class="lede">
+        Ich bin Martin — Content Creator und Döner-Fanatiker. Ich habe schon
+        unzählige Läden in Hamburg getestet und sage dir ehrlich, wo es sich lohnt
+        und wo du besser weiterfährst.
+      </p>
+
+      <form class="search-bar" id="plzForm">
+        <input type="text" id="plzInput" placeholder="Gib deine PLZ ein oder such nach einem Stadtteil …" autocomplete="off">
+        <button type="submit">Döner finden</button>
+      </form>
+      <p class="search-hint">Oder: Auf was für einen Döner hast du heute Lust?</p>
+
+      <div class="martin-tip">
+        <img src="assets/img/martin-dehn.jpg" alt="Martin Dehn">
+        <div>
+          <div class="tip-label">Martins Tipp des Tages</div>
+          <div class="tip-text" id="martinTipText">Lädt …</div>
+        </div>
+        <button class="tip-refresh" id="tipRefresh" type="button">Neuer Tipp</button>
       </div>
     </div>
   </div>
