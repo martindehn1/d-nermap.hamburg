@@ -365,6 +365,24 @@ img { max-width: 100%; display: block; }
   pointer-events: none;
 }
 
+/* Martin, standing on the map, pointing at a pin — ties the character to the search concept */
+.hero-figure {
+  position: absolute;
+  right: 6%;
+  bottom: 0;
+  height: 64%;
+  max-height: 460px;
+  width: auto;
+  filter: drop-shadow(0 20px 30px rgba(28, 28, 30, 0.22));
+  animation: figure-materialize var(--response-slow) var(--ease) both;
+  animation-delay: 0.1s;
+}
+
+@keyframes figure-materialize {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 .map-badge {
   position: absolute;
   top: 96px;
@@ -385,7 +403,7 @@ img { max-width: 100%; display: block; }
 
 .map-legend {
   position: absolute;
-  bottom: 28px;
+  top: 148px;
   right: 24px;
   z-index: 5;
   pointer-events: auto;
@@ -552,17 +570,27 @@ img { max-width: 100%; display: block; }
 .shop-card .district { font-size: 12px; color: var(--text-faint); margin-top: 2px; }
 
 .verdict-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   border-radius: 999px;
-  padding: 4px 10px;
+  padding: 2px 10px 2px 2px;
   white-space: nowrap;
 }
 .verdict-badge.good { background: var(--good-soft); color: var(--good); }
 .verdict-badge.mid { background: var(--accent-soft); color: var(--accent-2); }
 .verdict-badge.bad { background: var(--bad-soft); color: var(--bad); }
+
+.verdict-figure {
+  height: 22px;
+  width: 22px;
+  object-fit: contain;
+  object-position: top center;
+}
 
 .shop-card .ratings {
   display: flex;

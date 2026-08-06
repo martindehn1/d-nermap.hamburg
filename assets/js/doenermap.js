@@ -122,6 +122,12 @@ const MARTIN_TIPS = [
 
 function verdictClass(v) { return v; }
 
+const VERDICT_FIGURE = {
+  good: "assets/img/martin/03-martin-daumen-hoch.png",
+  mid: "assets/img/martin/01-martin-zeigt-rechts.png",
+  bad: "assets/img/martin/04-martin-kritischer-tester.png"
+};
+
 function shopCardHtml(shop) {
   return `
     <article class="shop-card" data-plz="${shop.plz}">
@@ -130,7 +136,10 @@ function shopCardHtml(shop) {
           <h3>${shop.name}</h3>
           <div class="district">${shop.district} · ${shop.plz}</div>
         </div>
-        <span class="verdict-badge ${verdictClass(shop.verdict)}">${shop.verdictLabel}</span>
+        <span class="verdict-badge ${verdictClass(shop.verdict)}">
+          <img class="verdict-figure" src="${VERDICT_FIGURE[shop.verdict]}" alt="">
+          ${shop.verdictLabel}
+        </span>
       </div>
       <div class="ratings">
         <span>Martin: <strong>${shop.martinRating.toFixed(1)}/10</strong></span>
