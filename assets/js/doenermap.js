@@ -194,10 +194,16 @@ function initMap() {
       `;
 
       const popupHtml = `
-        <div class="popup-shop-name">${shop.name}</div>
-        <div class="popup-shop-meta">${shop.district} · ${shop.plz}</div>
+        <div class="popup-head">
+          <img class="popup-avatar" src="${VERDICT_FACE[shop.verdict]}" alt="">
+          <div>
+            <div class="popup-shop-name">${shop.name}</div>
+            <div class="popup-shop-meta">${shop.district} · ${shop.plz}</div>
+          </div>
+        </div>
         <span class="popup-shop-verdict ${verdictClass(shop.verdict)}">${shop.verdictLabel}</span><br/>
         <div class="popup-shop-meta">Martin: <strong>${shop.martinRating.toFixed(1)}/10</strong> · Google: <strong>${shop.googleRating.toFixed(1)}★</strong></div>
+        ${shop.note ? `<p class="popup-note">${shop.note}</p>` : ""}
         ${shop.videoUrl ? `<a class="popup-video-link" href="${shop.videoUrl}" target="_blank" rel="noopener">▶ Martins Video ansehen</a>` : `<span class="popup-video-link" style="color:var(--text-faint)">Video folgt bald</span>`}
       `;
 
