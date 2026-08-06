@@ -149,6 +149,12 @@ const VERDICT_FACE = {
   bad: "assets/img/martin/face-04-martin-kritischer-tester.png"
 };
 
+const VERDICT_FULL_FIGURE = {
+  good: "assets/img/martin/tight-03-martin-daumen-hoch.png",
+  mid: "assets/img/martin/tight-02-martin-mit-doener.png",
+  bad: "assets/img/martin/tight-04-martin-kritischer-tester.png"
+};
+
 function googleRatingHtml(shop) {
   return shop.googleRating != null
     ? `<span>Google: <strong>${shop.googleRating.toFixed(1)}★</strong> (${shop.googleCount})</span>`
@@ -215,17 +221,15 @@ function initMap() {
       `;
 
       const popupHtml = `
-        <div class="popup-head">
-          <img class="popup-avatar" src="${VERDICT_FACE[shop.verdict]}" alt="">
-          <div>
-            <div class="popup-shop-name">${shop.name}</div>
-            <div class="popup-shop-meta">${shop.address ? shop.address + ", " : ""}${shop.district} · ${shop.plz}</div>
-          </div>
+        <img class="popup-figure" src="${VERDICT_FULL_FIGURE[shop.verdict]}" alt="">
+        <div class="popup-text">
+          <div class="popup-shop-name">${shop.name}</div>
+          <div class="popup-shop-meta">${shop.address ? shop.address + ", " : ""}${shop.district} · ${shop.plz}</div>
+          <span class="popup-shop-verdict ${verdictClass(shop.verdict)}">${shop.verdictLabel}</span><br/>
+          <div class="popup-shop-meta">Martin: <strong>${shop.martinRating.toFixed(1)}/10</strong><br>${shop.googleRating != null ? `Google: <strong>${shop.googleRating.toFixed(1)}★</strong>` : `Google: <strong>folgt</strong>`}</div>
+          ${shop.note ? `<p class="popup-note">${shop.note}</p>` : ""}
+          ${shop.videoUrl ? `<a class="popup-video-link" href="${shop.videoUrl}" target="_blank" rel="noopener">▶ Martins Video ansehen</a>` : `<span class="popup-video-link" style="color:var(--text-faint)">Video folgt bald</span>`}
         </div>
-        <span class="popup-shop-verdict ${verdictClass(shop.verdict)}">${shop.verdictLabel}</span><br/>
-        <div class="popup-shop-meta">Martin: <strong>${shop.martinRating.toFixed(1)}/10</strong> · ${shop.googleRating != null ? `Google: <strong>${shop.googleRating.toFixed(1)}★</strong>` : `Google: <strong>folgt</strong>`}</div>
-        ${shop.note ? `<p class="popup-note">${shop.note}</p>` : ""}
-        ${shop.videoUrl ? `<a class="popup-video-link" href="${shop.videoUrl}" target="_blank" rel="noopener">▶ Martins Video ansehen</a>` : `<span class="popup-video-link" style="color:var(--text-faint)">Video folgt bald</span>`}
       `;
 
       new maplibregl.Marker({ element: el, anchor: "bottom" })
