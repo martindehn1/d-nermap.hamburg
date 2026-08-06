@@ -128,6 +128,12 @@ const VERDICT_FIGURE = {
   bad: "assets/img/martin/04-martin-kritischer-tester.png"
 };
 
+const VERDICT_FACE = {
+  good: "assets/img/martin/face-03-martin-daumen-hoch.png",
+  mid: "assets/img/martin/face-02-martin-mit-doener.png",
+  bad: "assets/img/martin/face-04-martin-kritischer-tester.png"
+};
+
 function shopCardHtml(shop) {
   return `
     <article class="shop-card" data-plz="${shop.plz}">
@@ -180,6 +186,12 @@ function initMap() {
     DOENER_SHOPS.forEach(shop => {
       const el = document.createElement("div");
       el.className = `doener-marker ${verdictClass(shop.verdict)}`;
+      el.innerHTML = `
+        <span class="doener-marker-avatar">
+          <img src="${VERDICT_FACE[shop.verdict]}" alt="">
+        </span>
+        <span class="doener-marker-tail"></span>
+      `;
 
       const popupHtml = `
         <div class="popup-shop-name">${shop.name}</div>
@@ -189,9 +201,9 @@ function initMap() {
         ${shop.videoUrl ? `<a class="popup-video-link" href="${shop.videoUrl}" target="_blank" rel="noopener">▶ Martins Video ansehen</a>` : `<span class="popup-video-link" style="color:var(--text-faint)">Video folgt bald</span>`}
       `;
 
-      new maplibregl.Marker({ element: el })
+      new maplibregl.Marker({ element: el, anchor: "bottom" })
         .setLngLat([shop.lng, shop.lat])
-        .setPopup(new maplibregl.Popup({ offset: 24 }).setHTML(popupHtml))
+        .setPopup(new maplibregl.Popup({ offset: 30 }).setHTML(popupHtml))
         .addTo(map);
     });
   });

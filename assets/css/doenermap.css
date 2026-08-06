@@ -56,7 +56,7 @@ body {
   .search-bar button:hover,
   .btn-mini:hover { transform: none !important; }
   .maplibregl-popup { animation: popup-fade 150ms ease !important; }
-  .doener-marker:hover, .doener-marker:active { transform: rotate(-45deg) !important; }
+  .doener-marker:hover, .doener-marker:active { transform: none !important; }
 }
 
 @keyframes popup-fade {
@@ -428,25 +428,55 @@ img { max-width: 100%; display: block; }
 .dot.mid { background: var(--accent-2); }
 .dot.bad { background: var(--bad); }
 
-/* Custom marker pin */
+/* Custom marker: a round avatar with a colored verdict ring + a small pin tail,
+   so you can tell at a glance where a shop is AND how it rated — without it
+   turning into a wall of full character illustrations across the map. */
 .doener-marker {
-  width: 30px;
-  height: 30px;
-  border-radius: 50% 50% 50% 0;
-  transform: rotate(-45deg);
-  border: 2px solid rgba(255,255,255,0.85);
+  width: 40px;
   cursor: pointer;
-  box-shadow: 0 2px 8px rgba(28, 28, 30, 0.35);
-  transition: transform var(--response-fast) var(--ease-press), box-shadow var(--response-fast) var(--ease-press);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform-origin: bottom center;
+  transition: transform var(--response-fast) var(--ease-press);
 }
 
-/* Respect the rotated base transform on press/hover — grow from where it sits, don't reset it */
-.doener-marker:hover { transform: rotate(-45deg) scale(1.12); box-shadow: 0 4px 12px rgba(28, 28, 30, 0.4); }
-.doener-marker:active { transform: rotate(-45deg) scale(0.94); }
+.doener-marker-avatar {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #fff;
+  border: 3px solid var(--good);
+  box-shadow: 0 3px 10px rgba(28, 28, 30, 0.35);
+}
 
-.doener-marker.good { background: var(--good); }
-.doener-marker.mid { background: var(--accent-2); }
-.doener-marker.bad { background: var(--bad); }
+.doener-marker-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.doener-marker-tail {
+  width: 0;
+  height: 0;
+  margin-top: -1px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 8px solid var(--good);
+  filter: drop-shadow(0 2px 2px rgba(28, 28, 30, 0.25));
+}
+
+.doener-marker.mid .doener-marker-avatar { border-color: var(--accent-2); }
+.doener-marker.mid .doener-marker-tail { border-top-color: var(--accent-2); }
+.doener-marker.bad .doener-marker-avatar { border-color: var(--bad); }
+.doener-marker.bad .doener-marker-tail { border-top-color: var(--bad); }
+
+/* Grow from the bottom tip (the actual pinned coordinate), not the center */
+.doener-marker:hover { transform: scale(1.1); }
+.doener-marker:active { transform: scale(0.94); }
 
 /* Materialize, don't just fade: the popup arrives as a real surface (blur + scale together) */
 .maplibregl-popup {
