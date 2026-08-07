@@ -193,10 +193,15 @@ img { max-width: 100%; display: block; }
   width: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
+  /* This wrapper is full-width (max-width: 1180px) so it can position the card, but the
+     card itself only fills part of that box. Without this, the empty space beside the
+     card silently ate clicks/drags meant for the map underneath it. */
+  pointer-events: none;
 }
 
 /* The content lives in a floating card over the map, like a search panel over Apple Maps */
 .hero-card {
+  pointer-events: auto;
   max-width: 560px;
   background: var(--bg-card-glass);
   backdrop-filter: blur(28px) saturate(180%);
@@ -521,15 +526,15 @@ img { max-width: 100%; display: block; }
 
 .maplibregl-popup-content {
   animation: popup-materialize var(--response) var(--ease) both;
-  background: rgba(255, 255, 255, 0.9) !important;
-  backdrop-filter: blur(20px) saturate(160%);
-  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  /* Solid, not glass: over the busy multicolor map, a translucent card read as a hazy
+     gray smudge instead of standing out. A flat opaque card (like the shop-card grid) pops. */
+  background: var(--bg-card) !important;
   color: var(--text) !important;
   border-radius: 14px !important;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(28, 28, 30, 0.14);
   font-family: var(--font-body);
   padding: 14px !important;
-  box-shadow: 0 12px 32px rgba(28, 28, 30, 0.18);
+  box-shadow: 0 16px 40px rgba(28, 28, 30, 0.28);
   position: relative;
   overflow: visible !important;
   min-width: 260px;
