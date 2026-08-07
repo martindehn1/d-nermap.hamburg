@@ -503,9 +503,9 @@ function testedCardHtml(shop) {
       </div>
       <p class="note">${shop.note}</p>
       <div class="shop-card-actions">
-        <a class="btn-mini video" href="${shop.videoUrl || '#'}" ${shop.videoUrl ? 'target="_blank" rel="noopener"' : 'aria-disabled="true"'}>
-          ${shop.videoUrl ? "▶ Video ansehen" : "Video folgt"}
-        </a>
+        ${shop.videoUrl
+          ? `<a class="btn-mini video" href="${shop.videoUrl}" target="_blank" rel="noopener">▶ Video ansehen</a>`
+          : `<span class="btn-mini video-pending">Video folgt</span>`}
         <a class="btn-mini" href="${mapsLinkHtml(shop)}" target="_blank" rel="noopener">Auf Google Maps</a>
       </div>
     </article>

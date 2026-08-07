@@ -167,6 +167,7 @@ img { max-width: 100%; display: block; }
   min-height: 92vh;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   overflow: hidden;
 }
 
@@ -749,6 +750,13 @@ img { max-width: 100%; display: block; }
   color: var(--accent);
 }
 
+/* Not a link — nothing to click yet, so it shouldn't look like the red CTA beside it */
+.btn-mini.video-pending {
+  background: transparent;
+  color: var(--text-faint);
+  cursor: default;
+}
+
 .btn-mini:hover { color: var(--text); border-color: var(--accent); }
 
 /* placeholder note for demo data */
@@ -779,4 +787,8 @@ img { max-width: 100%; display: block; }
   .search-bar { flex-direction: column; }
   .martin-tip { flex-direction: column; }
   .martin-tip .tip-refresh { align-self: flex-start; margin-left: 0; }
+  /* The 3-link nav plus logo/badge don't fit one row at phone widths — wrap instead of
+     squeezing/overflowing (which forced a horizontal scrollbar on the whole page). */
+  .site-nav { flex-wrap: wrap; row-gap: 8px; }
+  .nav-links { gap: 16px; font-size: 13px; }
 }
