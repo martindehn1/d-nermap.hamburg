@@ -457,19 +457,19 @@ function verdictClass(v) { return v; }
 
 const VERDICT_FIGURE = {
   good: "assets/img/martin/03-martin-daumen-hoch.png",
-  mid: "assets/img/martin/01-martin-zeigt-rechts.png",
+  mid: "assets/img/martin/07-martin-zeigt-links.png",
   bad: "assets/img/martin/04-martin-kritischer-tester.png"
 };
 
 const VERDICT_FACE = {
   good: "assets/img/martin/face-03-martin-daumen-hoch.png",
-  mid: "assets/img/martin/face-02-martin-mit-doener.png",
+  mid: "assets/img/martin/face-07-martin-zeigt-links.png",
   bad: "assets/img/martin/face-04-martin-kritischer-tester.png"
 };
 
 const VERDICT_FULL_FIGURE = {
   good: "assets/img/martin/tight-03-martin-daumen-hoch.png",
-  mid: "assets/img/martin/tight-02-martin-mit-doener.png",
+  mid: "assets/img/martin/tight-07-martin-zeigt-links.png",
   bad: "assets/img/martin/tight-04-martin-kritischer-tester.png"
 };
 
