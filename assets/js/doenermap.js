@@ -648,12 +648,24 @@ function initSearch() {
   });
 }
 
+const TIP_ROTATE_MS = 10000;
+
 document.addEventListener("DOMContentLoaded", () => {
   renderShopList();
   initMap();
   showRandomTip();
   initSearch();
 
+  let tipTimer = window.setInterval(() => showRandomTip(true), TIP_ROTATE_MS);
+
   const refreshBtn = document.getElementById("tipRefresh");
-  if (refreshBtn) refreshBtn.addEventListener("click", () => showRandomTip(true));
+  if (refreshBtn) {
+    refreshBtn.addEventListener("click", () => {
+      showRandomTip(true);
+      // Manual swap counts as a fresh interval — otherwise the auto-rotate could
+      // fire a second later and immediately swap again right after the click.
+      window.clearInterval(tipTimer);
+      tipTimer = window.setInterval(() => showRandomTip(true), TIP_ROTATE_MS);
+    });
+  }
 });
