@@ -500,17 +500,27 @@ img { max-width: 100%; display: block; }
 .doener-marker:hover { transform: scale(1.1); }
 .doener-marker:active { transform: scale(0.94); }
 
-/* Materialize, don't just fade: the popup arrives as a real surface (blur + scale together) */
+/* Materialize, don't just fade: the popup arrives as a real surface (blur + scale together).
+   The scale/translate animation must live on -content, never on .maplibregl-popup itself —
+   MapLibre positions the popup via its OWN inline `transform` (translate to the map pixel),
+   and a CSS animation on the same property/element permanently overrides that with its own
+   `to` keyframe, snapping every popup to the map's top-left corner regardless of click. */
 .maplibregl-popup {
-  animation: popup-materialize var(--response) var(--ease) both;
+  animation: popup-fade-in var(--response) var(--ease) both;
+}
+
+@keyframes popup-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 @keyframes popup-materialize {
-  from { opacity: 0; transform: scale(0.92) translateY(4px); }
-  to { opacity: 1; transform: scale(1) translateY(0); }
+  from { transform: scale(0.92) translateY(4px); }
+  to { transform: scale(1) translateY(0); }
 }
 
 .maplibregl-popup-content {
+  animation: popup-materialize var(--response) var(--ease) both;
   background: rgba(255, 255, 255, 0.9) !important;
   backdrop-filter: blur(20px) saturate(160%);
   -webkit-backdrop-filter: blur(20px) saturate(160%);
