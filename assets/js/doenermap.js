@@ -126,18 +126,20 @@ const DOENER_SHOPS = [
   }
 ];
 
-// Standorte aus einer alten, offenen Döner-Karten-Quelle (Name + Koordinaten via OSM,
-// Stand vor einigen Jahren) — noch nicht von Martin getestet/bewertet.
+// Standorte aus einer alten, offenen Döner-Karten-Quelle (Name + Koordinaten via OSM) plus
+// Recherche via TomTom (echte Adresse/PLZ) — noch nicht von Martin getestet/bewertet.
+// Einträge mit "plz" sind auch über die PLZ-Suche unten auffindbar, Einträge ohne "plz"
+// erscheinen nur als Punkt auf der Karte, bis die Adresse recherchiert ist.
 const UNTESTED_SHOPS = [
-  { name: "Dulsberg Kebap Döner Haus", lat: 53.58173, lng: 10.065162 },
-  { name: "The Döner", lat: 53.579973, lng: 10.081779 },
-  { name: "Kumpir & Döner", lat: 53.573864, lng: 10.071814 },
-  { name: "Dr. Kebap", lat: 53.571484, lng: 10.064292 },
+  { name: "Dulsberg Kebap Döner Haus", lat: 53.58173, lng: 10.065162, plz: "22049", district: "Dulsberg", address: "Straßburger Straße 42" },
+  { name: "The Döner", lat: 53.579973, lng: 10.081779, plz: "22041", district: "Wandsbek", address: "Holzmühlenstraße 27" },
+  { name: "Kumpir & Döner", lat: 53.573864, lng: 10.071814, plz: "22041", district: "Wandsbek", address: "Wandsbeker Marktstraße 164" },
+  { name: "Dr. Kebap", lat: 53.571484, lng: 10.064292, plz: "22041", district: "Wandsbek", address: "Wandsbeker Marktstraße 47" },
   { name: "Kebab Zone", lat: 53.576376, lng: 10.058247 },
   { name: "BARIS Grillhaus", lat: 53.572832, lng: 10.069257 },
   { name: "Döner Time", lat: 53.569906, lng: 10.05923 },
-  { name: "Köz Adana", lat: 53.570975, lng: 10.061461 },
-  { name: "TONNDORF GRILL DÖNER IMBISS", lat: 53.580078, lng: 10.103909 },
+  { name: "Köz Adana", lat: 53.570975, lng: 10.061461, plz: "22041", district: "Wandsbek", address: "Wandsbeker Marktstraße 9" },
+  { name: "TONNDORF GRILL DÖNER IMBISS", lat: 53.580078, lng: 10.103909, plz: "22045", district: "Tonndorf", address: "Ahrensburger Straße 105" },
   { name: "Arda Restaurant", lat: 53.579889, lng: 10.10307 },
   { name: "Döner Wandsbek", lat: 53.432378, lng: 9.990426 },
   { name: "23sarcon döner", lat: 53.575935, lng: 10.13468 },
@@ -154,16 +156,16 @@ const UNTESTED_SHOPS = [
   { name: "Tunnel Döner in der Hauptbahnhofs Halle", lat: 53.553809, lng: 10.008307 },
   { name: "Sallis Döner Grill & Bäckerei", lat: 53.552992, lng: 10.008928 },
   { name: "SoulKEBAB", lat: 53.552031, lng: 10.011102 },
-  { name: "Köz Ocakbasi", lat: 53.552796, lng: 10.010975 },
-  { name: "As Urfa Kebap Restaurant", lat: 53.553591, lng: 10.011615 },
+  { name: "Köz Ocakbasi", lat: 53.552796, lng: 10.010975, plz: "20099", district: "Sankt Georg", address: "Steindamm 5" },
+  { name: "As Urfa Kebap Restaurant", lat: 53.553591, lng: 10.011615, plz: "20099", district: "Sankt Georg", address: "Steindamm 19" },
   { name: "Saray Köz", lat: 53.553759, lng: 10.013562 },
-  { name: "Batman Restaurant", lat: 53.554245, lng: 10.014496 },
-  { name: "Ankara Kebap Tantuni", lat: 53.554475, lng: 10.015591 },
+  { name: "Batman Restaurant", lat: 53.554245, lng: 10.014496, plz: "20099", district: "Sankt Georg", address: "Steindamm 62" },
+  { name: "Ankara Kebap Tantuni", lat: 53.554475, lng: 10.015591, plz: "20099", district: "Sankt Georg", address: "Böckmannstraße 26" },
   { name: "Sait Grillhaus", lat: 53.552746, lng: 10.010863 },
   { name: "Köz Istanbul", lat: 53.552991, lng: 10.010497 },
   { name: "Baris Grillhaus", lat: 53.555836, lng: 10.008727 },
   { name: "Miss Döner", lat: 53.556772, lng: 10.010634 },
-  { name: "döner time", lat: 53.55296, lng: 10.02249 },
+  { name: "döner time", lat: 53.55296, lng: 10.02249, plz: "20097", district: "Sankt Georg", address: "Beim Strohhause 24" },
   { name: "HBB Store Schnell-Imbiss", lat: 53.553713, lng: 10.024416 },
   { name: "Wenden Kebab", lat: 53.549902, lng: 10.035691 },
   { name: "DER URFA DÖNER", lat: 53.560738, lng: 10.038124 },
@@ -173,7 +175,7 @@ const UNTESTED_SHOPS = [
   { name: "Öz Urfa Kebap Haus", lat: 53.554821, lng: 10.014354 },
   { name: "Lades Holzkohlegrill Restaurant Hamburg", lat: 53.554646, lng: 10.015315 },
   { name: "Afiyet", lat: 53.554254, lng: 10.016602 },
-  { name: "Saray döner", lat: 53.55147, lng: 9.996323 },
+  { name: "Saray döner", lat: 53.55147, lng: 9.996323, plz: "20095", district: "Altstadt", address: "Ballindamm 40" },
   { name: "Perle Döner", lat: 53.552099, lng: 9.999843 },
   { name: "Ali's Gemüsekebab", lat: 53.55147, lng: 9.996323 },
   { name: "Arin Kebap", lat: 53.554874, lng: 9.989217 },
@@ -181,31 +183,31 @@ const UNTESTED_SHOPS = [
   { name: "Kardelen Restaurant", lat: 53.550863, lng: 9.98238 },
   { name: "Mardin Döner", lat: 53.548369, lng: 9.988832 },
   { name: "Rödings Döner", lat: 53.547891, lng: 9.987124 },
-  { name: "Adana Grill", lat: 53.574879, lng: 10.039944 },
+  { name: "Adana Grill", lat: 53.574879, lng: 10.039944, plz: "22081", district: "Barmbek-Süd", address: "Holsteinischer Kamp 30" },
   { name: "Kebo Döner", lat: 53.579235, lng: 10.041648 },
   { name: "Citir Döner", lat: 53.582551, lng: 9.970675 },
   { name: "Fuhle Grill", lat: 53.588921, lng: 10.046008 },
   { name: "Beydagi Kebap", lat: 53.593337, lng: 10.052339 },
   { name: "Sato Grill Imbiss", lat: 53.606654, lng: 10.011909 },
   { name: "kebab kitchen", lat: 53.60186, lng: 10.041249 },
-  { name: "Nefis Döner", lat: 53.618689, lng: 10.07956 },
+  { name: "Nefis Döner", lat: 53.618689, lng: 10.07956, plz: "22177", district: "Bramfeld", address: "Bramfelder Chaussee 323" },
   { name: "Edo Dönerhaus Hamburg", lat: 53.617018, lng: 10.078181 },
   { name: "Eatstanbul döner lounge", lat: 53.613962, lng: 10.075619 },
   { name: "Kebap Lounge Winterhude", lat: 53.595037, lng: 9.999481 },
   { name: "Kaya Salat&Feinkost | Bramfeld", lat: 53.612227, lng: 10.078418 },
   { name: "Der Ali", lat: 53.610526, lng: 10.060061 },
-  { name: "Döner Grillhaus Hamburg", lat: 53.582898, lng: 9.948413 },
+  { name: "Döner Grillhaus Hamburg", lat: 53.582898, lng: 9.948413, plz: "20255", district: "Lokstedt", address: "Eidelstedter Weg 68" },
   { name: "BERLIN DÖNER KIOSK", lat: 53.608182, lng: 10.057303 },
   { name: "Sultans Kitchen", lat: 53.601804, lng: 10.062321 },
-  { name: "Langenfelde Grill Döner Pizza Burger", lat: 53.579983, lng: 9.931551 },
+  { name: "Langenfelde Grill Döner Pizza Burger", lat: 53.579983, lng: 9.931551, plz: "22525", district: "Stellingen", address: "Försterweg 14" },
   { name: "Dönerqueen", lat: 53.585397, lng: 10.026568 },
-  { name: "Ess-Bahn Döner", lat: 53.603576, lng: 9.893143 },
+  { name: "Ess-Bahn Döner", lat: 53.603576, lng: 9.893143, plz: "22523", district: "Eidelstedt", address: "Elbgaustraße 104" },
   { name: "Firat Kebap", lat: 53.579866, lng: 10.031137 },
   { name: "Sert Grill Imbiss Schnellimbiss", lat: 53.5773, lng: 10.020296 },
   { name: "King's Döner", lat: 53.608461, lng: 9.90282 },
   { name: "Grill House", lat: 53.45632, lng: 9.962221 },
   { name: "Döner Pavillon", lat: 53.632795, lng: 9.911348 },
-  { name: "LIMON", lat: 53.581068, lng: 10.012399 },
+  { name: "LIMON", lat: 53.581068, lng: 10.012399, plz: "22303", district: "Winterhude", address: "Mühlenkamp 18" },
   { name: "Cigköftem", lat: 53.570812, lng: 9.861522 },
   { name: "My Kebap's", lat: 53.581562, lng: 10.013108 },
   { name: "Dubara", lat: 53.584735, lng: 10.024918 },
@@ -214,29 +216,29 @@ const UNTESTED_SHOPS = [
   { name: "Leckerbissen", lat: 53.5959, lng: 9.913242 },
   { name: "King Döner", lat: 53.564095, lng: 10.036561 },
   { name: "Idol Döner Pizzeria Hamburg", lat: 53.569396, lng: 10.055213 },
-  { name: "Hammer Döner", lat: 53.56433, lng: 10.05694 },
+  { name: "Hammer Döner", lat: 53.56433, lng: 10.05694, plz: "20535", district: "Hamm", address: "Marienthaler Straße 149" },
   { name: "Döner Kurve", lat: 53.591299, lng: 9.921186 },
   { name: "Safi Food", lat: 53.570575, lng: 10.059924 },
   { name: "Stellingen Döner Kebap", lat: 53.591299, lng: 9.921186 },
   { name: "Sultan's Döner-Imbiss", lat: 53.564661, lng: 10.057067 },
   { name: "Delal Döner", lat: 53.603853, lng: 9.891928 },
-  { name: "Hazar Grill Hamburg", lat: 53.557897, lng: 10.046477 },
+  { name: "Hazar Grill Hamburg", lat: 53.557897, lng: 10.046477, plz: "20535", district: "Hamm", address: "Carl-Petersen-Straße 74" },
   { name: "Harput Grill & Döner", lat: 53.55376, lng: 10.065319 },
   { name: "DIYAR CIG KÖFTE KEBAP GRILL", lat: 53.598057, lng: 9.86213 },
-  { name: "Bereket Döner", lat: 53.553976, lng: 10.086122 },
-  { name: "Volkan's Grillhaus Horn", lat: 53.553899, lng: 10.085171 },
-  { name: "Salman Imbiss", lat: 53.551936, lng: 9.929526 },
+  { name: "Bereket Döner", lat: 53.553976, lng: 10.086122, plz: "22119", district: "Horn", address: "Hermannstal 12" },
+  { name: "Volkan's Grillhaus Horn", lat: 53.553899, lng: 10.085171, plz: "22111", district: "Horn", address: "Rennbahnstraße 38" },
+  { name: "Salman Imbiss", lat: 53.551936, lng: 9.929526, plz: "22765", district: "Ottensen", address: "Ottenser Hauptstraße 34" },
   { name: "Ates Grill Haus Döner & mehr...", lat: 53.554123, lng: 10.086037 },
   { name: "Schato Döner", lat: 53.546627, lng: 10.092854 },
   { name: "Mis Döner & Pizzeria", lat: 53.551558, lng: 10.094844 },
   { name: "Yaprak Döner", lat: 53.543063, lng: 10.096012 },
   { name: "Tadim", lat: 53.541728, lng: 10.098282 },
-  { name: "CHICKEN ZONE & KEBAB ZONE", lat: 53.540312, lng: 10.102485 },
+  { name: "CHICKEN ZONE & KEBAB ZONE", lat: 53.540312, lng: 10.102485, plz: "22111", district: "Billstedt", address: "Billstedter Hauptstraße 53" },
   { name: "Döner Company", lat: 53.552205, lng: 9.930557 },
-  { name: "Center Döner", lat: 53.5399, lng: 10.103339 },
+  { name: "Center Döner", lat: 53.5399, lng: 10.103339, plz: "22111", district: "Billstedt", address: "Möllner Landstraße 3" },
   { name: "osdorfer pizza grillhaus", lat: 53.588245, lng: 9.849132 },
   { name: "Döner Capitol", lat: 53.542393, lng: 10.107724 },
-  { name: "Soulkebap Lurup", lat: 53.591746, lng: 9.87283 },
+  { name: "Soulkebap Lurup", lat: 53.591746, lng: 9.87283, plz: "22547", district: "Lurup", address: "Luruper Hauptstraße 138" },
   { name: "Döner&Pizza 23", lat: 53.529033, lng: 10.14961 },
   { name: "Ellerbek Classic Döner", lat: 53.64121, lng: 9.889764 },
   { name: "Artemis", lat: 53.529597, lng: 10.149191 },
@@ -258,9 +260,9 @@ const UNTESTED_SHOPS = [
   { name: "König Döner", lat: 53.655585, lng: 10.093186 },
   { name: "Bereket Döner", lat: 53.48688, lng: 10.180027 },
   { name: "Mega Döner", lat: 53.650182, lng: 10.162759 },
-  { name: "Sis Kebap Hamburg", lat: 53.481915, lng: 10.209302 },
+  { name: "Sis Kebap Hamburg", lat: 53.481915, lng: 10.209302, plz: "21029", district: "Bergedorf", address: "Curslacker Neuer Deich 31" },
   { name: "Med Kebap", lat: 53.489651, lng: 10.20874 },
-  { name: "City Döner", lat: 53.490076, lng: 10.208648 },
+  { name: "City Döner", lat: 53.490076, lng: 10.208648, plz: "21029", district: "Bergedorf", address: "Alte Holstenstraße 56" },
   { name: "Pamukkale Grill & Restaurant", lat: 53.490034, lng: 10.208781 },
   { name: "Bizim Döner Volksdorf", lat: 53.648764, lng: 10.167268 },
   { name: "Pamukkale Grill & Backshop", lat: 53.489975, lng: 10.206372 },
@@ -270,7 +272,7 @@ const UNTESTED_SHOPS = [
   { name: "Urfalim Döner", lat: 53.503173, lng: 10.205833 },
   { name: "Mis Kebap", lat: 53.508831, lng: 10.186123 },
   { name: "Boberg Döner Pizza Haus", lat: 53.515307, lng: 10.166631 },
-  { name: "Antalya Döner", lat: 53.444458, lng: 10.22947 },
+  { name: "Antalya Döner", lat: 53.444458, lng: 10.22947, plz: "21039", district: "Neuengamme", address: "Neuengammer Hausdeich 215" },
   { name: "Kaya Salat & Feinkost", lat: 53.648741, lng: 10.012925 },
   { name: "Heidberg Döner", lat: 53.674703, lng: 10.026886 },
   { name: "Restaurant Reina", lat: 53.649752, lng: 10.013884 },
@@ -284,14 +286,14 @@ const UNTESTED_SHOPS = [
   { name: "Furkaan Imbiss", lat: 53.492839, lng: 10.013311 },
   { name: "Dock8 Döner", lat: 53.465627, lng: 9.989121 },
   { name: "Köz Ocakbasi", lat: 53.461256, lng: 9.978368 },
-  { name: "Döner Treff Harburg", lat: 53.460418, lng: 9.978446 },
-  { name: "Bereket Grill", lat: 53.461003, lng: 9.979276 },
-  { name: "Döner Queen Kalender", lat: 53.460933, lng: 9.979808 },
+  { name: "Döner Treff Harburg", lat: 53.460418, lng: 9.978446, plz: "21073", district: "Harburg", address: "Am Centrumshaus 5" },
+  { name: "Bereket Grill", lat: 53.461003, lng: 9.979276, plz: "21073", district: "Harburg", address: "Harburger Ring 28" },
+  { name: "Döner Queen Kalender", lat: 53.460933, lng: 9.979808, plz: "21073", district: "Harburg", address: "Harburger Ring 24" },
   { name: "Wunder Döner", lat: 53.460722, lng: 9.981776 },
   { name: "Dubara Harburg", lat: 53.46104, lng: 9.983094 },
   { name: "Döner Royal", lat: 53.459584, lng: 9.982041 },
   { name: "Delikato Döner", lat: 53.457514, lng: 9.985198 },
-  { name: "ZAZA KING Döner und Pizzeria", lat: 53.457045, lng: 9.985955 },
+  { name: "ZAZA KING Döner und Pizzeria", lat: 53.457045, lng: 9.985955, plz: "21073", district: "Harburg", address: "Moorstraße 2" },
   { name: "BOSPORUS LOUNGE", lat: 53.456275, lng: 9.986693 },
   { name: "Mis Tantuni & Döner", lat: 53.455515, lng: 9.986854 },
   { name: "Özlem Köfte Hamburg", lat: 53.455265, lng: 9.987063 },
@@ -305,30 +307,30 @@ const UNTESTED_SHOPS = [
   { name: "Hatay Grill Imbiss", lat: 53.465352, lng: 9.96219 },
   { name: "Neugrabener Grillhouse", lat: 53.46991, lng: 9.853932 },
   { name: "Bey Kebab", lat: 53.552886, lng: 9.929647 },
-  { name: "Salli‘s Kebap & Grill", lat: 53.552524, lng: 9.934374 },
+  { name: "Salli‘s Kebap & Grill", lat: 53.552524, lng: 9.934374, plz: "22765", district: "Altona-Nord", address: "Scheel-Plessen-Straße 19" },
   { name: "Tosun", lat: 53.55241, lng: 9.933389 },
   { name: "Big Döner House", lat: 53.471264, lng: 9.854074 },
-  { name: "ÖZ URFA", lat: 53.472872, lng: 9.853278 },
+  { name: "ÖZ URFA", lat: 53.472872, lng: 9.853278, plz: "21149", district: "Neugraben-Fischbek", address: "Cuxhavener Straße 342" },
   { name: "Dilay Döner", lat: 53.552949, lng: 9.931501 },
   { name: "Köz Urfa", lat: 53.552591, lng: 9.936314 },
   { name: "Köz Ach Der Deniz Hamburg", lat: 53.474908, lng: 9.875714 },
   { name: "Nasip Grill", lat: 53.554872, lng: 9.928427 },
   { name: "Dream Döner", lat: 53.479351, lng: 9.874692 },
   { name: "Diyar´s Döner Kebap & Backshop", lat: 53.480069, lng: 9.875059 },
-  { name: "KÖZ GRİLL HOUSE", lat: 53.472244, lng: 9.889265 },
+  { name: "KÖZ GRİLL HOUSE", lat: 53.472244, lng: 9.889265, plz: "21149", district: "Hausbruch", address: "Cuxhavener Straße 142" },
   { name: "Toros TANTUNI", lat: 53.555014, lng: 9.928429 },
   { name: "Tarsusi - anatolian street food", lat: 53.555697, lng: 9.928318 },
   { name: "Salli Salman", lat: 53.522783, lng: 10.014234 },
   { name: "Schippels Döner", lat: 53.634284, lng: 9.953497 },
   { name: "Dönerei", lat: 53.534303, lng: 10.038871 },
-  { name: "Der Kebap", lat: 53.536713, lng: 10.033745 },
-  { name: "Der Simo", lat: 53.536441, lng: 10.033306 },
+  { name: "Der Kebap", lat: 53.536713, lng: 10.033745, plz: "20539", district: "Rothenburgsort", address: "Billhorner Röhrendamm 94" },
+  { name: "Der Simo", lat: 53.536441, lng: 10.033306, plz: "20539", district: "Rothenburgsort", address: "Billhorner Mühlenweg 19A" },
   { name: "myKöz", lat: 53.536421, lng: 10.034316 },
   { name: "Döner Kitchen", lat: 53.538804, lng: 10.042566 },
   { name: "WaRé Imbiss", lat: 53.54046, lng: 10.042118 },
   { name: "Sultan's Kebab", lat: 53.54613, lng: 10.024506 },
-  { name: "Aras Kebab Döner", lat: 53.548612, lng: 10.013642 },
-  { name: "Reeperbahn 5, 20359 Hamburg", lat: 53.550358, lng: 9.967372 },
+  { name: "Aras Kebab Döner", lat: 53.548612, lng: 10.013642, plz: "20097", district: "Hammerbrook", address: "Spaldingstraße 55" },
+  { name: "Reeperbahn 5, 20359 Hamburg", lat: 53.550358, lng: 9.967372, plz: "20359", district: "Sankt Pauli", address: "Reeperbahn 5" },
   { name: "Kebab Dream", lat: 53.604935, lng: 10.155119 },
   { name: "Köz-Antep", lat: 53.552164, lng: 9.964059 },
   { name: "Döner Factory", lat: 53.549273, lng: 9.962227 },
@@ -340,16 +342,16 @@ const UNTESTED_SHOPS = [
   { name: "Döner Freiheit", lat: 53.550574, lng: 9.957471 },
   { name: "Deniz Imbiss - Döner & Pizza", lat: 53.550631, lng: 9.958876 },
   { name: "Berg Grill Imbiss", lat: 53.54952, lng: 9.96136 },
-  { name: "Babanin Yeri", lat: 53.553018, lng: 9.958219 },
-  { name: "Pauli Döner", lat: 53.55599, lng: 9.962556 },
-  { name: "Bunker Döner", lat: 53.557474, lng: 9.969933 },
+  { name: "Babanin Yeri", lat: 53.553018, lng: 9.958219, plz: "22767", district: "Sankt Pauli", address: "Paul-Roosen-Straße 21" },
+  { name: "Pauli Döner", lat: 53.55599, lng: 9.962556, plz: "20359", district: "Sankt Pauli", address: "Wohlwillstraße 54" },
+  { name: "Bunker Döner", lat: 53.557474, lng: 9.969933, plz: "20357", district: "Sankt Pauli", address: "Feldstrasse 32" },
   { name: "Big Food Imbiss", lat: 53.559689, lng: 9.963593 },
-  { name: "Kebaba Dein Dönermann", lat: 53.562105, lng: 9.963157 },
+  { name: "Kebaba Dein Dönermann", lat: 53.562105, lng: 9.963157, plz: "20357", district: "Sternschanze", address: "Susannenstraße 10" },
   { name: "Pamukkale Köz Schanze", lat: 53.562753, lng: 9.964602 },
   { name: "Schanzen Döner", lat: 53.563993, lng: 9.965241 },
   { name: "Soulkebab Schanze", lat: 53.564568, lng: 9.965335 },
   { name: "Sallis", lat: 53.567836, lng: 9.969286 },
-  { name: "Ali's Döner To-Go", lat: 53.567501, lng: 9.980242 },
+  { name: "Ali's Döner To-Go", lat: 53.567501, lng: 9.980242, plz: "20146", district: "Rotherbaum", address: "Grindelallee 87" },
   { name: "UNI DÖNER", lat: 53.567199, lng: 9.981268 },
   { name: "Campus Döner", lat: 53.56704, lng: 9.981448 },
   { name: "Tuana Döner und mehr", lat: 53.567693, lng: 9.987724 },
@@ -360,7 +362,7 @@ const UNTESTED_SHOPS = [
   { name: "Okay Grill", lat: 53.577589, lng: 9.942056 },
   { name: "Kalkan Döner Kebap", lat: 53.576142, lng: 9.94964 },
   { name: "Cheatday Kebab", lat: 53.580393, lng: 9.973268 },
-  { name: "My Kebap´s", lat: 53.580085, lng: 9.974578 },
+  { name: "My Kebap´s", lat: 53.580085, lng: 9.974578, plz: "20253", district: "Hoheluft-Ost", address: "Hoheluftchaussee 30" },
   { name: "Golden Kebab Eimsbüttel", lat: 53.578352, lng: 9.951204 },
   { name: "TimeOut - Istanbul Streetfood", lat: 53.57897, lng: 9.97556 },
   { name: "Blankeneser Imbiss", lat: 53.563861, lng: 9.813921 },
@@ -370,12 +372,12 @@ const UNTESTED_SHOPS = [
   { name: "KeBaP Lounge", lat: 53.593148, lng: 9.943727 },
   { name: "Kebab Bey", lat: 53.584502, lng: 9.981814 },
   { name: "Insel Döner", lat: 53.533369, lng: 9.877918 },
-  { name: "ÖZ Harput Grill Haus", lat: 53.533328, lng: 9.87675 },
-  { name: "Döner Meile", lat: 53.574481, lng: 10.037315 },
+  { name: "ÖZ Harput Grill Haus", lat: 53.533328, lng: 9.87675, plz: "21129", district: "Finkenwerder", address: "Finkenwerder Norderdeich 94" },
+  { name: "Döner Meile", lat: 53.574481, lng: 10.037315, plz: "22081", district: "Barmbek-Süd", address: "Wagnerstraße 7" },
   { name: "Dr.Kebap", lat: 53.573456, lng: 10.031682 },
   { name: "Nøne Meat Hamburg", lat: 53.581625, lng: 9.971994 },
   { name: "Kaya Salate & Feinkost", lat: 53.622402, lng: 9.952512 },
-  { name: "Enes Döner", lat: 53.603604, lng: 9.966577 },
+  { name: "Enes Döner", lat: 53.603604, lng: 9.966577, plz: "22529", district: "Lokstedt", address: "Nedderfeld 15" },
   { name: "La Delizia Restaurant", lat: 53.582237, lng: 9.972012 },
   { name: "Borstel Kebab", lat: 53.605724, lng: 9.982566 },
   { name: "My Kebap‘s", lat: 53.59301, lng: 9.988694 },
@@ -384,12 +386,12 @@ const UNTESTED_SHOPS = [
   { name: "Shawarma Marina", lat: 53.565718, lng: 10.037205 },
   { name: "Larisa-bauchstation Restaurant", lat: 53.533179, lng: 9.878158 },
   { name: "Mina Restaurant (Luna Center)", lat: 53.498087, lng: 10.008076 },
-  { name: "Hünkar", lat: 53.462089, lng: 9.982067 },
+  { name: "Hünkar", lat: 53.462089, lng: 9.982067, plz: "21073", district: "Harburg", address: "Schloßmühlendamm 14" },
   { name: "BEYOĞLU KEBAP HOUSE", lat: 53.54993, lng: 9.979502 },
   { name: "Mr. Kebab", lat: 53.556559, lng: 9.962655 },
-  { name: "Soul Kebab", lat: 53.556361, lng: 9.966176 },
+  { name: "Soul Kebab", lat: 53.556361, lng: 9.966176, plz: "20359", district: "Sankt Pauli", address: "Neuer Kamp 31" },
   { name: "SERHAT-Döner", lat: 53.552772, lng: 10.041535 },
-  { name: "Holsten Döner", lat: 53.561664, lng: 9.948627 },
+  { name: "Holsten Döner", lat: 53.561664, lng: 9.948627, plz: "22765", district: "Altona-Altstadt", address: "Holstenplatz 20" },
   { name: "Max Döner", lat: 53.550097, lng: 9.936091 },
   { name: "Ali Baba Döner & Grill", lat: 53.552026, lng: 9.941865 },
   { name: "Döner Time", lat: 53.552002, lng: 9.940958 },
@@ -397,23 +399,49 @@ const UNTESTED_SHOPS = [
   { name: "Kebab House KURTULAN", lat: 53.564394, lng: 9.926557 },
   { name: "The Salli's Kiosk Kebab & Veggie", lat: 53.552835, lng: 10.003757 },
   { name: "Burg Döner", lat: 53.559256, lng: 10.038903 },
-  { name: "Star Döner", lat: 53.565277, lng: 9.912261 },
+  { name: "Star Döner", lat: 53.565277, lng: 9.912261, plz: "22761", district: "Bahrenfeld", address: "Bahrenfelder Chaussee 53" },
   { name: "Dave's Döner & Bowls", lat: 53.560661, lng: 9.989687 },
   { name: "Havin Grill", lat: 53.552225, lng: 10.00615 },
   { name: "Soulkebab", lat: 53.587845, lng: 10.045767 },
   { name: "Sultan's", lat: 53.587355, lng: 10.045955 },
   { name: "Volkan's Grillhaus Horn", lat: 53.553899, lng: 10.085171 },
-  { name: "BAN BAB KEBABKLUB", lat: 53.558521, lng: 9.972683 },
+  { name: "BAN BAB KEBABKLUB", lat: 53.558521, lng: 9.972683, plz: "20357", district: "Sankt Pauli", address: "Marktstraße 130" },
   { name: "Dönertreff", lat: 53.586438, lng: 10.064842 },
-  { name: "Ardacan Grillhaus", lat: 53.592734, lng: 10.043962 },
+  { name: "Ardacan Grillhaus", lat: 53.592734, lng: 10.043962, plz: "22305", district: "Barmbek-Nord", address: "Hardorffsweg 15" },
   { name: "Malik Pizza", lat: 53.572155, lng: 9.949997 },
   { name: "Malik Pizza", lat: 53.611059, lng: 10.058363 },
-  { name: "Lezzet", lat: 53.594261, lng: 10.043846 },
+  { name: "Lezzet", lat: 53.594261, lng: 10.043846, plz: "22307", district: "Barmbek-Nord", address: "Fuhlsbüttler Straße 173" },
   { name: "Ach der Deniz", lat: 53.56799, lng: 10.048944 },
-  { name: "As Urfa Harburg", lat: 53.456699, lng: 9.985938 },
-  { name: "KÖZ KAPADOKYA RESTAURANT Hamburg", lat: 53.506555, lng: 9.986373 },
+  { name: "As Urfa Harburg", lat: 53.456699, lng: 9.985938, plz: "21073", district: "Harburg", address: "Wilstorfer Straße 56" },
+  { name: "KÖZ KAPADOKYA RESTAURANT Hamburg", lat: 53.506555, lng: 9.986373, plz: "21107", district: "Wilhelmsburg", address: "Veringstraße 126" },
   { name: "Kebap Salonu", lat: 53.552746, lng: 10.010863 },
   { name: "Döner Platz", lat: 53.70862, lng: 10.107282 },
+  { name: "Time Out", lat: 53.58378, lng: 9.96942, plz: "20253", district: "Hoheluft-Ost", address: "Hoheluftchaussee 131" },
+  { name: "Musti Döner", lat: 53.5913, lng: 9.8726, plz: "22547", district: "Lurup", address: "Luruper Hauptstraße 139" },
+  { name: "Restaurant Meram", lat: 53.54023, lng: 10.101807, plz: "22111", district: "Billstedt", address: "Billstedter Hauptstraße 47" },
+  { name: "Manzara", lat: 53.61223, lng: 10.07676, plz: "22177", district: "Bramfeld", address: "Bramfelder Chaussee 230" },
+  { name: "Cigköftem", lat: 53.46156, lng: 9.98082, plz: "21073", district: "Harburg", address: "Sand 11" },
+  { name: "Peacetanbul", lat: 53.583209, lng: 10.020997, plz: "22303", district: "Winterhude", address: "Jarrestraße 20" },
+  { name: "Ali Baba's Kitchen", lat: 53.505338, lng: 9.986204, plz: "21107", district: "Wilhelmsburg", address: "Veringstraße 156" },
+  { name: "The Best Kumpir", lat: 53.5707, lng: 10.027472, plz: "22083", district: "Uhlenhorst", address: "Hamburger Straße 1" },
+  { name: "Delal Döner", lat: 53.6031, lng: 9.8928, plz: "22523", district: "Eidelstedt", address: "Elbgaustraße 103" },
+  { name: "City Doner", lat: 53.55301, lng: 10.0052, plz: "20095", district: "Altstadt", address: "Glockengießerwall" },
+  { name: "Villa Ramiz", lat: 53.599481, lng: 9.916828, plz: "22525", district: "Stellingen", address: "Kieler Straße 567" },
+  { name: "Miss Urfa Kebap House", lat: 53.48496, lng: 10.01918, plz: "21109", district: "Wilhelmsburg", address: "Kirchdorfer Damm 3" },
+  { name: "Eidel's Kebap", lat: 53.608044, lng: 9.904408, plz: "22523", district: "Eidelstedt", address: "Eidelstedter Platz 5" },
+  { name: "Tarsusi", lat: 53.585045, lng: 10.078152, plz: "22041", district: "Wandsbek", address: "Holzmühlenstraße 100" },
+  { name: "Mangal Keyf", lat: 53.57103, lng: 10.06221, plz: "22041", district: "Wandsbek", address: "Wandsbeker Marktstraße 21" },
+  { name: "Restaurant Baris", lat: 53.57, lng: 10.028, plz: "22081", district: "Uhlenhorst", address: "Lerchenfeld 48" },
+  { name: "HBB-Bistro Ohlsdorf", lat: 53.62099, lng: 10.03223, plz: "22337", district: "Ohlsdorf", address: "Fuhlsbüttler Straße 761" },
+  { name: "Miss Kumpir", lat: 53.650023, lng: 10.012406, plz: "22415", district: "Langenhorn", address: "Langenhorner Markt 18" },
+  { name: "Backlavin Barmbek", lat: 53.590726, lng: 10.045051, plz: "22305", district: "Barmbek-Nord", address: "Fuhlsbüttler Straße 136" },
+  { name: "Köz Güven Restaurant", lat: 53.51759, lng: 9.9865, plz: "21107", district: "Wilhelmsburg", address: "Vogelhüttendeich 50" },
+  { name: "Cigköftem Altona - Vegane Küche", lat: 53.55352, lng: 9.92273, plz: "22763", district: "Ottensen", address: "Große Brunnenstraße 118" },
+  { name: "Loqum", lat: 53.566526, lng: 9.967538, plz: "20357", district: "Eimsbüttel", address: "Kleiner Schäferkamp 36" },
+  { name: "Köz Lezzet Urfam", lat: 53.517777, lng: 9.985831, plz: "21107", district: "Wilhelmsburg", address: "Vogelhüttendeich 46" },
+  { name: "Mama Kumpir", lat: 53.58297, lng: 9.93499, plz: "22525", district: "Stellingen", address: "Langenfelder Damm 90" },
+  { name: "Urfam Restaurant", lat: 53.57103, lng: 10.06221, plz: "22041", district: "Wandsbek", address: "Wandsbeker Marktstraße 21" },
+  { name: "Aslan Kebab", lat: 53.525183, lng: 9.780662, plz: "21129", district: "Neuenfelde", address: "Seehofring 1" },
 ];
 
 const MARTIN_TIPS = [
@@ -451,7 +479,12 @@ function googleRatingHtml(shop) {
     : `<span>Google: <strong>folgt</strong></span>`;
 }
 
-function shopCardHtml(shop) {
+function mapsLinkHtml(shop) {
+  const q = encodeURIComponent((shop.address ? shop.address + " " : "") + shop.name + " " + shop.district + " Hamburg");
+  return `https://www.google.com/maps/search/?api=1&query=${q}`;
+}
+
+function testedCardHtml(shop) {
   return `
     <article class="shop-card" data-plz="${shop.plz}">
       <div class="shop-card-top">
@@ -473,10 +506,34 @@ function shopCardHtml(shop) {
         <a class="btn-mini video" href="${shop.videoUrl || '#'}" ${shop.videoUrl ? 'target="_blank" rel="noopener"' : 'aria-disabled="true"'}>
           ${shop.videoUrl ? "▶ Video ansehen" : "Video folgt"}
         </a>
-        <a class="btn-mini" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((shop.address ? shop.address + ' ' : '') + shop.name + ' ' + shop.district + ' Hamburg')}" target="_blank" rel="noopener">Auf Google Maps</a>
+        <a class="btn-mini" href="${mapsLinkHtml(shop)}" target="_blank" rel="noopener">Auf Google Maps</a>
       </div>
     </article>
   `;
+}
+
+// A researched-but-unreviewed shop: real address, but no invented rating or note —
+// Martin genuinely hasn't been here yet.
+function untestedCardHtml(shop) {
+  return `
+    <article class="shop-card shop-card-untested" data-plz="${shop.plz}">
+      <div class="shop-card-top">
+        <div>
+          <h3>${shop.name}</h3>
+          <div class="district">${shop.address ? shop.address + ", " : ""}${shop.district} · ${shop.plz}</div>
+        </div>
+        <span class="verdict-badge untested">Noch nicht getestet</span>
+      </div>
+      <p class="note">Martin war hier noch nicht — Standort steht schon auf der Karte, Bewertung folgt.</p>
+      <div class="shop-card-actions">
+        <a class="btn-mini" href="${mapsLinkHtml(shop)}" target="_blank" rel="noopener">Auf Google Maps</a>
+      </div>
+    </article>
+  `;
+}
+
+function shopCardHtml(shop) {
+  return shop.martinRating != null ? testedCardHtml(shop) : untestedCardHtml(shop);
 }
 
 function renderShopList(shops) {
@@ -566,19 +623,24 @@ function showRandomTip(animate) {
 function initSearch() {
   const form = document.getElementById("plzForm");
   if (!form) return;
+
+  // Searchable pool: reviewed shops plus researched-but-unreviewed shops that have a real
+  // PLZ (from address research) — pure OSM points without a PLZ stay map-only.
+  const searchablePool = DOENER_SHOPS.concat(UNTESTED_SHOPS.filter(shop => shop.plz));
+
   form.addEventListener("submit", (e) => {
     e.preventDefault();
     const input = document.getElementById("plzInput");
     const query = (input.value || "").trim();
     if (!query) return;
 
-    const matches = DOENER_SHOPS.filter(shop =>
-      shop.plz.includes(query) || shop.district.toLowerCase().includes(query.toLowerCase())
-    );
+    const matches = searchablePool
+      .filter(shop => shop.plz.includes(query) || shop.district.toLowerCase().includes(query.toLowerCase()))
+      .sort((a, b) => a.plz.localeCompare(b.plz) || a.name.localeCompare(b.name));
 
     document.getElementById("listHint").textContent = matches.length
-      ? `${matches.length} Laden${matches.length === 1 ? "" : "s"} gefunden für "${query}"`
-      : `Keine Treffer für "${query}" — hier sind alle Läden:`;
+      ? `${matches.length} Laden${matches.length === 1 ? "" : "s"} gefunden für "${query}", sortiert nach PLZ`
+      : `Keine Treffer für "${query}" — hier sind alle bereits getesteten Läden:`;
 
     renderShopList(matches.length ? matches : DOENER_SHOPS);
 

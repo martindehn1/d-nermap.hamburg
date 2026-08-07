@@ -668,6 +668,8 @@ img { max-width: 100%; display: block; }
 .verdict-badge.good { background: var(--good-soft); color: var(--good); }
 .verdict-badge.mid { background: var(--accent-soft); color: var(--accent-2); }
 .verdict-badge.bad { background: var(--bad-soft); color: var(--bad); }
+/* No figure image on this one, so it needs even padding, not the figure's left inset */
+.verdict-badge.untested { background: var(--untested-soft); color: var(--untested); padding: 4px 10px; }
 
 .verdict-figure {
   height: 22px;
@@ -675,6 +677,13 @@ img { max-width: 100%; display: block; }
   object-fit: contain;
   object-position: top center;
 }
+
+/* Researched-but-unreviewed card: same shape, quieter — no rating row, dashed border
+   signals "incomplete" rather than "rated poorly" */
+.shop-card-untested {
+  border-style: dashed;
+}
+.shop-card-untested .note { margin-top: 8px; }
 
 .shop-card .ratings {
   display: flex;
