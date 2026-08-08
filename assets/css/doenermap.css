@@ -228,6 +228,13 @@ img { max-width: 100%; display: block; }
   margin-bottom: 20px;
 }
 
+.hero-heading-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
 .hero h1 {
   font-family: var(--font-display);
   font-size: clamp(38px, 5.6vw, 64px);
@@ -240,6 +247,53 @@ img { max-width: 100%; display: block; }
 }
 
 .hero h1 .accent { color: var(--accent); }
+
+/* Mobile-only escape hatches between the search card and a full view of the map —
+   hidden by default (and out of a11y focus order) at desktop widths, where the map
+   is already fully visible beside the card. Made visible in the max-width:640px
+   block below. */
+.map-toggle-btn,
+.map-search-pill {
+  display: none;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-body);
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.map-toggle-btn {
+  flex-shrink: 0;
+  margin-top: 6px;
+  font-size: 12px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(255, 61, 61, 0.25);
+}
+
+.map-search-pill {
+  /* Fixed, not sticky: .hero has overflow:hidden (to crop the backdrop map/figure), which
+     would make a sticky child stick only within .hero's own box instead of the viewport —
+     since .hero never scrolls itself, that reads as not sticking at all. */
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 108px;
+  z-index: 6;
+  /* Lives inside .hero-floating-chrome, which is pointer-events:none by default so the map
+     underneath stays draggable through its empty space — needs its own override back on. */
+  pointer-events: auto;
+  font-size: 13px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: var(--bg-card);
+  color: var(--text);
+  border: 1px solid var(--line);
+  box-shadow: 0 8px 20px rgba(28, 28, 30, 0.18);
+}
 
 .hero p.lede {
   max-width: 480px;
@@ -799,4 +853,19 @@ img { max-width: 100%; display: block; }
      squeezing/overflowing (which forced a horizontal scrollbar on the whole page). */
   .site-nav { flex-wrap: wrap; row-gap: 8px; }
   .nav-links { gap: 16px; font-size: 13px; }
+
+  /* Tap-to-clear-the-card map browsing. Tapping the map background (a marker click
+     never reaches this — markers live outside the canvas MapLibre listens on) or the
+     "Karte" button switches to a near-full-height map with only a small fixed "PLZ
+     eingeben" pill left on top, so it's reachable when the search card comes back.
+     The toggle button only needs showing here — it's inside .hero-card, so it's
+     already hidden along with the rest of the card in map-only mode below. */
+  .map-toggle-btn { display: inline-flex; }
+  .hero.map-only .map-search-pill { display: inline-flex; }
+
+  .hero.map-only .hero-card { display: none; }
+  .hero.map-only .hero-floating-chrome { min-height: auto; }
+  .hero.map-only .hero-map-layer,
+  .hero.map-only #map { height: auto; bottom: 0; }
+  .hero.map-only { min-height: calc(100vh - 110px); }
 }

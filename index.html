@@ -63,12 +63,18 @@
       <span><span class="dot untested"></span> Ungetestet</span>
     </div>
     <img class="hero-figure" src="assets/img/martin/06-martin-zeigt-auf-pin.png" alt="Martin zeigt auf die Karte">
+    <!-- Mobile only: shown once the search card is hidden so the map is reachable full-screen -->
+    <button type="button" class="map-search-pill" id="mapSearchPill">📍 PLZ eingeben</button>
   </div>
 
   <div class="section-inner hero-content">
     <div class="hero-card">
       <span class="hero-kicker">300+ Dönerläden in Hamburg</span>
-      <h1>Der beste Döner<br>in <span class="accent">Hamburg</span></h1>
+      <div class="hero-heading-row">
+        <h1>Der beste Döner<br>in <span class="accent">Hamburg</span></h1>
+        <!-- Mobile only: hides this card so the map underneath is reachable full-screen -->
+        <button type="button" class="map-toggle-btn" id="showMapBtn">🗺️ Karte</button>
+      </div>
       <p class="lede">
         Ich bin Martin — Content Creator und Döner-Fanatiker. Ich habe schon
         unzählige Läden in Hamburg getestet und sage dir ehrlich, wo es sich lohnt

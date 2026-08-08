@@ -555,6 +555,7 @@ function initMap() {
   });
 
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+  initMobileMapToggle(map);
 
   map.on("load", () => {
     const testedShops = DOENER_SHOPS.map(shop => ({ ...shop, tested: true }));
@@ -599,6 +600,45 @@ function initMap() {
         .addTo(map);
     });
   });
+}
+
+const MOBILE_QUERY = "(max-width: 640px)";
+
+// Phone-only: the search card covers almost the whole map, so give people a way to
+// swap it out for a near-full-height map — tapping the map background, or a "Karte"
+// button in the card — and back again via a small sticky "PLZ eingeben" pill.
+function initMobileMapToggle(map) {
+  const hero = document.querySelector(".hero");
+  const showMapBtn = document.getElementById("showMapBtn");
+  const searchPill = document.getElementById("mapSearchPill");
+  if (!hero) return;
+
+  // MapLibre caches canvas dimensions; it needs telling explicitly whenever the CSS
+  // height of its container changes, or the map renders stretched/clipped until the
+  // next manual interaction forces a recalculation.
+  function resizeSoon() {
+    window.setTimeout(() => map.resize(), 260);
+  }
+
+  function showMapOnly() {
+    if (!window.matchMedia(MOBILE_QUERY).matches) return;
+    hero.classList.add("map-only");
+    resizeSoon();
+  }
+
+  function showCard() {
+    hero.classList.remove("map-only");
+    resizeSoon();
+    const input = document.getElementById("plzInput");
+    if (input) input.focus();
+  }
+
+  if (showMapBtn) showMapBtn.addEventListener("click", showMapOnly);
+  if (searchPill) searchPill.addEventListener("click", showCard);
+
+  // A marker click never reaches this: markers are separate DOM elements layered over
+  // the canvas, not inside it, so they don't bubble into MapLibre's own click handler.
+  map.on("click", showMapOnly);
 }
 
 function showRandomTip(animate) {
