@@ -151,6 +151,20 @@ const DOENER_SHOPS = [
     googleCount: null,
     note: "Hünkar-Soße ist extrem lecker, aber Preis-Leistung überhaupt nicht gut — viel zu teuer für viel zu wenig, kaum Fleisch, kaum Salat. Highlight: Man kann dort gut sitzen.",
     videoUrl: "https://vm.tiktok.com/ZGdxSkrLk/"
+  },
+  {
+    name: "Köz Steinbock",
+    district: "Altona-Altstadt",
+    address: "Reeperbahn 145",
+    plz: "20359",
+    lat: 53.5495, lng: 9.9565,
+    verdict: "good",
+    verdictLabel: "Top-Empfehlung",
+    martinRating: 8.0,
+    googleRating: null,
+    googleCount: null,
+    note: "Sehr freundliches Personal, klare Empfehlung als Döner auf der Reeperbahn — leider etwas teurer.",
+    videoUrl: null
   }
 ];
 
