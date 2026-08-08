@@ -123,6 +123,20 @@ const DOENER_SHOPS = [
     googleCount: null,
     note: "Martins Favorit in Harburg",
     videoUrl: "https://www.tiktok.com/@martin.dehn/video/7459499375107083542"
+  },
+  {
+    name: "Tom Big Döner",
+    district: "St. Pauli",
+    address: "Reeperbahn 96",
+    plz: "20359",
+    lat: 53.5498, lng: 9.96,
+    verdict: "mid",
+    verdictLabel: "Solide",
+    martinRating: 7.0,
+    googleRating: null,
+    googleCount: null,
+    note: "Soße war etwas sauer, Preis touristentypisch — ok, aber auch nicht günstig. Verkauft eher auf Masse, entsprechend voll.",
+    videoUrl: "https://vm.tiktok.com/ZGdxSSFA3/"
   }
 ];
 
