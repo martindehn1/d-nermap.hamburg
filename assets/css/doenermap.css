@@ -782,8 +782,16 @@ img { max-width: 100%; display: block; }
 @media (max-width: 640px) {
   .hero { min-height: auto; }
   .hero-card { max-width: 100%; border-radius: 22px; padding: 26px 22px 22px; }
-  .hero-floating-chrome { position: static; }
+  /* The card is tall enough on phone screens (stacked search bar, tip box, etc.) to cover
+     almost the entire map backdrop, leaving only a sliver behind the badge/legend — the map
+     read as decoration, not as something you could drag. Give it a real, dedicated, touchable
+     strip above the card instead of letting the card swallow it. */
+  .hero-floating-chrome { position: static; min-height: 260px; }
+  .hero-map-layer, #map { bottom: auto; height: 320px; }
   .map-badge, .map-legend { position: static; margin: 10px 24px 0; width: fit-content; }
+  /* Absolutely positioned against the whole (now much taller) .hero, so it no longer has
+     room to make sense at phone widths — the tip-box avatar already carries Martin here. */
+  .hero-figure { display: none; }
   .search-bar { flex-direction: column; }
   .martin-tip { flex-direction: column; }
   .martin-tip .tip-refresh { align-self: flex-start; margin-left: 0; }
