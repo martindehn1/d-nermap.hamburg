@@ -137,6 +137,20 @@ const DOENER_SHOPS = [
     googleCount: null,
     note: "Soße war etwas sauer, Preis touristentypisch — ok, aber auch nicht günstig. Verkauft eher auf Masse, entsprechend voll.",
     videoUrl: "https://vm.tiktok.com/ZGdxSSFA3/"
+  },
+  {
+    name: "Hünkar",
+    district: "Harburg",
+    address: "Schloßmühlendamm 14",
+    plz: "21073",
+    lat: 53.462089, lng: 9.982067,
+    verdict: "bad",
+    verdictLabel: "Nicht empfohlen",
+    martinRating: 5.0,
+    googleRating: null,
+    googleCount: null,
+    note: "Hünkar-Soße ist extrem lecker, aber Preis-Leistung überhaupt nicht gut — viel zu teuer für viel zu wenig, kaum Fleisch, kaum Salat. Highlight: Man kann dort gut sitzen.",
+    videoUrl: "https://vm.tiktok.com/ZGdxSkrLk/"
   }
 ];
 
@@ -400,7 +414,6 @@ const UNTESTED_SHOPS = [
   { name: "Shawarma Marina", lat: 53.565718, lng: 10.037205 },
   { name: "Larisa-bauchstation Restaurant", lat: 53.533179, lng: 9.878158 },
   { name: "Mina Restaurant (Luna Center)", lat: 53.498087, lng: 10.008076 },
-  { name: "Hünkar", lat: 53.462089, lng: 9.982067, plz: "21073", district: "Harburg", address: "Schloßmühlendamm 14" },
   { name: "BEYOĞLU KEBAP HOUSE", lat: 53.54993, lng: 9.979502 },
   { name: "Mr. Kebab", lat: 53.556559, lng: 9.962655 },
   { name: "Soul Kebab", lat: 53.556361, lng: 9.966176, plz: "20359", district: "Sankt Pauli", address: "Neuer Kamp 31" },
