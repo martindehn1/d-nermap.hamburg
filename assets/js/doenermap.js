@@ -474,7 +474,6 @@ const UNTESTED_SHOPS = [
   { name: "Musti Döner", lat: 53.5913, lng: 9.8726, plz: "22547", district: "Lurup", address: "Luruper Hauptstraße 139" },
   { name: "Restaurant Meram", lat: 53.54023, lng: 10.101807, plz: "22111", district: "Billstedt", address: "Billstedter Hauptstraße 47" },
   { name: "Manzara", lat: 53.61223, lng: 10.07676, plz: "22177", district: "Bramfeld", address: "Bramfelder Chaussee 230" },
-  { name: "Cigköftem", lat: 53.46156, lng: 9.98082, plz: "21073", district: "Harburg", address: "Sand 11" },
   { name: "Peacetanbul", lat: 53.583209, lng: 10.020997, plz: "22303", district: "Winterhude", address: "Jarrestraße 20" },
   { name: "Ali Baba's Kitchen", lat: 53.505338, lng: 9.986204, plz: "21107", district: "Wilhelmsburg", address: "Veringstraße 156" },
   { name: "The Best Kumpir", lat: 53.5707, lng: 10.027472, plz: "22083", district: "Uhlenhorst", address: "Hamburger Straße 1" },
