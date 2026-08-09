@@ -577,6 +577,11 @@ img { max-width: 100%; display: block; }
    `to` keyframe, snapping every popup to the map's top-left corner regardless of click. */
 .maplibregl-popup {
   animation: popup-fade-in var(--response) var(--ease) both;
+  /* .hero-map-scrim (the gradient that fades the map near the card) is a *later* sibling
+     of #map with no z-index of its own, so — same stacking context, plain DOM order — it
+     was painting on top of the popup too, tinting it a hazy off-white instead of solid
+     white. An explicit z-index here beats that auto-stacked sibling regardless of order. */
+  z-index: 5;
 }
 
 @keyframes popup-fade-in {
