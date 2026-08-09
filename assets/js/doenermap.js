@@ -165,6 +165,20 @@ const DOENER_SHOPS = [
     googleCount: null,
     note: "Sehr freundliches Personal, klare Empfehlung als Döner auf der Reeperbahn — leider etwas teurer.",
     videoUrl: null
+  },
+  {
+    name: "Honest Kebab",
+    district: "Altstadt",
+    address: "Ballindamm 40 (Europapassage)",
+    plz: "20095",
+    lat: 53.55147, lng: 9.996323,
+    verdict: "good",
+    verdictLabel: "Top-Empfehlung",
+    martinRating: 8.2,
+    googleRating: null,
+    googleCount: null,
+    note: "Für den Touri-Hotspot Nummer 1 in Hamburg überraschend gut, auch wenn es kein \"richtiger\" Döner ist — zu viel gepimpt. Brot ist brutal lecker, die Idee dahinter gut, Qualität stimmt, nur die Zusammenstellung ist nicht jedermanns Geschmack. Für den Preis bekommt man aber zu wenig. Beim Bezahlen hakte es: Personal kommunizierte nicht richtig mit der Bar wegen Kartenzahlung, 20 Minuten umsonst angestanden — wirkte insgesamt etwas gestresst.",
+    videoUrl: "https://www.instagram.com/reels/DSXqJukjeP5/"
   }
 ];
 
@@ -217,7 +231,6 @@ const UNTESTED_SHOPS = [
   { name: "Öz Urfa Kebap Haus", lat: 53.554821, lng: 10.014354 },
   { name: "Lades Holzkohlegrill Restaurant Hamburg", lat: 53.554646, lng: 10.015315 },
   { name: "Afiyet", lat: 53.554254, lng: 10.016602 },
-  { name: "Saray döner", lat: 53.55147, lng: 9.996323, plz: "20095", district: "Altstadt", address: "Ballindamm 40" },
   { name: "Perle Döner", lat: 53.552099, lng: 9.999843 },
   { name: "Ali's Gemüsekebab", lat: 53.55147, lng: 9.996323 },
   { name: "Arin Kebap", lat: 53.554874, lng: 9.989217 },
