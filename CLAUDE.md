@@ -9,37 +9,72 @@ die Agentur-Seite socialfokus.de. Die Dönermap gehört **nicht** dorthin.
 
 ## Aufbau
 
-Alles Wesentliche steckt in `assets/js/doenermap.js`:
+**Quelle der Wahrheit für alle Ladendaten ist `data/shops.json`.**
 
-- `DOENER_SHOPS` — von Martin **getestete** Läden mit Bewertung. Nur hier
-  stehen echte Bewertungen.
-- `UNTESTED_SHOPS` — recherchierte Standorte ohne Bewertung (~300 Stück, aus
-  TomTom/OSM). Erscheinen als graue Marker mit "Noch nicht getestet".
-- `MARTIN_TIPS` — Tipps für die Tipp-Box.
+```
+data/shops.json                <- hier wird bearbeitet
+      │  npm run build:data
+      ▼
+assets/js/doenermap-data.js    <- GENERIERT, nie von Hand anfassen
+assets/js/doenermap.js         <- nur Logik (Karte, Suche, Rendering)
+```
+
+Jeder Laden hat eine feste `id`, die **niemals geändert wird** — daran hängen
+später Favoriten und Detailseiten der App.
+
+`status` unterscheidet drei Sorten:
+
+| Status | Bedeutung |
+|---|---|
+| `tested` | Echt getestet, echte Bewertung |
+| `untested` | Recherchiert (TomTom/OSM), grauer Marker |
+| `demo` | Alte Platzhalter mit **erfundenen** Noten und Google-Zahlen. Laufen auf der Website unter dem Beispieldaten-Hinweis, gehören **nicht in die App**. |
+
+Die Trennung von `rating` (redaktionell), `communityRating` (später von
+Nutzern) und `promotion` (bezahlte Platzierung) ist Absicht: Geld darf die
+Bewertung nie beeinflussen, und Nutzernoten fließen nie in Martins Note ein.
 
 ## Neue Bewertung eintragen
 
-1. Prüfen, ob der Laden schon in `UNTESTED_SHOPS` steht (`grep` nach Name oder
-   Adresse). Falls ja: **dort entfernen** und die bereits recherchierten
-   Koordinaten übernehmen — die sind geocodiert und genauer als geschätzte.
-2. Eintrag am Ende von `DOENER_SHOPS` anhängen:
+1. Prüfen, ob der Laden schon als `untested` in `data/shops.json` steht (grep
+   nach Name oder Adresse). Falls ja: **denselben Eintrag umschreiben** —
+   `id` und Koordinaten behalten, nur `status` und `rating` ergänzen. Die
+   recherchierten Koordinaten sind geocodiert und genauer als geschätzte.
+2. Falls der Laden neu ist, Eintrag anhängen. `id` = Name als Slug, Umlaute
+   ausgeschrieben (z. B. `koez-steinbock`).
 
-```js
+```jsonc
 {
-  name: "Laden Name",
-  district: "Harburg",
-  address: "Straße 24",
-  plz: "21073",
-  lat: 53.460933, lng: 9.979808,
-  verdict: "good",              // good | mid | bad
-  verdictLabel: "Top-Empfehlung", // Top-Empfehlung | Solide | Nicht empfohlen
-  martinRating: 8.5,
-  googleRating: null,           // null -> zeigt "folgt"
-  googleCount: null,
-  note: "Martins Fließtext zur Bewertung.",
-  videoUrl: "https://www.tiktok.com/@martin.dehn/video/..."
+  "id": "laden-name",
+  "name": "Laden Name",
+  "status": "tested",
+  "location": {
+    "address": "Straße 24", "plz": "21073",
+    "district": "Harburg", "lat": 53.460933, "lng": 9.979808
+  },
+  "rating": {
+    "score": 8.5,
+    "verdict": "good",            // good | mid | bad
+    "testedBy": "martin",         // später auch Teammitglieder
+    "testedAt": "2026-08-13",     // Testdatum, treibt "Neu getestet" in der App
+    "note": "Martins Fließtext zur Bewertung.",
+    "scorecard": null             // die 6 gewichteten Kriterien, sobald erhoben
+  },
+  "external": { "googleRating": null, "googleCount": null },
+  "media": {
+    "images": [],
+    "videoUrl": "https://www.tiktok.com/@martin.dehn/video/..."
+  },
+  "communityRating": null,
+  "tags": [], "price": null, "openingHours": null,
+  "contact": { "phone": null, "website": null },
+  "promotion": null
 }
 ```
+
+3. `npm run build:data` ausführen — erzeugt die Datei, die die Website lädt.
+
+`verdictLabel` wird aus `verdict` abgeleitet und **nicht** gespeichert.
 
 ### Verdict-Stufen
 
@@ -63,12 +98,21 @@ Die PNGs liegen in `assets/img/martin/`.
 ## Konventionen
 
 - Videolinks ohne Tracking-Parameter speichern (alles ab `?` abschneiden).
-- Keine Google-Bewertung erfinden — `googleRating: null` lassen, bis eine
-  echte Zahl vorliegt.
-- Nach dem Eintragen `node --check assets/js/doenermap.js` laufen lassen.
-- Commit auf `main` pushen, dann ist es nach ca. 2 Minuten live.
+- **Nichts erfinden.** Keine Google-Bewertung, keine Öffnungszeiten, keine
+  Preise ohne Beleg — lieber `null` lassen. Erfundene Fremddaten über echte
+  Betriebe sind rechtlich etwas ganz anderes als eine ehrliche Meinung.
+- Nach dem Eintragen `npm run build:data && npm run check` laufen lassen.
+- Commit auf `main` pushen. **Der automatische Deploy ist unzuverlässig**
+  (IONOS-seitiger Fehler: lädt teils eine alte Artefakt-Version). Nach dem
+  Push den Workflow `deploy-to-ionos.yaml` manuell mit dem vollen Commit-SHA
+  als `version` auslösen, sonst ist die Änderung nicht wirklich live.
 
 ## Weiteres
 
-`RESEARCH_PROGRESS.md` hält den Stand der Laden-Recherche fest (welche
-Stadtteile schon abgegrast sind).
+- `RESEARCH_PROGRESS.md` — Stand der Laden-Recherche nach Stadtteilen.
+- `data/pruefliste-dubletten.json` — Läden, die verdächtig nah beieinander
+  liegen. Können echte Nachbarn sein oder derselbe Laden unter zwei Namen;
+  braucht eine Prüfung vor Ort, deshalb nicht automatisch gelöscht.
+- `scripts/migrate-to-json.mjs` — Einmal-Skript der Umstellung von
+  einkompilierten Arrays auf `data/shops.json`. Wird nicht mehr gebraucht,
+  dokumentiert aber, wie die IDs entstanden sind.

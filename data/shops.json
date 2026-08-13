@@ -1,0 +1,9647 @@
+[
+  {
+    "id": "doener-queen",
+    "name": "Döner Queen",
+    "status": "tested",
+    "location": {
+      "address": "Harburger Ring 24",
+      "plz": "21073",
+      "district": "Harburg",
+      "lat": 53.460933,
+      "lng": 9.979808
+    },
+    "rating": {
+      "score": 8.5,
+      "verdict": "good",
+      "testedBy": "martin",
+      "testedAt": "2026-08-13",
+      "note": "Schmeckt allgemein gut — und vor allem einer der wenigen Läden, die ihre Preise kaum erhöht haben, als überall sonst teurer wurde. Davor ziehe ich meinen Hut. Im Vergleich zu früher hat der Döner allerdings nachgelassen, es ist weniger drin — das spiegelt wohl die Einsparungen wider. Insgesamt aber ganz lecker.",
+      "scorecard": null
+    },
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": "https://www.tiktok.com/@martin.dehn/video/7330361120550669601"
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "honest-kebab",
+    "name": "Honest Kebab",
+    "status": "tested",
+    "location": {
+      "address": "Ballindamm 40 (Europapassage)",
+      "plz": "20095",
+      "district": "Altstadt",
+      "lat": 53.55147,
+      "lng": 9.996323
+    },
+    "rating": {
+      "score": 8.2,
+      "verdict": "good",
+      "testedBy": "martin",
+      "testedAt": "2026-08-09",
+      "note": "Für den Touri-Hotspot Nummer 1 in Hamburg überraschend gut, auch wenn es kein \"richtiger\" Döner ist — zu viel gepimpt. Brot ist brutal lecker, die Idee dahinter gut, Qualität stimmt, nur die Zusammenstellung ist nicht jedermanns Geschmack. Für den Preis bekommt man aber zu wenig. Beim Bezahlen hakte es: Personal kommunizierte nicht richtig mit der Bar wegen Kartenzahlung, 20 Minuten umsonst angestanden — wirkte insgesamt etwas gestresst.",
+      "scorecard": null
+    },
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": "https://www.instagram.com/reels/DSXqJukjeP5/"
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "huenkar",
+    "name": "Hünkar",
+    "status": "tested",
+    "location": {
+      "address": "Schloßmühlendamm 14",
+      "plz": "21073",
+      "district": "Harburg",
+      "lat": 53.462089,
+      "lng": 9.982067
+    },
+    "rating": {
+      "score": 5,
+      "verdict": "bad",
+      "testedBy": "martin",
+      "testedAt": "2026-08-08",
+      "note": "Hünkar-Soße ist extrem lecker, aber Preis-Leistung überhaupt nicht gut — viel zu teuer für viel zu wenig, kaum Fleisch, kaum Salat. Highlight: Man kann dort gut sitzen.",
+      "scorecard": null
+    },
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": "https://vm.tiktok.com/ZGdxSkrLk/"
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "koez-steinbock",
+    "name": "Köz Steinbock",
+    "status": "tested",
+    "location": {
+      "address": "Reeperbahn 145",
+      "plz": "20359",
+      "district": "Altona-Altstadt",
+      "lat": 53.5495,
+      "lng": 9.9565
+    },
+    "rating": {
+      "score": 8,
+      "verdict": "good",
+      "testedBy": "martin",
+      "testedAt": "2026-08-08",
+      "note": "Sehr freundliches Personal, klare Empfehlung als Döner auf der Reeperbahn — leider etwas teurer.",
+      "scorecard": null
+    },
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "sirali-kebab",
+    "name": "Sirali Kebab",
+    "status": "tested",
+    "location": {
+      "address": "Lüneburger Str. 20",
+      "plz": "21073",
+      "district": "Harburg",
+      "lat": 53.458507,
+      "lng": 9.98317
+    },
+    "rating": {
+      "score": 9,
+      "verdict": "good",
+      "testedBy": "martin",
+      "testedAt": "2026-08-06",
+      "note": "Martins Favorit in Harburg",
+      "scorecard": null
+    },
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": "https://www.tiktok.com/@martin.dehn/video/7459499375107083542"
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "tom-big-doener",
+    "name": "Tom Big Döner",
+    "status": "tested",
+    "location": {
+      "address": "Reeperbahn 96",
+      "plz": "20359",
+      "district": "St. Pauli",
+      "lat": 53.5498,
+      "lng": 9.96
+    },
+    "rating": {
+      "score": 7,
+      "verdict": "mid",
+      "testedBy": "martin",
+      "testedAt": "2026-08-08",
+      "note": "Soße war etwas sauer, Preis touristentypisch — ok, aber auch nicht günstig. Verkauft eher auf Masse, entsprechend voll.",
+      "scorecard": null
+    },
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": "https://vm.tiktok.com/ZGdxSSFA3/"
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "wunder-doener",
+    "name": "Wunder Döner",
+    "status": "tested",
+    "location": {
+      "address": "Schloßmühlendamm 1",
+      "plz": "21073",
+      "district": "Harburg",
+      "lat": 53.460722,
+      "lng": 9.981776
+    },
+    "rating": {
+      "score": 5,
+      "verdict": "bad",
+      "testedBy": "martin",
+      "testedAt": "2026-08-13",
+      "note": "Personal war unfreundlich, die Soßen schmecken zu dünn — insgesamt nicht mein Geschmack. Positiv: das Dreiecksbrot, das finde ich hier am besten.",
+      "scorecard": null
+    },
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "ali-baba-kebap",
+    "name": "Ali Baba Kebap",
+    "status": "demo",
+    "location": {
+      "address": null,
+      "plz": "20457",
+      "district": "HafenCity",
+      "lat": 53.5423,
+      "lng": 9.9993
+    },
+    "rating": {
+      "score": 8.5,
+      "verdict": "good",
+      "testedBy": "martin",
+      "testedAt": null,
+      "note": "Überraschend gut für die Touri-Lage. Lammfleisch ist die Wahl hier.",
+      "scorecard": null
+    },
+    "external": {
+      "googleRating": 4.5,
+      "googleCount": 389
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "anatolia-grill",
+    "name": "Anatolia Grill",
+    "status": "demo",
+    "location": {
+      "address": null,
+      "plz": "20359",
+      "district": "St. Pauli",
+      "lat": 53.5578,
+      "lng": 9.9673
+    },
+    "rating": {
+      "score": 9.2,
+      "verdict": "good",
+      "testedBy": "martin",
+      "testedAt": null,
+      "note": "Fleisch top gewürzt, Brot frisch aus dem Ofen. Eine der besten Soßen der Stadt.",
+      "scorecard": null
+    },
+    "external": {
+      "googleRating": 4.6,
+      "googleCount": 812
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "berlin-doener-wandsbek",
+    "name": "Berlin Döner Wandsbek",
+    "status": "demo",
+    "location": {
+      "address": null,
+      "plz": "22041",
+      "district": "Wandsbek",
+      "lat": 53.5773,
+      "lng": 10.0821
+    },
+    "rating": {
+      "score": 6.5,
+      "verdict": "mid",
+      "testedBy": "martin",
+      "testedAt": null,
+      "note": "Ok für zwischendurch, Soße geht besser.",
+      "scorecard": null
+    },
+    "external": {
+      "googleRating": 3.9,
+      "googleCount": 210
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "bosphorus-kebap",
+    "name": "Bosphorus Kebap",
+    "status": "demo",
+    "location": {
+      "address": null,
+      "plz": "22767",
+      "district": "Altona",
+      "lat": 53.5511,
+      "lng": 9.9349
+    },
+    "rating": {
+      "score": 8.8,
+      "verdict": "good",
+      "testedBy": "martin",
+      "testedAt": null,
+      "note": "Sehr großzügig belegt, faires Preis-Leistungs-Verhältnis.",
+      "scorecard": null
+    },
+    "external": {
+      "googleRating": 4.4,
+      "googleCount": 501
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "efes-grillhaus",
+    "name": "Efes Grillhaus",
+    "status": "demo",
+    "location": {
+      "address": null,
+      "plz": "22303",
+      "district": "Winterhude",
+      "lat": 53.5934,
+      "lng": 10.0057
+    },
+    "rating": {
+      "score": 4.1,
+      "verdict": "bad",
+      "testedBy": "martin",
+      "testedAt": null,
+      "note": "Zu viel Soße, zu wenig Fleisch. Für den Preis nicht gerechtfertigt.",
+      "scorecard": null
+    },
+    "external": {
+      "googleRating": 3.4,
+      "googleCount": 98
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "kebap-king-barmbek",
+    "name": "Kebap King Barmbek",
+    "status": "demo",
+    "location": {
+      "address": null,
+      "plz": "22081",
+      "district": "Barmbek",
+      "lat": 53.5897,
+      "lng": 10.0362
+    },
+    "rating": {
+      "score": 3.4,
+      "verdict": "bad",
+      "testedBy": "martin",
+      "testedAt": null,
+      "note": "Fleisch trocken, lange Wartezeit trotz wenig los. Da geht mehr in Hamburg.",
+      "scorecard": null
+    },
+    "external": {
+      "googleRating": 3.2,
+      "googleCount": 156
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "marmaris-doener",
+    "name": "Marmaris Döner",
+    "status": "demo",
+    "location": {
+      "address": null,
+      "plz": "22765",
+      "district": "Ottensen",
+      "lat": 53.5502,
+      "lng": 9.9159
+    },
+    "rating": {
+      "score": 9,
+      "verdict": "good",
+      "testedBy": "martin",
+      "testedAt": null,
+      "note": "Hausgemachtes Brot, perfekt gewürztes Fleisch. Klarer Geheimtipp.",
+      "scorecard": null
+    },
+    "external": {
+      "googleRating": 4.7,
+      "googleCount": 623
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "sultan-s-kebap-haus",
+    "name": "Sultan's Kebap Haus",
+    "status": "demo",
+    "location": {
+      "address": null,
+      "plz": "20255",
+      "district": "Eimsbüttel",
+      "lat": 53.5738,
+      "lng": 9.9599
+    },
+    "rating": {
+      "score": 6.9,
+      "verdict": "mid",
+      "testedBy": "martin",
+      "testedAt": null,
+      "note": "In Ordnung, aber nichts Besonderes. Brot könnte frischer sein.",
+      "scorecard": null
+    },
+    "external": {
+      "googleRating": 4.1,
+      "googleCount": 344
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "23sarcon-doener",
+    "name": "23sarcon döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.575935,
+      "lng": 10.13468
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "abi-s-grill",
+    "name": "Abi's Grill",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.544294,
+      "lng": 10.145583
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "ach-der-deniz",
+    "name": "Ach der Deniz",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.56799,
+      "lng": 10.048944
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "adana-grill",
+    "name": "Adana Grill",
+    "status": "untested",
+    "location": {
+      "address": "Holsteinischer Kamp 30",
+      "plz": "22081",
+      "district": "Barmbek-Süd",
+      "lat": 53.574879,
+      "lng": 10.039944
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "affenfelsen-burger",
+    "name": "Affenfelsen Burger",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.634541,
+      "lng": 9.953939
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "afiyet",
+    "name": "Afiyet",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.554254,
+      "lng": 10.016602
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "ali-baba-doener-grill",
+    "name": "Ali Baba Döner & Grill",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.552026,
+      "lng": 9.941865
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "ali-baba-s-kitchen",
+    "name": "Ali Baba's Kitchen",
+    "status": "untested",
+    "location": {
+      "address": "Veringstraße 156",
+      "plz": "21107",
+      "district": "Wilhelmsburg",
+      "lat": 53.505338,
+      "lng": 9.986204
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "ali-s-doener-to-go",
+    "name": "Ali's Döner To-Go",
+    "status": "untested",
+    "location": {
+      "address": "Grindelallee 87",
+      "plz": "20146",
+      "district": "Rotherbaum",
+      "lat": 53.567501,
+      "lng": 9.980242
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "ankara-kebap-tantuni",
+    "name": "Ankara Kebap Tantuni",
+    "status": "untested",
+    "location": {
+      "address": "Böckmannstraße 26",
+      "plz": "20099",
+      "district": "Sankt Georg",
+      "lat": 53.554475,
+      "lng": 10.015591
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "antalya-doener",
+    "name": "Antalya Döner",
+    "status": "untested",
+    "location": {
+      "address": "Neuengammer Hausdeich 215",
+      "plz": "21039",
+      "district": "Neuengamme",
+      "lat": 53.444458,
+      "lng": 10.22947
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "antep-guelbaba-koez",
+    "name": "Antep Gülbaba Köz",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.54937,
+      "lng": 9.958988
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "aras-kebab-doener",
+    "name": "Aras Kebab Döner",
+    "status": "untested",
+    "location": {
+      "address": "Spaldingstraße 55",
+      "plz": "20097",
+      "district": "Hammerbrook",
+      "lat": 53.548612,
+      "lng": 10.013642
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "arda-restaurant",
+    "name": "Arda Restaurant",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.579889,
+      "lng": 10.10307
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "ardacan-grillhaus-s706",
+    "name": "Ardacan Grillhaus",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.607191,
+      "lng": 10.118167
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "ardacan-grillhaus-u8la",
+    "name": "Ardacan Grillhaus",
+    "status": "untested",
+    "location": {
+      "address": "Hardorffsweg 15",
+      "plz": "22305",
+      "district": "Barmbek-Nord",
+      "lat": 53.592734,
+      "lng": 10.043962
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "arin-kebap",
+    "name": "Arin Kebap",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.554874,
+      "lng": 9.989217
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "artemis",
+    "name": "Artemis",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.529597,
+      "lng": 10.149191
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "as-urfa-harburg",
+    "name": "As Urfa Harburg",
+    "status": "untested",
+    "location": {
+      "address": "Wilstorfer Straße 56",
+      "plz": "21073",
+      "district": "Harburg",
+      "lat": 53.456699,
+      "lng": 9.985938
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "as-urfa-kebap-restaurant",
+    "name": "As Urfa Kebap Restaurant",
+    "status": "untested",
+    "location": {
+      "address": "Steindamm 19",
+      "plz": "20099",
+      "district": "Sankt Georg",
+      "lat": 53.553591,
+      "lng": 10.011615
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "aslan-kebab",
+    "name": "Aslan Kebab",
+    "status": "untested",
+    "location": {
+      "address": "Seehofring 1",
+      "plz": "21129",
+      "district": "Neuenfelde",
+      "lat": 53.525183,
+      "lng": 9.780662
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "ates-grill-haus-doener-mehr",
+    "name": "Ates Grill Haus Döner & mehr...",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.554123,
+      "lng": 10.086037
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "babanin-yeri",
+    "name": "Babanin Yeri",
+    "status": "untested",
+    "location": {
+      "address": "Paul-Roosen-Straße 21",
+      "plz": "22767",
+      "district": "Sankt Pauli",
+      "lat": 53.553018,
+      "lng": 9.958219
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "backlavin-barmbek",
+    "name": "Backlavin Barmbek",
+    "status": "untested",
+    "location": {
+      "address": "Fuhlsbüttler Straße 136",
+      "plz": "22305",
+      "district": "Barmbek-Nord",
+      "lat": 53.590726,
+      "lng": 10.045051
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "balat-doener-wandsbek-gartenstadt",
+    "name": "Balat Döner - Wandsbek-Gartenstadt",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.592358,
+      "lng": 10.07544
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "ban-bab-kebabklub",
+    "name": "BAN BAB KEBABKLUB",
+    "status": "untested",
+    "location": {
+      "address": "Marktstraße 130",
+      "plz": "20357",
+      "district": "Sankt Pauli",
+      "lat": 53.558521,
+      "lng": 9.972683
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "baris-grillhaus-plqc",
+    "name": "Baris Grillhaus",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.555836,
+      "lng": 10.008727
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "baris-grillhaus-sehe",
+    "name": "BARIS Grillhaus",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.572832,
+      "lng": 10.069257
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "batman-restaurant",
+    "name": "Batman Restaurant",
+    "status": "untested",
+    "location": {
+      "address": "Steindamm 62",
+      "plz": "20099",
+      "district": "Sankt Georg",
+      "lat": 53.554245,
+      "lng": 10.014496
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "bereket-doener-pw1m",
+    "name": "Bereket Döner",
+    "status": "untested",
+    "location": {
+      "address": "Hermannstal 12",
+      "plz": "22119",
+      "district": "Horn",
+      "lat": 53.553976,
+      "lng": 10.086122
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "bereket-doener-omak",
+    "name": "Bereket Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.48688,
+      "lng": 10.180027
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "bereket-grill",
+    "name": "Bereket Grill",
+    "status": "untested",
+    "location": {
+      "address": "Harburger Ring 28",
+      "plz": "21073",
+      "district": "Harburg",
+      "lat": 53.461003,
+      "lng": 9.979276
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "berg-grill-imbiss",
+    "name": "Berg Grill Imbiss",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.54952,
+      "lng": 9.96136
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "berlin-doener-kiosk",
+    "name": "BERLIN DÖNER KIOSK",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.608182,
+      "lng": 10.057303
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "berne-kebap-haus",
+    "name": "Berne Kebap Haus",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.625347,
+      "lng": 10.138726
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "best-urfa",
+    "name": "Best Urfa",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.550341,
+      "lng": 10.000654
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "bey-kebab",
+    "name": "Bey Kebab",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.552886,
+      "lng": 9.929647
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "beydagi-kebap",
+    "name": "Beydagi Kebap",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.593337,
+      "lng": 10.052339
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "beyoglu-kebap-house",
+    "name": "BEYOĞLU KEBAP HOUSE",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.54993,
+      "lng": 9.979502
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "big-doener-house",
+    "name": "Big Döner House",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.471264,
+      "lng": 9.854074
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "big-food-grill",
+    "name": "Big Food Grill",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.491406,
+      "lng": 10.207453
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "big-food-imbiss",
+    "name": "Big Food Imbiss",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.559689,
+      "lng": 9.963593
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "binboga-kebap-haus",
+    "name": "Binboga Kebap Haus",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.510646,
+      "lng": 9.987008
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "bizim-doener-volksdorf",
+    "name": "Bizim Döner Volksdorf",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.648764,
+      "lng": 10.167268
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "bizim-doener-wellingsbuettel",
+    "name": "Bizim Döner Wellingsbüttel",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.640986,
+      "lng": 10.082829
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "blankeneser-imbiss",
+    "name": "Blankeneser Imbiss",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.563861,
+      "lng": 9.813921
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "boberg-doener-pizza-haus",
+    "name": "Boberg Döner Pizza Haus",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.515307,
+      "lng": 10.166631
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "borstel-kebab",
+    "name": "Borstel Kebab",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.605724,
+      "lng": 9.982566
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "bosporus-lounge",
+    "name": "BOSPORUS LOUNGE",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.456275,
+      "lng": 9.986693
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "brothers-kebap-haus",
+    "name": "Brothers Kebap Haus",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.493904,
+      "lng": 10.17912
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "bunker-doener",
+    "name": "Bunker Döner",
+    "status": "untested",
+    "location": {
+      "address": "Feldstrasse 32",
+      "plz": "20357",
+      "district": "Sankt Pauli",
+      "lat": 53.557474,
+      "lng": 9.969933
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "burg-doener",
+    "name": "Burg Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.559256,
+      "lng": 10.038903
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "campus-doener",
+    "name": "Campus Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.56704,
+      "lng": 9.981448
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "center-doener",
+    "name": "Center Döner",
+    "status": "untested",
+    "location": {
+      "address": "Möllner Landstraße 3",
+      "plz": "22111",
+      "district": "Billstedt",
+      "lat": 53.5399,
+      "lng": 10.103339
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "cheatday-kebab",
+    "name": "Cheatday Kebab",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.580393,
+      "lng": 9.973268
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "chicken-zone-kebab-zone",
+    "name": "CHICKEN ZONE & KEBAB ZONE",
+    "status": "untested",
+    "location": {
+      "address": "Billstedter Hauptstraße 53",
+      "plz": "22111",
+      "district": "Billstedt",
+      "lat": 53.540312,
+      "lng": 10.102485
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "cigkoeftem",
+    "name": "Cigköftem",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.570812,
+      "lng": 9.861522
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "cigkoeftem-altona-vegane-kueche",
+    "name": "Cigköftem Altona - Vegane Küche",
+    "status": "untested",
+    "location": {
+      "address": "Große Brunnenstraße 118",
+      "plz": "22763",
+      "district": "Ottensen",
+      "lat": 53.55352,
+      "lng": 9.92273
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "citir-doener",
+    "name": "Citir Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.582551,
+      "lng": 9.970675
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "city-doner",
+    "name": "City Doner",
+    "status": "untested",
+    "location": {
+      "address": "Glockengießerwall",
+      "plz": "20095",
+      "district": "Altstadt",
+      "lat": 53.55301,
+      "lng": 10.0052
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "city-doener",
+    "name": "City Döner",
+    "status": "untested",
+    "location": {
+      "address": "Alte Holstenstraße 56",
+      "plz": "21029",
+      "district": "Bergedorf",
+      "lat": 53.490076,
+      "lng": 10.208648
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "city-doener-pizza",
+    "name": "City Döner & Pizza",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.640687,
+      "lng": 9.947865
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "dave-s-doener-bowls",
+    "name": "Dave's Döner & Bowls",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.560661,
+      "lng": 9.989687
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "delal-doener-b5tc",
+    "name": "Delal Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.603853,
+      "lng": 9.891928
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "delal-doener-c6cz",
+    "name": "Delal Döner",
+    "status": "untested",
+    "location": {
+      "address": "Elbgaustraße 103",
+      "plz": "22523",
+      "district": "Eidelstedt",
+      "lat": 53.6031,
+      "lng": 9.8928
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "delikato-doener",
+    "name": "Delikato Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.457514,
+      "lng": 9.985198
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "deniz-imbiss-doener-pizza",
+    "name": "Deniz Imbiss - Döner & Pizza",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.550631,
+      "lng": 9.958876
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "deniz-kebap-haus",
+    "name": "Deniz Kebap Haus",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.527091,
+      "lng": 10.149856
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "der-ali",
+    "name": "Der Ali",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.610526,
+      "lng": 10.060061
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "der-kebap",
+    "name": "Der Kebap",
+    "status": "untested",
+    "location": {
+      "address": "Billhorner Röhrendamm 94",
+      "plz": "20539",
+      "district": "Rothenburgsort",
+      "lat": 53.536713,
+      "lng": 10.033745
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "der-simo",
+    "name": "Der Simo",
+    "status": "untested",
+    "location": {
+      "address": "Billhorner Mühlenweg 19A",
+      "plz": "20539",
+      "district": "Rothenburgsort",
+      "lat": 53.536441,
+      "lng": 10.033306
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "der-urfa-doener",
+    "name": "DER URFA DÖNER",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.560738,
+      "lng": 10.038124
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "dilay-doener",
+    "name": "Dilay Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.552949,
+      "lng": 9.931501
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "diyar-cig-koefte-kebap-grill",
+    "name": "DIYAR CIG KÖFTE KEBAP GRILL",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.598057,
+      "lng": 9.86213
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "diyar-s-doener-kebap-backshop",
+    "name": "Diyar´s Döner Kebap & Backshop",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.480069,
+      "lng": 9.875059
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doe-back",
+    "name": "Dö Back",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.626347,
+      "lng": 10.139222
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "dock8-doener",
+    "name": "Dock8 Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.465627,
+      "lng": 9.989121
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-getraenkewelt",
+    "name": "Döner & Getränkewelt",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.552268,
+      "lng": 9.930491
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-pommes-paradies",
+    "name": "Döner &Pommes Paradies",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.561928,
+      "lng": 10.031688
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-58",
+    "name": "Döner 58",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.616105,
+      "lng": 9.905113
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-capitol",
+    "name": "Döner Capitol",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.542393,
+      "lng": 10.107724
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-center",
+    "name": "Döner Center",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.501896,
+      "lng": 10.008854
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-company",
+    "name": "Döner Company",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.552205,
+      "lng": 9.930557
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-connection",
+    "name": "Döner Connection",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.464743,
+      "lng": 9.964242
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-factory",
+    "name": "Döner Factory",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.549273,
+      "lng": 9.962227
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-freiheit",
+    "name": "Döner Freiheit",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.550574,
+      "lng": 9.957471
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-grillhaus-hamburg",
+    "name": "Döner Grillhaus Hamburg",
+    "status": "untested",
+    "location": {
+      "address": "Eidelstedter Weg 68",
+      "plz": "20255",
+      "district": "Lokstedt",
+      "lat": 53.582898,
+      "lng": 9.948413
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-kitchen",
+    "name": "Döner Kitchen",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.538804,
+      "lng": 10.042566
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-kurve",
+    "name": "Döner Kurve",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.591299,
+      "lng": 9.921186
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-meile",
+    "name": "Döner Meile",
+    "status": "untested",
+    "location": {
+      "address": "Wagnerstraße 7",
+      "plz": "22081",
+      "district": "Barmbek-Süd",
+      "lat": 53.574481,
+      "lng": 10.037315
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-pavillon",
+    "name": "Döner Pavillon",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.632795,
+      "lng": 9.911348
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-platz",
+    "name": "Döner Platz",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.70862,
+      "lng": 10.107282
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-point",
+    "name": "Döner Point",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.515165,
+      "lng": 9.987055
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-royal",
+    "name": "Döner Royal",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.459584,
+      "lng": 9.982041
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-time-597c",
+    "name": "döner time",
+    "status": "untested",
+    "location": {
+      "address": "Beim Strohhause 24",
+      "plz": "20097",
+      "district": "Sankt Georg",
+      "lat": 53.55296,
+      "lng": 10.02249
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-time-5crk",
+    "name": "Döner Time",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.569906,
+      "lng": 10.05923
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-time-4om1",
+    "name": "Döner Time",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.552002,
+      "lng": 9.940958
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-treff-harburg",
+    "name": "Döner Treff Harburg",
+    "status": "untested",
+    "location": {
+      "address": "Am Centrumshaus 5",
+      "plz": "21073",
+      "district": "Harburg",
+      "lat": 53.460418,
+      "lng": 9.978446
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-wandsbek",
+    "name": "Döner Wandsbek",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.432378,
+      "lng": 9.990426
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-welt-getraenke-welt",
+    "name": "Döner Welt Getränke Welt",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.549195,
+      "lng": 9.961102
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-pizza-23",
+    "name": "Döner&Pizza 23",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.529033,
+      "lng": 10.14961
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doenerei",
+    "name": "Dönerei",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.534303,
+      "lng": 10.038871
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doenerqueen",
+    "name": "Dönerqueen",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.585397,
+      "lng": 10.026568
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doenertreff",
+    "name": "Dönertreff",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.586438,
+      "lng": 10.064842
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doy-doy-kebap-house",
+    "name": "Doy Doy Kebap House",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.579946,
+      "lng": 9.966734
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "dr-kebap-o522",
+    "name": "Dr. Kebap",
+    "status": "untested",
+    "location": {
+      "address": "Wandsbeker Marktstraße 47",
+      "plz": "22041",
+      "district": "Wandsbek",
+      "lat": 53.571484,
+      "lng": 10.064292
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "dr-kebap-wyjw",
+    "name": "Dr.Kebap",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.573456,
+      "lng": 10.031682
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "dream-doener",
+    "name": "Dream Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.479351,
+      "lng": 9.874692
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "dubara",
+    "name": "Dubara",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.584735,
+      "lng": 10.024918
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "dubara-harburg",
+    "name": "Dubara Harburg",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.46104,
+      "lng": 9.983094
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "dulsberg-kebap-doener-haus",
+    "name": "Dulsberg Kebap Döner Haus",
+    "status": "untested",
+    "location": {
+      "address": "Straßburger Straße 42",
+      "plz": "22049",
+      "district": "Dulsberg",
+      "lat": 53.58173,
+      "lng": 10.065162
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "dueruem",
+    "name": "Dürüm",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.585104,
+      "lng": 9.851792
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "eatstanbul-doener-lounge",
+    "name": "Eatstanbul döner lounge",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.613962,
+      "lng": 10.075619
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "edo-doenerhaus-hamburg",
+    "name": "Edo Dönerhaus Hamburg",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.617018,
+      "lng": 10.078181
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "eidel-s-kebap",
+    "name": "Eidel's Kebap",
+    "status": "untested",
+    "location": {
+      "address": "Eidelstedter Platz 5",
+      "plz": "22523",
+      "district": "Eidelstedt",
+      "lat": 53.608044,
+      "lng": 9.904408
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "elbdoener",
+    "name": "Elbdöner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.458035,
+      "lng": 9.966007
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "elbe-kebap-house",
+    "name": "Elbe Kebap House",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.572042,
+      "lng": 9.863269
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "ellerbek-classic-doener",
+    "name": "Ellerbek Classic Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.64121,
+      "lng": 9.889764
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "enes-doener",
+    "name": "Enes Döner",
+    "status": "untested",
+    "location": {
+      "address": "Nedderfeld 15",
+      "plz": "22529",
+      "district": "Lokstedt",
+      "lat": 53.603604,
+      "lng": 9.966577
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "ess-bahn-doener",
+    "name": "Ess-Bahn Döner",
+    "status": "untested",
+    "location": {
+      "address": "Elbgaustraße 104",
+      "plz": "22523",
+      "district": "Eidelstedt",
+      "lat": 53.603576,
+      "lng": 9.893143
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "firat-kebap",
+    "name": "Firat Kebap",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.579866,
+      "lng": 10.031137
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "fuhle-grill",
+    "name": "Fuhle Grill",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.588921,
+      "lng": 10.046008
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "furkaan-imbiss",
+    "name": "Furkaan Imbiss",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.492839,
+      "lng": 10.013311
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "golden-kebab-eimsbuettel",
+    "name": "Golden Kebab Eimsbüttel",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.578352,
+      "lng": 9.951204
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "grill-center",
+    "name": "Grill Center",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.579445,
+      "lng": 9.945435
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "grill-house",
+    "name": "Grill House",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.45632,
+      "lng": 9.962221
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "gueney-doener",
+    "name": "Güney Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.63899,
+      "lng": 10.028391
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "haji-baba-kebab-house",
+    "name": "Haji Baba Kebab House",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.595608,
+      "lng": 9.967989
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "hamburg-doener",
+    "name": "Hamburg Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.572337,
+      "lng": 10.136719
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "hammer-doener",
+    "name": "Hammer Döner",
+    "status": "untested",
+    "location": {
+      "address": "Marienthaler Straße 149",
+      "plz": "20535",
+      "district": "Hamm",
+      "lat": 53.56433,
+      "lng": 10.05694
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "hamza-kebab",
+    "name": "Hamza Kebab",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.557389,
+      "lng": 9.989098
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "harput-grill-doener",
+    "name": "Harput Grill & Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.55376,
+      "lng": 10.065319
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "hatay-grill-imbiss",
+    "name": "Hatay Grill Imbiss",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.465352,
+      "lng": 9.96219
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "havin-grill",
+    "name": "Havin Grill",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.552225,
+      "lng": 10.00615
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "hazar-grill-hamburg",
+    "name": "Hazar Grill Hamburg",
+    "status": "untested",
+    "location": {
+      "address": "Carl-Petersen-Straße 74",
+      "plz": "20535",
+      "district": "Hamm",
+      "lat": 53.557897,
+      "lng": 10.046477
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "hbb-store-schnell-imbiss",
+    "name": "HBB Store Schnell-Imbiss",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.553713,
+      "lng": 10.024416
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "hbb-bistro-ohlsdorf",
+    "name": "HBB-Bistro Ohlsdorf",
+    "status": "untested",
+    "location": {
+      "address": "Fuhlsbüttler Straße 761",
+      "plz": "22337",
+      "district": "Ohlsdorf",
+      "lat": 53.62099,
+      "lng": 10.03223
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "heidberg-doener",
+    "name": "Heidberg Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.674703,
+      "lng": 10.026886
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "heisse-ecke",
+    "name": "Heisse Ecke",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.607932,
+      "lng": 10.116991
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "holsten-doener",
+    "name": "Holsten Döner",
+    "status": "untested",
+    "location": {
+      "address": "Holstenplatz 20",
+      "plz": "22765",
+      "district": "Altona-Altstadt",
+      "lat": 53.561664,
+      "lng": 9.948627
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "hummels-doener",
+    "name": "Hummels Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.641382,
+      "lng": 10.037302
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "idol-doener-pizzeria-hamburg",
+    "name": "Idol Döner Pizzeria Hamburg",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.569396,
+      "lng": 10.055213
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "insel-doener",
+    "name": "Insel Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.533369,
+      "lng": 9.877918
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "k-r-grillhouse",
+    "name": "K&R Grillhouse",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.559139,
+      "lng": 9.887463
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "kalkan-doener-kebap",
+    "name": "Kalkan Döner Kebap",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.576142,
+      "lng": 9.94964
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "kardelen-restaurant",
+    "name": "Kardelen Restaurant",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.550863,
+      "lng": 9.98238
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "kaya-doener",
+    "name": "Kaya Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.440011,
+      "lng": 9.989092
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "kaya-salat-feinkost",
+    "name": "Kaya Salat & Feinkost",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.648741,
+      "lng": 10.012925
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "kaya-salat-feinkost-bramfeld",
+    "name": "Kaya Salat&Feinkost | Bramfeld",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.612227,
+      "lng": 10.078418
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "kaya-salate-feinkost",
+    "name": "Kaya Salate & Feinkost",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.622402,
+      "lng": 9.952512
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "kebab-bey",
+    "name": "Kebab Bey",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.584502,
+      "lng": 9.981814
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "kebab-dream",
+    "name": "Kebab Dream",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.604935,
+      "lng": 10.155119
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "kebab-house-kurtulan",
+    "name": "Kebab House KURTULAN",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.564394,
+      "lng": 9.926557
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "kebab-kitchen",
+    "name": "kebab kitchen",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.60186,
+      "lng": 10.041249
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "kebab-zone",
+    "name": "Kebab Zone",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.576376,
+      "lng": 10.058247
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "kebaba-dein-doenermann",
+    "name": "Kebaba Dein Dönermann",
+    "status": "untested",
+    "location": {
+      "address": "Susannenstraße 10",
+      "plz": "20357",
+      "district": "Sternschanze",
+      "lat": 53.562105,
+      "lng": 9.963157
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "kebap-lounge",
+    "name": "KeBaP Lounge",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.593148,
+      "lng": 9.943727
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "kebap-lounge-winterhude",
+    "name": "Kebap Lounge Winterhude",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.595037,
+      "lng": 9.999481
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "kebap-salonu",
+    "name": "Kebap Salonu",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.552746,
+      "lng": 10.010863
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "kebo-doener",
+    "name": "Kebo Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.579235,
+      "lng": 10.041648
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "kiez-doener",
+    "name": "Kiez Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.549833,
+      "lng": 9.958224
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "king-doener",
+    "name": "King Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.564095,
+      "lng": 10.036561
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "king-s-doener",
+    "name": "King's Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.608461,
+      "lng": 9.90282
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "koenig-doener",
+    "name": "König Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.655585,
+      "lng": 10.093186
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "koez-ach-der-deniz-hamburg",
+    "name": "Köz Ach Der Deniz Hamburg",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.474908,
+      "lng": 9.875714
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "koez-adana",
+    "name": "Köz Adana",
+    "status": "untested",
+    "location": {
+      "address": "Wandsbeker Marktstraße 9",
+      "plz": "22041",
+      "district": "Wandsbek",
+      "lat": 53.570975,
+      "lng": 10.061461
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "koez-adana-farmsen",
+    "name": "Köz Adana Farmsen",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.60642,
+      "lng": 10.1189
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "koez-bingoel-restaurant",
+    "name": "Köz Bingöl Restaurant",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.678242,
+      "lng": 10.000422
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "koez-grill-house",
+    "name": "KÖZ GRİLL HOUSE",
+    "status": "untested",
+    "location": {
+      "address": "Cuxhavener Straße 142",
+      "plz": "21149",
+      "district": "Hausbruch",
+      "lat": 53.472244,
+      "lng": 9.889265
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "koez-gueven-restaurant",
+    "name": "Köz Güven Restaurant",
+    "status": "untested",
+    "location": {
+      "address": "Vogelhüttendeich 50",
+      "plz": "21107",
+      "district": "Wilhelmsburg",
+      "lat": 53.51759,
+      "lng": 9.9865
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "koez-istanbul",
+    "name": "Köz Istanbul",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.552991,
+      "lng": 10.010497
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "koez-kapadokya-restaurant-hamburg",
+    "name": "KÖZ KAPADOKYA RESTAURANT Hamburg",
+    "status": "untested",
+    "location": {
+      "address": "Veringstraße 126",
+      "plz": "21107",
+      "district": "Wilhelmsburg",
+      "lat": 53.506555,
+      "lng": 9.986373
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "koez-lezzet-urfam",
+    "name": "Köz Lezzet Urfam",
+    "status": "untested",
+    "location": {
+      "address": "Vogelhüttendeich 46",
+      "plz": "21107",
+      "district": "Wilhelmsburg",
+      "lat": 53.517777,
+      "lng": 9.985831
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "koez-ocakbasi-mmye",
+    "name": "Köz Ocakbasi",
+    "status": "untested",
+    "location": {
+      "address": "Steindamm 5",
+      "plz": "20099",
+      "district": "Sankt Georg",
+      "lat": 53.552796,
+      "lng": 10.010975
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "koez-ocakbasi-2amt",
+    "name": "Köz Ocakbasi",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.461256,
+      "lng": 9.978368
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "koez-sultan-kebap-doener",
+    "name": "Köz Sultan Kebap Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.552026,
+      "lng": 9.940488
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "koez-urfa",
+    "name": "Köz Urfa",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.552591,
+      "lng": 9.936314
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "koez-antep",
+    "name": "Köz-Antep",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.552164,
+      "lng": 9.964059
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "kumpir-doener",
+    "name": "Kumpir & Döner",
+    "status": "untested",
+    "location": {
+      "address": "Wandsbeker Marktstraße 164",
+      "plz": "22041",
+      "district": "Wandsbek",
+      "lat": 53.573864,
+      "lng": 10.071814
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "la-delizia-restaurant",
+    "name": "La Delizia Restaurant",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.582237,
+      "lng": 9.972012
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "la-fe-langenhorner-feinkost",
+    "name": "LA FE Langenhorner Feinkost",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.649751,
+      "lng": 10.013377
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "lades-holzkohlegrill-restaurant-hamburg",
+    "name": "Lades Holzkohlegrill Restaurant Hamburg",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.554646,
+      "lng": 10.015315
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "langenfelde-grill-doener-pizza-burger",
+    "name": "Langenfelde Grill Döner Pizza Burger",
+    "status": "untested",
+    "location": {
+      "address": "Försterweg 14",
+      "plz": "22525",
+      "district": "Stellingen",
+      "lat": 53.579983,
+      "lng": 9.931551
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "larisa-bauchstation-restaurant",
+    "name": "Larisa-bauchstation Restaurant",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.533179,
+      "lng": 9.878158
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "leckerbissen",
+    "name": "Leckerbissen",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.5959,
+      "lng": 9.913242
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "lezzet",
+    "name": "Lezzet",
+    "status": "untested",
+    "location": {
+      "address": "Fuhlsbüttler Straße 173",
+      "plz": "22307",
+      "district": "Barmbek-Nord",
+      "lat": 53.594261,
+      "lng": 10.043846
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "limon",
+    "name": "LIMON",
+    "status": "untested",
+    "location": {
+      "address": "Mühlenkamp 18",
+      "plz": "22303",
+      "district": "Winterhude",
+      "lat": 53.581068,
+      "lng": 10.012399
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "loqum",
+    "name": "Loqum",
+    "status": "untested",
+    "location": {
+      "address": "Kleiner Schäferkamp 36",
+      "plz": "20357",
+      "district": "Eimsbüttel",
+      "lat": 53.566526,
+      "lng": 9.967538
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "malik-pizza-up7q",
+    "name": "Malik Pizza",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.572155,
+      "lng": 9.949997
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "malik-pizza-i4z7",
+    "name": "Malik Pizza",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.611059,
+      "lng": 10.058363
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "mama-kumpir",
+    "name": "Mama Kumpir",
+    "status": "untested",
+    "location": {
+      "address": "Langenfelder Damm 90",
+      "plz": "22525",
+      "district": "Stellingen",
+      "lat": 53.58297,
+      "lng": 9.93499
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "mangal-keyf",
+    "name": "Mangal Keyf",
+    "status": "untested",
+    "location": {
+      "address": "Wandsbeker Marktstraße 21",
+      "plz": "22041",
+      "district": "Wandsbek",
+      "lat": 53.57103,
+      "lng": 10.06221
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "manzara",
+    "name": "Manzara",
+    "status": "untested",
+    "location": {
+      "address": "Bramfelder Chaussee 230",
+      "plz": "22177",
+      "district": "Bramfeld",
+      "lat": 53.61223,
+      "lng": 10.07676
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "mardin-doener-q0yb",
+    "name": "Mardin Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.548369,
+      "lng": 9.988832
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "mardin-doener-x79l",
+    "name": "Mardin Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.549725,
+      "lng": 9.960675
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "max-doener",
+    "name": "Max Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.550097,
+      "lng": 9.936091
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "med-kebap",
+    "name": "Med Kebap",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.489651,
+      "lng": 10.20874
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "mega-doener",
+    "name": "Mega Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.650182,
+      "lng": 10.162759
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "mein-doener",
+    "name": "Mein Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.632942,
+      "lng": 10.055143
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "mina-imbiss-s-bahnhof-wilhelmsburg",
+    "name": "Mina Imbiss (S-Bahnhof Wilhelmsburg)",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.497851,
+      "lng": 10.006685
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "mina-restaurant-luna-center",
+    "name": "Mina Restaurant (Luna Center)",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.498087,
+      "lng": 10.008076
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "mis-doener-pizzeria",
+    "name": "Mis Döner & Pizzeria",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.551558,
+      "lng": 10.094844
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "mis-kebap",
+    "name": "Mis Kebap",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.508831,
+      "lng": 10.186123
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "mis-tantuni-doener",
+    "name": "Mis Tantuni & Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.455515,
+      "lng": 9.986854
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "miss-doener",
+    "name": "Miss Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.556772,
+      "lng": 10.010634
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "miss-kumpir",
+    "name": "Miss Kumpir",
+    "status": "untested",
+    "location": {
+      "address": "Langenhorner Markt 18",
+      "plz": "22415",
+      "district": "Langenhorn",
+      "lat": 53.650023,
+      "lng": 10.012406
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "miss-urfa-kebap-house",
+    "name": "Miss Urfa Kebap House",
+    "status": "untested",
+    "location": {
+      "address": "Kirchdorfer Damm 3",
+      "plz": "21109",
+      "district": "Wilhelmsburg",
+      "lat": 53.48496,
+      "lng": 10.01918
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "mr-kebab",
+    "name": "Mr. Kebab",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.556559,
+      "lng": 9.962655
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "musti-doener",
+    "name": "Musti Döner",
+    "status": "untested",
+    "location": {
+      "address": "Luruper Hauptstraße 139",
+      "plz": "22547",
+      "district": "Lurup",
+      "lat": 53.5913,
+      "lng": 9.8726
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "my-kebap-s-fbss",
+    "name": "My Kebap's",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.581562,
+      "lng": 10.013108
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "my-kebap-s-lrum",
+    "name": "My Kebap‘s",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.59301,
+      "lng": 9.988694
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "my-kebap-s-zwc2",
+    "name": "My Kebap´s",
+    "status": "untested",
+    "location": {
+      "address": "Hoheluftchaussee 30",
+      "plz": "20253",
+      "district": "Hoheluft-Ost",
+      "lat": 53.580085,
+      "lng": 9.974578
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "mykoez",
+    "name": "myKöz",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.536421,
+      "lng": 10.034316
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "nasip-grill",
+    "name": "Nasip Grill",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.554872,
+      "lng": 9.928427
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "nefis-doener",
+    "name": "Nefis Döner",
+    "status": "untested",
+    "location": {
+      "address": "Bramfelder Chaussee 323",
+      "plz": "22177",
+      "district": "Bramfeld",
+      "lat": 53.618689,
+      "lng": 10.07956
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "neugrabener-grillhouse",
+    "name": "Neugrabener Grillhouse",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.46991,
+      "lng": 9.853932
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "n-ne-meat-hamburg",
+    "name": "Nøne Meat Hamburg",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.581625,
+      "lng": 9.971994
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "ocakbasi-27-imbiss",
+    "name": "Ocakbasi 27 Imbiss",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.538229,
+      "lng": 10.123409
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "okay-grill",
+    "name": "Okay Grill",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.577589,
+      "lng": 9.942056
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "onkel-doener",
+    "name": "Onkel Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.646994,
+      "lng": 9.909155
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "osdorfer-pizza-grillhaus",
+    "name": "osdorfer pizza grillhaus",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.588245,
+      "lng": 9.849132
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "oez-harput-grill-haus",
+    "name": "ÖZ Harput Grill Haus",
+    "status": "untested",
+    "location": {
+      "address": "Finkenwerder Norderdeich 94",
+      "plz": "21129",
+      "district": "Finkenwerder",
+      "lat": 53.533328,
+      "lng": 9.87675
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "oez-urfa",
+    "name": "ÖZ URFA",
+    "status": "untested",
+    "location": {
+      "address": "Cuxhavener Straße 342",
+      "plz": "21149",
+      "district": "Neugraben-Fischbek",
+      "lat": 53.472872,
+      "lng": 9.853278
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "oez-urfa-kebap-haus",
+    "name": "Öz Urfa Kebap Haus",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.554821,
+      "lng": 10.014354
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "oezlem-koefte-hamburg",
+    "name": "Özlem Köfte Hamburg",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.455265,
+      "lng": 9.987063
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "pamukkale-grill-backshop",
+    "name": "Pamukkale Grill & Backshop",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.489975,
+      "lng": 10.206372
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "pamukkale-grill-restaurant",
+    "name": "Pamukkale Grill & Restaurant",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.490034,
+      "lng": 10.208781
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "pamukkale-koez-schanze",
+    "name": "Pamukkale Köz Schanze",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.562753,
+      "lng": 9.964602
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "pauli-doener",
+    "name": "Pauli Döner",
+    "status": "untested",
+    "location": {
+      "address": "Wohlwillstraße 54",
+      "plz": "20359",
+      "district": "Sankt Pauli",
+      "lat": 53.55599,
+      "lng": 9.962556
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "pause-eminoenue",
+    "name": "Pause Eminönü",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.51727,
+      "lng": 9.987292
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "peacetanbul",
+    "name": "Peacetanbul",
+    "status": "untested",
+    "location": {
+      "address": "Jarrestraße 20",
+      "plz": "22303",
+      "district": "Winterhude",
+      "lat": 53.583209,
+      "lng": 10.020997
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "perle-doener",
+    "name": "Perle Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.552099,
+      "lng": 9.999843
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "premium-bistro",
+    "name": "Premium Bistro",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.641312,
+      "lng": 9.949516
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "reeperbahn-5-20359-hamburg",
+    "name": "Reeperbahn 5, 20359 Hamburg",
+    "status": "untested",
+    "location": {
+      "address": "Reeperbahn 5",
+      "plz": "20359",
+      "district": "Sankt Pauli",
+      "lat": 53.550358,
+      "lng": 9.967372
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "reeperbahn-doener",
+    "name": "Reeperbahn Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.549514,
+      "lng": 9.959444
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "restaurant-baris",
+    "name": "Restaurant Baris",
+    "status": "untested",
+    "location": {
+      "address": "Lerchenfeld 48",
+      "plz": "22081",
+      "district": "Uhlenhorst",
+      "lat": 53.57,
+      "lng": 10.028
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "restaurant-meram",
+    "name": "Restaurant Meram",
+    "status": "untested",
+    "location": {
+      "address": "Billstedter Hauptstraße 47",
+      "plz": "22111",
+      "district": "Billstedt",
+      "lat": 53.54023,
+      "lng": 10.101807
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "restaurant-reina",
+    "name": "Restaurant Reina",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.649752,
+      "lng": 10.013884
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "rissener-doener-pavillon",
+    "name": "Rissener Döner Pavillon",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.581701,
+      "lng": 9.754644
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "roedings-doener",
+    "name": "Rödings Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.547891,
+      "lng": 9.987124
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "s-s-grill",
+    "name": "S&S Grill",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.58308,
+      "lng": 9.966499
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "safi-food",
+    "name": "Safi Food",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.570575,
+      "lng": 10.059924
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "sait-grillhaus",
+    "name": "Sait Grillhaus",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.552746,
+      "lng": 10.010863
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "salli-salman",
+    "name": "Salli Salman",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.522783,
+      "lng": 10.014234
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "salli-s",
+    "name": "Salli's",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.553609,
+      "lng": 10.006495
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "salli-s-kebap-grill",
+    "name": "Salli‘s Kebap & Grill",
+    "status": "untested",
+    "location": {
+      "address": "Scheel-Plessen-Straße 19",
+      "plz": "22765",
+      "district": "Altona-Nord",
+      "lat": 53.552524,
+      "lng": 9.934374
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "sallis",
+    "name": "Sallis",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.567836,
+      "lng": 9.969286
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "sallis-doener-grill-baeckerei",
+    "name": "Sallis Döner Grill & Bäckerei",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.552992,
+      "lng": 10.008928
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "salman-imbiss",
+    "name": "Salman Imbiss",
+    "status": "untested",
+    "location": {
+      "address": "Ottenser Hauptstraße 34",
+      "plz": "22765",
+      "district": "Ottensen",
+      "lat": 53.551936,
+      "lng": 9.929526
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "saray-koez",
+    "name": "Saray Köz",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.553759,
+      "lng": 10.013562
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "sato-grill-imbiss",
+    "name": "Sato Grill Imbiss",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.606654,
+      "lng": 10.011909
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "schanzen-doener",
+    "name": "Schanzen Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.563993,
+      "lng": 9.965241
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "schato-doener",
+    "name": "Schato Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.546627,
+      "lng": 10.092854
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "schippels-doener",
+    "name": "Schippels Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.634284,
+      "lng": 9.953497
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "schnelsener-kebap-house",
+    "name": "Schnelsener Kebap House",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.6362,
+      "lng": 9.917201
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "sel-kebap-s",
+    "name": "Sel Kebap's",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.584138,
+      "lng": 9.968661
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "serhat-doener",
+    "name": "SERHAT-Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.552772,
+      "lng": 10.041535
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "sert-grill-imbiss-schnellimbiss",
+    "name": "Sert Grill Imbiss Schnellimbiss",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.5773,
+      "lng": 10.020296
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "shawarma-marina",
+    "name": "Shawarma Marina",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.565718,
+      "lng": 10.037205
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "sis-kebap-hamburg",
+    "name": "Sis Kebap Hamburg",
+    "status": "untested",
+    "location": {
+      "address": "Curslacker Neuer Deich 31",
+      "plz": "21029",
+      "district": "Bergedorf",
+      "lat": 53.481915,
+      "lng": 10.209302
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "soul-kebab",
+    "name": "Soul Kebab",
+    "status": "untested",
+    "location": {
+      "address": "Neuer Kamp 31",
+      "plz": "20359",
+      "district": "Sankt Pauli",
+      "lat": 53.556361,
+      "lng": 9.966176
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "soulkebab-egsm",
+    "name": "Soulkebab",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.587845,
+      "lng": 10.045767
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "soulkebab-0fo3",
+    "name": "SoulKebab",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.599777,
+      "lng": 9.994883
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "soulkebab-eoef",
+    "name": "SoulKEBAB",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.552031,
+      "lng": 10.011102
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "soulkebab-schanze",
+    "name": "Soulkebab Schanze",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.564568,
+      "lng": 9.965335
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "soulkebap-lurup",
+    "name": "Soulkebap Lurup",
+    "status": "untested",
+    "location": {
+      "address": "Luruper Hauptstraße 138",
+      "plz": "22547",
+      "district": "Lurup",
+      "lat": 53.591746,
+      "lng": 9.87283
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "sphinx-doener-landwehr",
+    "name": "Sphinx Döner Landwehr",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.561506,
+      "lng": 10.03737
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "stadtpark-grill-haus",
+    "name": "Stadtpark Grill Haus",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.590486,
+      "lng": 10.015305
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "star-doener-aihz",
+    "name": "Star Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.441051,
+      "lng": 9.959708
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "star-doener-3ou1",
+    "name": "Star Döner",
+    "status": "untested",
+    "location": {
+      "address": "Bahrenfelder Chaussee 53",
+      "plz": "22761",
+      "district": "Bahrenfeld",
+      "lat": 53.565277,
+      "lng": 9.912261
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "stellingen-doener-kebap",
+    "name": "Stellingen Döner Kebap",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.591299,
+      "lng": 9.921186
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "sultan-s",
+    "name": "Sultan's",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.587355,
+      "lng": 10.045955
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "sultan-s-doener-imbiss",
+    "name": "Sultan's Döner-Imbiss",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.564661,
+      "lng": 10.057067
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "sultan-s-kebab",
+    "name": "Sultan's Kebab",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.54613,
+      "lng": 10.024506
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "sultans-kitchen",
+    "name": "Sultans Kitchen",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.601804,
+      "lng": 10.062321
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "sunar-kebap-haus",
+    "name": "Sunar Kebap Haus",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.560063,
+      "lng": 10.107883
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "tadim",
+    "name": "Tadim",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.541728,
+      "lng": 10.098282
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "tarsusi",
+    "name": "Tarsusi",
+    "status": "untested",
+    "location": {
+      "address": "Holzmühlenstraße 100",
+      "plz": "22041",
+      "district": "Wandsbek",
+      "lat": 53.585045,
+      "lng": 10.078152
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "tarsusi-anatolian-street-food",
+    "name": "Tarsusi - anatolian street food",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.555697,
+      "lng": 9.928318
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "tat-koez-grill",
+    "name": "Tat Köz Grill",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.570565,
+      "lng": 10.140729
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "the-best-kumpir",
+    "name": "The Best Kumpir",
+    "status": "untested",
+    "location": {
+      "address": "Hamburger Straße 1",
+      "plz": "22083",
+      "district": "Uhlenhorst",
+      "lat": 53.5707,
+      "lng": 10.027472
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "the-doener",
+    "name": "The Döner",
+    "status": "untested",
+    "location": {
+      "address": "Holzmühlenstraße 27",
+      "plz": "22041",
+      "district": "Wandsbek",
+      "lat": 53.579973,
+      "lng": 10.081779
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "the-salli-s-kiosk-kebab-veggie",
+    "name": "The Salli's Kiosk Kebab & Veggie",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.552835,
+      "lng": 10.003757
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "time-out",
+    "name": "Time Out",
+    "status": "untested",
+    "location": {
+      "address": "Hoheluftchaussee 131",
+      "plz": "20253",
+      "district": "Hoheluft-Ost",
+      "lat": 53.58378,
+      "lng": 9.96942
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "timeout-istanbul-streetfood",
+    "name": "TimeOut - Istanbul Streetfood",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.57897,
+      "lng": 9.97556
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "tonndorf-grill-doener-imbiss",
+    "name": "TONNDORF GRILL DÖNER IMBISS",
+    "status": "untested",
+    "location": {
+      "address": "Ahrensburger Straße 105",
+      "plz": "22045",
+      "district": "Tonndorf",
+      "lat": 53.580078,
+      "lng": 10.103909
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "toros-tantuni",
+    "name": "Toros TANTUNI",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.555014,
+      "lng": 9.928429
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "tosun",
+    "name": "Tosun",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.55241,
+      "lng": 9.933389
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "tuana-doener-und-mehr",
+    "name": "Tuana Döner und mehr",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.567693,
+      "lng": 9.987724
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "tunnel-doener",
+    "name": "Tunnel Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.551598,
+      "lng": 10.006264
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "tunnel-doener-in-der-hauptbahnhofs-halle",
+    "name": "Tunnel Döner in der Hauptbahnhofs Halle",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.553809,
+      "lng": 10.008307
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "uni-doener",
+    "name": "UNI DÖNER",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.567199,
+      "lng": 9.981268
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "uni-grillhouse",
+    "name": "Uni-Grillhouse",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.460102,
+      "lng": 9.975369
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "urfa-tadi",
+    "name": "URFA TADI",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.552657,
+      "lng": 9.93017
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "urfalim-doener",
+    "name": "Urfalim Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.503173,
+      "lng": 10.205833
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "urfam-restaurant",
+    "name": "Urfam Restaurant",
+    "status": "untested",
+    "location": {
+      "address": "Wandsbeker Marktstraße 21",
+      "plz": "22041",
+      "district": "Wandsbek",
+      "lat": 53.57103,
+      "lng": 10.06221
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "villa-ramiz",
+    "name": "Villa Ramiz",
+    "status": "untested",
+    "location": {
+      "address": "Kieler Straße 567",
+      "plz": "22525",
+      "district": "Stellingen",
+      "lat": 53.599481,
+      "lng": 9.916828
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "volkan-s-grillhaus-horn",
+    "name": "Volkan's Grillhaus Horn",
+    "status": "untested",
+    "location": {
+      "address": "Rennbahnstraße 38",
+      "plz": "22111",
+      "district": "Horn",
+      "lat": 53.553899,
+      "lng": 10.085171
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "ware-imbiss",
+    "name": "WaRé Imbiss",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.54046,
+      "lng": 10.042118
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "wenden-kebab",
+    "name": "Wenden Kebab",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.549902,
+      "lng": 10.035691
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "west-grill-doener",
+    "name": "West Grill - Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.493904,
+      "lng": 10.17912
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "yaprak-doener",
+    "name": "Yaprak Döner",
+    "status": "untested",
+    "location": {
+      "address": null,
+      "plz": null,
+      "district": null,
+      "lat": 53.543063,
+      "lng": 10.096012
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "zaza-king-doener-und-pizzeria",
+    "name": "ZAZA KING Döner und Pizzeria",
+    "status": "untested",
+    "location": {
+      "address": "Moorstraße 2",
+      "plz": "21073",
+      "district": "Harburg",
+      "lat": 53.457045,
+      "lng": 9.985955
+    },
+    "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  }
+]

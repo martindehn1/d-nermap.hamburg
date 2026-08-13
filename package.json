@@ -1,0 +1,10 @@
+{
+  "name": "doenermap-hamburg",
+  "private": true,
+  "description": "Dönermap Hamburg — Website und gemeinsame Datenbasis für die App",
+  "type": "module",
+  "scripts": {
+    "build:data": "node scripts/build-data.mjs",
+    "check": "node --check assets/js/doenermap-data.js && node --check assets/js/doenermap.js"
+  }
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "abstand_m": 0,
+    "a": "Brothers Kebap Haus",
+    "b": "West Grill - Döner",
+    "ids": [
+      "brothers-kebap-haus",
+      "west-grill-doener"
+    ]
+  },
+  {
+    "abstand_m": 0,
+    "a": "Döner Kurve",
+    "b": "Stellingen Döner Kebap",
+    "ids": [
+      "doener-kurve",
+      "stellingen-doener-kebap"
+    ]
+  },
+  {
+    "abstand_m": 0,
+    "a": "Kebap Salonu",
+    "b": "Sait Grillhaus",
+    "ids": [
+      "kebap-salonu",
+      "sait-grillhaus"
+    ]
+  },
+  {
+    "abstand_m": 0,
+    "a": "Mangal Keyf",
+    "b": "Urfam Restaurant",
+    "ids": [
+      "mangal-keyf",
+      "urfam-restaurant"
+    ]
+  },
+  {
+    "abstand_m": 8,
+    "a": "Döner & Getränkewelt",
+    "b": "Döner Company",
+    "ids": [
+      "doener-getraenkewelt",
+      "doener-company"
+    ]
+  },
+  {
+    "abstand_m": 9,
+    "a": "Kebap Salonu",
+    "b": "Köz Ocakbasi",
+    "ids": [
+      "kebap-salonu",
+      "koez-ocakbasi-mmye"
+    ]
+  },
+  {
+    "abstand_m": 9,
+    "a": "Köz Ocakbasi",
+    "b": "Sait Grillhaus",
+    "ids": [
+      "koez-ocakbasi-mmye",
+      "sait-grillhaus"
+    ]
+  },
+  {
+    "abstand_m": 10,
+    "a": "City Döner",
+    "b": "Pamukkale Grill & Restaurant",
+    "ids": [
+      "city-doener",
+      "pamukkale-grill-restaurant"
+    ]
+  },
+  {
+    "abstand_m": 16,
+    "a": "Nasip Grill",
+    "b": "Toros TANTUNI",
+    "ids": [
+      "nasip-grill",
+      "toros-tantuni"
+    ]
+  },
+  {
+    "abstand_m": 17,
+    "a": "Ates Grill Haus Döner & mehr...",
+    "b": "Bereket Döner",
+    "ids": [
+      "ates-grill-haus-doener-mehr",
+      "bereket-doener-pw1m"
+    ]
+  }
+]
