@@ -193,6 +193,20 @@ const DOENER_SHOPS = [
     googleCount: null,
     note: "Schmeckt allgemein gut — und vor allem einer der wenigen Läden, die ihre Preise kaum erhöht haben, als überall sonst teurer wurde. Davor ziehe ich meinen Hut. Im Vergleich zu früher hat der Döner allerdings nachgelassen, es ist weniger drin — das spiegelt wohl die Einsparungen wider. Insgesamt aber ganz lecker.",
     videoUrl: "https://www.tiktok.com/@martin.dehn/video/7330361120550669601"
+  },
+  {
+    name: "Wunder Döner",
+    district: "Harburg",
+    address: "Schloßmühlendamm 1",
+    plz: "21073",
+    lat: 53.460722, lng: 9.981776,
+    verdict: "bad",
+    verdictLabel: "Nicht empfohlen",
+    martinRating: 5.0,
+    googleRating: null,
+    googleCount: null,
+    note: "Personal war unfreundlich, die Soßen schmecken zu dünn — insgesamt nicht mein Geschmack. Positiv: das Dreiecksbrot, das finde ich hier am besten.",
+    videoUrl: null
   }
 ];
 
@@ -357,7 +371,6 @@ const UNTESTED_SHOPS = [
   { name: "Köz Ocakbasi", lat: 53.461256, lng: 9.978368 },
   { name: "Döner Treff Harburg", lat: 53.460418, lng: 9.978446, plz: "21073", district: "Harburg", address: "Am Centrumshaus 5" },
   { name: "Bereket Grill", lat: 53.461003, lng: 9.979276, plz: "21073", district: "Harburg", address: "Harburger Ring 28" },
-  { name: "Wunder Döner", lat: 53.460722, lng: 9.981776 },
   { name: "Dubara Harburg", lat: 53.46104, lng: 9.983094 },
   { name: "Döner Royal", lat: 53.459584, lng: 9.982041 },
   { name: "Delikato Döner", lat: 53.457514, lng: 9.985198 },
