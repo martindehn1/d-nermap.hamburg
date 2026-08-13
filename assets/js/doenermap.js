@@ -179,6 +179,20 @@ const DOENER_SHOPS = [
     googleCount: null,
     note: "Für den Touri-Hotspot Nummer 1 in Hamburg überraschend gut, auch wenn es kein \"richtiger\" Döner ist — zu viel gepimpt. Brot ist brutal lecker, die Idee dahinter gut, Qualität stimmt, nur die Zusammenstellung ist nicht jedermanns Geschmack. Für den Preis bekommt man aber zu wenig. Beim Bezahlen hakte es: Personal kommunizierte nicht richtig mit der Bar wegen Kartenzahlung, 20 Minuten umsonst angestanden — wirkte insgesamt etwas gestresst.",
     videoUrl: "https://www.instagram.com/reels/DSXqJukjeP5/"
+  },
+  {
+    name: "Döner Queen",
+    district: "Harburg",
+    address: "Harburger Ring 24",
+    plz: "21073",
+    lat: 53.460933, lng: 9.979808,
+    verdict: "good",
+    verdictLabel: "Top-Empfehlung",
+    martinRating: 8.5,
+    googleRating: null,
+    googleCount: null,
+    note: "Schmeckt allgemein gut — und vor allem einer der wenigen Läden, die ihre Preise kaum erhöht haben, als überall sonst teurer wurde. Davor ziehe ich meinen Hut. Im Vergleich zu früher hat der Döner allerdings nachgelassen, es ist weniger drin — das spiegelt wohl die Einsparungen wider. Insgesamt aber ganz lecker.",
+    videoUrl: "https://www.tiktok.com/@martin.dehn/video/7330361120550669601"
   }
 ];
 
@@ -343,7 +357,6 @@ const UNTESTED_SHOPS = [
   { name: "Köz Ocakbasi", lat: 53.461256, lng: 9.978368 },
   { name: "Döner Treff Harburg", lat: 53.460418, lng: 9.978446, plz: "21073", district: "Harburg", address: "Am Centrumshaus 5" },
   { name: "Bereket Grill", lat: 53.461003, lng: 9.979276, plz: "21073", district: "Harburg", address: "Harburger Ring 28" },
-  { name: "Döner Queen Kalender", lat: 53.460933, lng: 9.979808, plz: "21073", district: "Harburg", address: "Harburger Ring 24" },
   { name: "Wunder Döner", lat: 53.460722, lng: 9.981776 },
   { name: "Dubara Harburg", lat: 53.46104, lng: 9.983094 },
   { name: "Döner Royal", lat: 53.459584, lng: 9.982041 },
