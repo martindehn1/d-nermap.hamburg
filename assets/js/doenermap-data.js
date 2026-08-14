@@ -29,7 +29,7 @@ const DOENER_SHOPS = [
     "lng": 9.996323,
     "verdict": "good",
     "verdictLabel": "Top-Empfehlung",
-    "martinRating": 8.7,
+    "martinRating": 8.8,
     "googleRating": null,
     "googleCount": null,
     "note": "Für den Touri-Hotspot Nummer 1 in Hamburg überraschend gut, auch wenn es kein \"richtiger\" Döner ist — zu viel gepimpt. Brot ist brutal lecker, die Idee dahinter gut, Qualität stimmt, nur die Zusammenstellung ist nicht jedermanns Geschmack. Für den Preis bekommt man aber zu wenig. Beim Bezahlen hakte es: Personal kommunizierte nicht richtig mit der Bar wegen Kartenzahlung, 20 Minuten umsonst angestanden — wirkte insgesamt etwas gestresst.",
