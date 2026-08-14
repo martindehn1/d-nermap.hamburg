@@ -66,7 +66,9 @@ Bewertung nie beeinflussen, und Nutzernoten fließen nie in Martins Note ein.
     "videoUrl": "https://www.tiktok.com/@martin.dehn/video/..."
   },
   "communityRating": null,
-  "tags": [], "price": null, "openingHours": null,
+  "tags": [],
+  "price": null,                  // siehe "Preise" unten — nie eine nackte Zahl
+  "openingHours": null,
   "contact": { "phone": null, "website": null },
   "promotion": null
 }
@@ -75,6 +77,29 @@ Bewertung nie beeinflussen, und Nutzernoten fließen nie in Martins Note ein.
 3. `npm run build:data` ausführen — erzeugt die Datei, die die Website lädt.
 
 `verdictLabel` wird aus `verdict` abgeleitet und **nicht** gespeichert.
+
+### Preise
+
+Dönerpreise steigen schnell — eine nackte Zahl wird irgendwann zur
+Falschaussage. Deshalb nie ohne Beobachtungsdatum eintragen:
+
+```jsonc
+"price": {
+  "doener": 7.50,
+  "currency": "EUR",
+  "observedAt": "2026-08-13",   // Pflicht
+  "observedBy": "martin"        // martin | community
+}
+```
+
+Das macht aus der Angabe eine dauerhaft wahre Aussage ("das hat er an dem
+Tag gekostet") statt einer verfallenden ("das kostet er"). Richtwert für
+die spätere Anzeige: unter 6 Monaten normal zeigen, darüber mit sichtbarem
+Datum abschwächen, ab ca. 18 Monaten lieber gar nicht mehr anzeigen. In
+ein "günstigster Döner"-Ranking dürfen nur frische Preise einfließen.
+
+Keine Preise von Lieferplattformen übernehmen — die schlagen 13–30 %
+Plattformgebühr auf den Ladenpreis auf, das wäre systematisch falsch.
 
 ### Verdict-Stufen
 
