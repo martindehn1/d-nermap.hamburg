@@ -21,7 +21,7 @@ const DOENER_SHOPS = [
   },
   {
     "id": "honest-kebab",
-    "name": "Änderhorn Kebab",
+    "name": "Honest Kebab",
     "district": "Altstadt",
     "address": "Ballindamm 40 (Europapassage)",
     "plz": "20095",
