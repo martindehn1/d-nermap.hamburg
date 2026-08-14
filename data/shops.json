@@ -38,7 +38,7 @@
   },
   {
     "id": "honest-kebab",
-    "name": "Honest Kebab",
+    "name": "Änderhorn Kebab",
     "status": "tested",
     "location": {
       "address": "Ballindamm 40 (Europapassage)",
@@ -48,7 +48,7 @@
       "lng": 9.996323
     },
     "rating": {
-      "score": 8.2,
+      "score": 8.7,
       "verdict": "good",
       "testedBy": "martin",
       "testedAt": "2026-08-09",
