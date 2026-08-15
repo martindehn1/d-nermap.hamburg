@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Die JSON-API ist für die App, nicht für die Suche — spart Crawl-Budget.
+Disallow: /api/
+
+Sitemap: https://xn--dnermap-90a.hamburg/sitemap.xml

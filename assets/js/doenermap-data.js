@@ -1,6 +1,6 @@
 // GENERIERT — nicht von Hand bearbeiten.
 // Quelle: data/shops.json  ·  Neu erzeugen: npm run build:data
-// Stand: 15 bewertet, 303 recherchiert
+// Stand: 7 bewertet, 303 recherchiert
 
 const DOENER_SHOPS = [
   {
@@ -113,126 +113,6 @@ const DOENER_SHOPS = [
     "googleRating": null,
     "googleCount": null,
     "note": "Personal war unfreundlich, die Soßen schmecken zu dünn — insgesamt nicht mein Geschmack. Positiv: das Dreiecksbrot, das finde ich hier am besten.",
-    "videoUrl": null
-  },
-  {
-    "id": "ali-baba-kebap",
-    "name": "Ali Baba Kebap",
-    "district": "HafenCity",
-    "plz": "20457",
-    "lat": 53.5423,
-    "lng": 9.9993,
-    "verdict": "good",
-    "verdictLabel": "Top-Empfehlung",
-    "martinRating": 8.5,
-    "googleRating": 4.5,
-    "googleCount": 389,
-    "note": "Überraschend gut für die Touri-Lage. Lammfleisch ist die Wahl hier.",
-    "videoUrl": null
-  },
-  {
-    "id": "anatolia-grill",
-    "name": "Anatolia Grill",
-    "district": "St. Pauli",
-    "plz": "20359",
-    "lat": 53.5578,
-    "lng": 9.9673,
-    "verdict": "good",
-    "verdictLabel": "Top-Empfehlung",
-    "martinRating": 9.2,
-    "googleRating": 4.6,
-    "googleCount": 812,
-    "note": "Fleisch top gewürzt, Brot frisch aus dem Ofen. Eine der besten Soßen der Stadt.",
-    "videoUrl": null
-  },
-  {
-    "id": "berlin-doener-wandsbek",
-    "name": "Berlin Döner Wandsbek",
-    "district": "Wandsbek",
-    "plz": "22041",
-    "lat": 53.5773,
-    "lng": 10.0821,
-    "verdict": "mid",
-    "verdictLabel": "Solide",
-    "martinRating": 6.5,
-    "googleRating": 3.9,
-    "googleCount": 210,
-    "note": "Ok für zwischendurch, Soße geht besser.",
-    "videoUrl": null
-  },
-  {
-    "id": "bosphorus-kebap",
-    "name": "Bosphorus Kebap",
-    "district": "Altona",
-    "plz": "22767",
-    "lat": 53.5511,
-    "lng": 9.9349,
-    "verdict": "good",
-    "verdictLabel": "Top-Empfehlung",
-    "martinRating": 8.8,
-    "googleRating": 4.4,
-    "googleCount": 501,
-    "note": "Sehr großzügig belegt, faires Preis-Leistungs-Verhältnis.",
-    "videoUrl": null
-  },
-  {
-    "id": "efes-grillhaus",
-    "name": "Efes Grillhaus",
-    "district": "Winterhude",
-    "plz": "22303",
-    "lat": 53.5934,
-    "lng": 10.0057,
-    "verdict": "bad",
-    "verdictLabel": "Nicht empfohlen",
-    "martinRating": 4.1,
-    "googleRating": 3.4,
-    "googleCount": 98,
-    "note": "Zu viel Soße, zu wenig Fleisch. Für den Preis nicht gerechtfertigt.",
-    "videoUrl": null
-  },
-  {
-    "id": "kebap-king-barmbek",
-    "name": "Kebap King Barmbek",
-    "district": "Barmbek",
-    "plz": "22081",
-    "lat": 53.5897,
-    "lng": 10.0362,
-    "verdict": "bad",
-    "verdictLabel": "Nicht empfohlen",
-    "martinRating": 3.4,
-    "googleRating": 3.2,
-    "googleCount": 156,
-    "note": "Fleisch trocken, lange Wartezeit trotz wenig los. Da geht mehr in Hamburg.",
-    "videoUrl": null
-  },
-  {
-    "id": "marmaris-doener",
-    "name": "Marmaris Döner",
-    "district": "Ottensen",
-    "plz": "22765",
-    "lat": 53.5502,
-    "lng": 9.9159,
-    "verdict": "good",
-    "verdictLabel": "Top-Empfehlung",
-    "martinRating": 9,
-    "googleRating": 4.7,
-    "googleCount": 623,
-    "note": "Hausgemachtes Brot, perfekt gewürztes Fleisch. Klarer Geheimtipp.",
-    "videoUrl": null
-  },
-  {
-    "id": "sultan-s-kebap-haus",
-    "name": "Sultan's Kebap Haus",
-    "district": "Eimsbüttel",
-    "plz": "20255",
-    "lat": 53.5738,
-    "lng": 9.9599,
-    "verdict": "mid",
-    "verdictLabel": "Solide",
-    "martinRating": 6.9,
-    "googleRating": 4.1,
-    "googleCount": 344,
-    "note": "In Ordnung, aber nichts Besonderes. Brot könnte frischer sein.",
     "videoUrl": null
   }
 ];

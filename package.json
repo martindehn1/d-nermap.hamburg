@@ -6,7 +6,8 @@
   "scripts": {
     "build:data": "node scripts/build-data.mjs",
     "build:api": "node scripts/build-api.mjs",
-    "build": "npm run build:data && npm run build:api",
+    "build:seo": "node scripts/build-seo.mjs",
+    "build": "npm run build:data && npm run build:api && npm run build:seo",
     "check": "node --check assets/js/doenermap-data.js && node --check assets/js/doenermap.js"
   }
 }

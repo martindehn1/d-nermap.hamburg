@@ -20,9 +20,11 @@ const VERDICT_LABEL = {
 };
 
 // Demo-Einträge aus der Anfangszeit haben erfundene Noten und erfundene
-// Google-Zahlen. Auf der Website laufen sie unter dem Beispieldaten-Hinweis
-// weiter; in die App gehören sie nicht.
-const INCLUDE_DEMO_ON_WEBSITE = true;
+// Google-Zahlen. Sie sind nirgends mehr sichtbar: erfundene Bewertungen
+// verstoßen gegen Googles Spam-Richtlinien und haben die Startseite zu einem
+// "alles nur Demo"-Hinweis gezwungen, der jedes Ranking verhindert hat.
+// Auf true setzen holt sie auf die Website zurück.
+const INCLUDE_DEMO_ON_WEBSITE = false;
 
 const shops = JSON.parse(fs.readFileSync("data/shops.json", "utf8"));
 const tips = JSON.parse(fs.readFileSync("data/tips.json", "utf8"));

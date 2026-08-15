@@ -13,9 +13,14 @@ die Agentur-Seite socialfokus.de. Die Dönermap gehört **nicht** dorthin.
 
 ```
 data/shops.json                <- hier wird bearbeitet
-      │  npm run build:data
+      │  npm run build   (data + api + seo)
       ▼
 assets/js/doenermap-data.js    <- GENERIERT, nie von Hand anfassen
+api/v1/*.json                  <- GENERIERT, die App liest von hier
+laden/<id>/index.html          <- GENERIERT, eine SEO-Seite je Test
+sitemap.xml, robots.txt        <- GENERIERT
+index.html                     <- handgepflegt, ABER die Blöcke zwischen
+                                  <!-- GENERATED:… --> werden überschrieben
 assets/js/doenermap.js         <- nur Logik (Karte, Suche, Rendering)
 ```
 
@@ -28,7 +33,7 @@ später Favoriten und Detailseiten der App.
 |---|---|
 | `tested` | Echt getestet, echte Bewertung |
 | `untested` | Recherchiert (TomTom/OSM), grauer Marker |
-| `demo` | Alte Platzhalter mit **erfundenen** Noten und Google-Zahlen. Laufen auf der Website unter dem Beispieldaten-Hinweis, gehören **nicht in die App**. |
+| `demo` | Alte Platzhalter mit **erfundenen** Noten und Google-Zahlen. Werden **nirgends mehr ausgespielt** — nicht auf der Website, nicht in der App, nicht in Sitemap oder Markup. Erfundene Bewertungen verstoßen gegen Googles Spam-Richtlinien. Schalter: `INCLUDE_DEMO_ON_WEBSITE` in `scripts/build-data.mjs`. |
 
 Die Trennung von `rating` (redaktionell), `communityRating` (später von
 Nutzern) und `promotion` (bezahlte Platzierung) ist Absicht: Geld darf die
@@ -126,11 +131,34 @@ Die PNGs liegen in `assets/img/martin/`.
 - **Nichts erfinden.** Keine Google-Bewertung, keine Öffnungszeiten, keine
   Preise ohne Beleg — lieber `null` lassen. Erfundene Fremddaten über echte
   Betriebe sind rechtlich etwas ganz anderes als eine ehrliche Meinung.
-- Nach dem Eintragen `npm run build:data && npm run check` laufen lassen.
+- Nach dem Eintragen `npm run build && npm run check` laufen lassen. `build`
+  zieht Website-Daten, App-API **und** SEO-Dateien nach — nur `build:data`
+  reicht nicht mehr, sonst hinken Bestenliste, Ladenseiten und Sitemap
+  hinterher.
 - Commit auf `main` pushen. **Der automatische Deploy ist unzuverlässig**
   (IONOS-seitiger Fehler: lädt teils eine alte Artefakt-Version). Nach dem
   Push den Workflow `deploy-to-ionos.yaml` manuell mit dem vollen Commit-SHA
   als `version` auslösen, sonst ist die Änderung nicht wirklich live.
+
+## SEO
+
+Ziel ist Platz 1 für „bester Döner Hamburg". Was dafür automatisch aus
+`data/shops.json` erzeugt wird, steht in `scripts/build-seo.mjs`:
+Bestenliste und FAQ als echtes HTML (nicht per JS nachgeladen, damit Google
+den Text sicher sieht), JSON-LD (`WebSite`, `ItemList`, `FAQPage`, je Laden
+ein `Review`), eine eigene Seite je Test unter `/laden/<id>/`, Sitemap und
+robots.txt.
+
+Zwei Regeln, an denen nicht gerüttelt wird:
+
+- **Nur echte Tests bekommen Review-Markup.** Kein `aggregateRating`, solange
+  es je Laden genau eine Bewertung gibt — eine erfundene Bewertungsanzahl ist
+  exakt das, wofür Google abstraft.
+- **Kein „Demo"/„Platzhalter" im sichtbaren Text.** Eine Seite, die sich
+  selbst als unfertig bezeichnet, rankt nicht.
+
+Nach dem Deploy in der Google Search Console die Sitemap einreichen und die
+Startseite per „URL-Prüfung → Indexierung beantragen" anstoßen.
 
 ## Weiteres
 
