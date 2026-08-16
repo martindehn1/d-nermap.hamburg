@@ -6,6 +6,11 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://xn--dnermap-90a.hamburg/datenschutz/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://xn--dnermap-90a.hamburg/laden/sirali-kebab/</loc>
     <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>

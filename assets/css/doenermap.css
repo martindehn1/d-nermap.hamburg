@@ -1009,3 +1009,34 @@ img { max-width: 100%; display: block; }
   .rank-score { font-size: 22px; }
   .rank-section h2, .faq-section h2 { font-size: 28px; }
 }
+
+/* --- Rechtliches (Datenschutz/Impressum) -------------------------------- */
+
+.legal { max-width: 72ch; }
+.legal h1 {
+  font-family: var(--font-display);
+  font-size: clamp(32px, 5vw, 44px);
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+.legal-lede { font-size: 15px; color: var(--text-dim); margin-top: 8px; }
+.legal h2 {
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-faint);
+  margin-top: 36px;
+}
+.legal h3 { font-size: 16px; font-weight: 800; color: var(--text); margin-top: 22px; }
+.legal p { font-size: 15px; line-height: 1.65; color: var(--text-dim); margin-top: 10px; }
+.legal p strong { color: var(--text); }
+.legal a { color: var(--accent); font-weight: 600; }
+.legal code {
+  font-size: 13px;
+  background: var(--bg-soft);
+  padding: 1px 5px;
+  border-radius: 5px;
+  color: var(--text);
+}
+.legal-note { font-size: 13px !important; color: var(--text-faint) !important; }

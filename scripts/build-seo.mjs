@@ -342,6 +342,7 @@ ${JSON.stringify({ "@context": "https://schema.org", "@graph": ld }, null, 2)}
 
 <footer class="dm-footer">
   <p>${SITE_NAME} — ein Projekt von <a href="https://socialfokus.de/" target="_blank" rel="noopener" style="color: var(--accent-2);">${AUTHOR} / Social Fokus</a></p>
+  <p><a href="/datenschutz/" style="color: var(--text-faint);">Datenschutz &amp; Impressum</a></p>
 </footer>
 
 </body>
@@ -377,6 +378,7 @@ for (const s of tested) {
 
 const urls = [
   { loc: `${ORIGIN}/`, priority: "1.0", changefreq: "weekly" },
+  { loc: `${ORIGIN}/datenschutz/`, priority: "0.3", changefreq: "yearly" },
   ...tested.map(s => ({
     loc: shopUrl(s),
     lastmod: isoDate(s),
