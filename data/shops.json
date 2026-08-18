@@ -1097,7 +1097,7 @@
   {
     "id": "as-urfa-harburg",
     "name": "As Urfa Harburg",
-    "status": "untested",
+    "status": "tested",
     "location": {
       "address": "Wilstorfer Straße 56",
       "plz": "21073",
@@ -1105,7 +1105,14 @@
       "lat": 53.456699,
       "lng": 9.985938
     },
-    "rating": null,
+    "rating": {
+      "score": 7.5,
+      "verdict": "mid",
+      "testedBy": "martin",
+      "testedAt": "2026-08-18",
+      "note": "Beliebte Kette, tolle Gerichte — aber der Döner eher nicht so. Das Brot ist trockener als normale Dönerbrote, der Salat war sehr wenig. Fleisch normal, die Soßen sind gut. Insgesamt wenig Inhalt, dafür viel Brot.",
+      "scorecard": null
+    },
     "external": {
       "googleRating": null,
       "googleCount": null
@@ -1487,7 +1494,7 @@
   {
     "id": "bereket-grill",
     "name": "Bereket Grill",
-    "status": "untested",
+    "status": "tested",
     "location": {
       "address": "Harburger Ring 28",
       "plz": "21073",
@@ -1495,7 +1502,14 @@
       "lat": 53.461003,
       "lng": 9.979276
     },
-    "rating": null,
+    "rating": {
+      "score": 7,
+      "verdict": "mid",
+      "testedBy": "martin",
+      "testedAt": "2026-08-18",
+      "note": "Fleisch gut, Personal freundlich, Salat okay. Cocktailsoße etwas sauer.",
+      "scorecard": null
+    },
     "external": {
       "googleRating": null,
       "googleCount": null
@@ -3467,7 +3481,7 @@
   {
     "id": "doener-treff-harburg",
     "name": "Döner Treff Harburg",
-    "status": "untested",
+    "status": "tested",
     "location": {
       "address": "Am Centrumshaus 5",
       "plz": "21073",
@@ -3475,7 +3489,14 @@
       "lat": 53.460418,
       "lng": 9.978446
     },
-    "rating": null,
+    "rating": {
+      "score": 7,
+      "verdict": "mid",
+      "testedBy": "martin",
+      "testedAt": "2026-08-18",
+      "note": "Dönerbrot mit Loch — gute Idee, aber zu viel Brot und dadurch etwas wenig Fleisch. Salat und Soße sonst gut.",
+      "scorecard": null
+    },
     "external": {
       "googleRating": null,
       "googleCount": null

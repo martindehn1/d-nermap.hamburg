@@ -1,6 +1,6 @@
 // GENERIERT — nicht von Hand bearbeiten.
 // Quelle: data/shops.json  ·  Neu erzeugen: npm run build:data
-// Stand: 7 bewertet, 303 recherchiert
+// Stand: 10 bewertet, 300 recherchiert
 
 const DOENER_SHOPS = [
   {
@@ -113,6 +113,54 @@ const DOENER_SHOPS = [
     "googleRating": null,
     "googleCount": null,
     "note": "Personal war unfreundlich, die Soßen schmecken zu dünn — insgesamt nicht mein Geschmack. Positiv: das Dreiecksbrot, das finde ich hier am besten.",
+    "videoUrl": null
+  },
+  {
+    "id": "as-urfa-harburg",
+    "name": "As Urfa Harburg",
+    "district": "Harburg",
+    "address": "Wilstorfer Straße 56",
+    "plz": "21073",
+    "lat": 53.456699,
+    "lng": 9.985938,
+    "verdict": "mid",
+    "verdictLabel": "Solide",
+    "martinRating": 7.5,
+    "googleRating": null,
+    "googleCount": null,
+    "note": "Beliebte Kette, tolle Gerichte — aber der Döner eher nicht so. Das Brot ist trockener als normale Dönerbrote, der Salat war sehr wenig. Fleisch normal, die Soßen sind gut. Insgesamt wenig Inhalt, dafür viel Brot.",
+    "videoUrl": null
+  },
+  {
+    "id": "bereket-grill",
+    "name": "Bereket Grill",
+    "district": "Harburg",
+    "address": "Harburger Ring 28",
+    "plz": "21073",
+    "lat": 53.461003,
+    "lng": 9.979276,
+    "verdict": "mid",
+    "verdictLabel": "Solide",
+    "martinRating": 7,
+    "googleRating": null,
+    "googleCount": null,
+    "note": "Fleisch gut, Personal freundlich, Salat okay. Cocktailsoße etwas sauer.",
+    "videoUrl": null
+  },
+  {
+    "id": "doener-treff-harburg",
+    "name": "Döner Treff Harburg",
+    "district": "Harburg",
+    "address": "Am Centrumshaus 5",
+    "plz": "21073",
+    "lat": 53.460418,
+    "lng": 9.978446,
+    "verdict": "mid",
+    "verdictLabel": "Solide",
+    "martinRating": 7,
+    "googleRating": null,
+    "googleCount": null,
+    "note": "Dönerbrot mit Loch — gute Idee, aber zu viel Brot und dadurch etwas wenig Fleisch. Salat und Soße sonst gut.",
     "videoUrl": null
   }
 ];
@@ -248,15 +296,6 @@ const UNTESTED_SHOPS = [
     "lng": 10.149191
   },
   {
-    "id": "as-urfa-harburg",
-    "name": "As Urfa Harburg",
-    "lat": 53.456699,
-    "lng": 9.985938,
-    "plz": "21073",
-    "district": "Harburg",
-    "address": "Wilstorfer Straße 56"
-  },
-  {
     "id": "as-urfa-kebap-restaurant",
     "name": "As Urfa Kebap Restaurant",
     "lat": 53.553591,
@@ -348,15 +387,6 @@ const UNTESTED_SHOPS = [
     "name": "Bereket Döner",
     "lat": 53.48688,
     "lng": 10.180027
-  },
-  {
-    "id": "bereket-grill",
-    "name": "Bereket Grill",
-    "lat": 53.461003,
-    "lng": 9.979276,
-    "plz": "21073",
-    "district": "Harburg",
-    "address": "Harburger Ring 28"
   },
   {
     "id": "berg-grill-imbiss",
@@ -783,15 +813,6 @@ const UNTESTED_SHOPS = [
     "name": "Döner Time",
     "lat": 53.552002,
     "lng": 9.940958
-  },
-  {
-    "id": "doener-treff-harburg",
-    "name": "Döner Treff Harburg",
-    "lat": 53.460418,
-    "lng": 9.978446,
-    "plz": "21073",
-    "district": "Harburg",
-    "address": "Am Centrumshaus 5"
   },
   {
     "id": "doener-wandsbek",
