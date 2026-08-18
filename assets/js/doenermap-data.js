@@ -1,6 +1,6 @@
 // GENERIERT — nicht von Hand bearbeiten.
 // Quelle: data/shops.json  ·  Neu erzeugen: npm run build:data
-// Stand: 10 bewertet, 300 recherchiert
+// Stand: 11 bewertet, 299 recherchiert
 
 const DOENER_SHOPS = [
   {
@@ -145,6 +145,21 @@ const DOENER_SHOPS = [
     "googleRating": null,
     "googleCount": null,
     "note": "Fleisch gut, Personal freundlich, Salat okay. Cocktailsoße etwas sauer.",
+    "videoUrl": null
+  },
+  {
+    "id": "bosporus-lounge",
+    "name": "BOSPORUS LOUNGE",
+    "district": null,
+    "plz": null,
+    "lat": 53.456275,
+    "lng": 9.986693,
+    "verdict": "bad",
+    "verdictLabel": "Nicht empfohlen",
+    "martinRating": 5,
+    "googleRating": null,
+    "googleCount": null,
+    "note": "Personal etwas unfreundlich, Döner wirkte schnell hingeklatscht. Fleisch okay, aber kaum Salat — die Soße schmeckt eher nach Curry-Ketchup als nach klassischer Dönersoße.",
     "videoUrl": null
   },
   {
@@ -483,12 +498,6 @@ const UNTESTED_SHOPS = [
     "name": "Borstel Kebab",
     "lat": 53.605724,
     "lng": 9.982566
-  },
-  {
-    "id": "bosporus-lounge",
-    "name": "BOSPORUS LOUNGE",
-    "lat": 53.456275,
-    "lng": 9.986693
   },
   {
     "id": "brothers-kebap-haus",
