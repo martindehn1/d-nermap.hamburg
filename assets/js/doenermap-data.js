@@ -1,6 +1,6 @@
 // GENERIERT — nicht von Hand bearbeiten.
 // Quelle: data/shops.json  ·  Neu erzeugen: npm run build:data
-// Stand: 11 bewertet, 299 recherchiert
+// Stand: 13 bewertet, 298 recherchiert
 
 const DOENER_SHOPS = [
   {
@@ -176,6 +176,38 @@ const DOENER_SHOPS = [
     "googleRating": null,
     "googleCount": null,
     "note": "Dönerbrot mit Loch — gute Idee, aber zu viel Brot und dadurch etwas wenig Fleisch. Salat und Soße sonst gut.",
+    "videoUrl": null
+  },
+  {
+    "id": "uni-grillhouse",
+    "name": "Güven Grill House",
+    "district": "Harburg",
+    "address": "Eißendorfer Str. 21",
+    "plz": "21073",
+    "lat": 53.460102,
+    "lng": 9.975369,
+    "verdict": "mid",
+    "verdictLabel": "Solide",
+    "martinRating": 7.3,
+    "googleRating": null,
+    "googleCount": null,
+    "note": "Hat mehr Sitzplätze gebaut — ein Dönerladen aus meiner Kindheit, der sich vergrößert und einen neuen Namen bekommen hat. Fleisch gut, Soßen okay, Salat frisch.",
+    "videoUrl": null
+  },
+  {
+    "id": "doener-meister",
+    "name": "Döner Meister",
+    "district": "Harburg",
+    "address": "Winsener Str. 15",
+    "plz": "21077",
+    "lat": 53.4509195,
+    "lng": 9.9878271,
+    "verdict": "good",
+    "verdictLabel": "Top-Empfehlung",
+    "martinRating": 8,
+    "googleRating": null,
+    "googleCount": null,
+    "note": "Relativ neuer Dönerladen mit guter Qualität — hab mit eigenen Augen gesehen, wie sie den Spieß mit Fleisch bestücken. Salat und Soßen sind gut, Personal freundlich.",
     "videoUrl": null
   }
 ];
@@ -2127,12 +2159,6 @@ const UNTESTED_SHOPS = [
     "name": "UNI DÖNER",
     "lat": 53.567199,
     "lng": 9.981268
-  },
-  {
-    "id": "uni-grillhouse",
-    "name": "Uni-Grillhouse",
-    "lat": 53.460102,
-    "lng": 9.975369
   },
   {
     "id": "urfa-tadi",

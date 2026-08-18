@@ -9344,16 +9344,23 @@
   },
   {
     "id": "uni-grillhouse",
-    "name": "Uni-Grillhouse",
-    "status": "untested",
+    "name": "Güven Grill House",
+    "status": "tested",
     "location": {
-      "address": null,
-      "plz": null,
-      "district": null,
+      "address": "Eißendorfer Str. 21",
+      "plz": "21073",
+      "district": "Harburg",
       "lat": 53.460102,
       "lng": 9.975369
     },
-    "rating": null,
+    "rating": {
+      "score": 7.3,
+      "verdict": "mid",
+      "testedBy": "martin",
+      "testedAt": "2026-08-18",
+      "note": "Hat mehr Sitzplätze gebaut — ein Dönerladen aus meiner Kindheit, der sich vergrößert und einen neuen Namen bekommen hat. Fleisch gut, Soßen okay, Salat frisch.",
+      "scorecard": null
+    },
     "external": {
       "googleRating": null,
       "googleCount": null
@@ -9654,6 +9661,43 @@
       "lng": 9.985955
     },
     "rating": null,
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": null
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
+  },
+  {
+    "id": "doener-meister",
+    "name": "Döner Meister",
+    "status": "tested",
+    "location": {
+      "address": "Winsener Str. 15",
+      "plz": "21077",
+      "district": "Harburg",
+      "lat": 53.4509195,
+      "lng": 9.9878271
+    },
+    "rating": {
+      "score": 8,
+      "verdict": "good",
+      "testedBy": "martin",
+      "testedAt": "2026-08-18",
+      "note": "Relativ neuer Dönerladen mit guter Qualität — hab mit eigenen Augen gesehen, wie sie den Spieß mit Fleisch bestücken. Salat und Soßen sind gut, Personal freundlich.",
+      "scorecard": null
+    },
     "external": {
       "googleRating": null,
       "googleCount": null
