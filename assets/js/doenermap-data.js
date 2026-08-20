@@ -1,6 +1,6 @@
 // GENERIERT — nicht von Hand bearbeiten.
 // Quelle: data/shops.json  ·  Neu erzeugen: npm run build:data
-// Stand: 14 bewertet, 297 recherchiert
+// Stand: 15 bewertet, 297 recherchiert
 
 const DOENER_SHOPS = [
   {
@@ -225,6 +225,22 @@ const DOENER_SHOPS = [
     "googleCount": null,
     "note": "Relativ neuer Dönerladen mit guter Qualität — hab mit eigenen Augen gesehen, wie sie den Spieß mit Fleisch bestücken. Salat und Soßen sind gut, Personal freundlich.",
     "videoUrl": null
+  },
+  {
+    "id": "doener-lab",
+    "name": "Döner Lab",
+    "district": "HafenCity",
+    "address": "Bohnenstraße",
+    "plz": "20457",
+    "lat": 53.5482614,
+    "lng": 9.9905981,
+    "verdict": "good",
+    "verdictLabel": "Top-Empfehlung",
+    "martinRating": 8.8,
+    "googleRating": null,
+    "googleCount": null,
+    "note": "Klare Empfehlung: Die blaue Skyr-Protein-Soße ist ein echtes Alleinstellungsmerkmal und schmeckt richtig gut. Salat frisch, Fleisch lecker, und das Brot war perfekt durchgebacken.",
+    "videoUrl": "https://youtube.com/shorts/CvlJTfYqIos"
   }
 ];
 

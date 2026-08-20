@@ -9727,5 +9727,42 @@
       "website": null
     },
     "promotion": null
+  },
+  {
+    "id": "doener-lab",
+    "name": "Döner Lab",
+    "status": "tested",
+    "location": {
+      "address": "Bohnenstraße",
+      "plz": "20457",
+      "district": "HafenCity",
+      "lat": 53.5482614,
+      "lng": 9.9905981
+    },
+    "rating": {
+      "score": 8.8,
+      "verdict": "good",
+      "testedBy": "martin",
+      "testedAt": "2026-08-20",
+      "note": "Klare Empfehlung: Die blaue Skyr-Protein-Soße ist ein echtes Alleinstellungsmerkmal und schmeckt richtig gut. Salat frisch, Fleisch lecker, und das Brot war perfekt durchgebacken.",
+      "scorecard": null
+    },
+    "external": {
+      "googleRating": null,
+      "googleCount": null
+    },
+    "media": {
+      "images": [],
+      "videoUrl": "https://youtube.com/shorts/CvlJTfYqIos"
+    },
+    "communityRating": null,
+    "tags": [],
+    "price": null,
+    "openingHours": null,
+    "contact": {
+      "phone": null,
+      "website": null
+    },
+    "promotion": null
   }
 ]
