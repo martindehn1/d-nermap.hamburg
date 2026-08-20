@@ -1,6 +1,6 @@
 // GENERIERT — nicht von Hand bearbeiten.
 // Quelle: data/shops.json  ·  Neu erzeugen: npm run build:data
-// Stand: 13 bewertet, 298 recherchiert
+// Stand: 14 bewertet, 297 recherchiert
 
 const DOENER_SHOPS = [
   {
@@ -161,6 +161,22 @@ const DOENER_SHOPS = [
     "googleCount": null,
     "note": "Personal etwas unfreundlich, Döner wirkte schnell hingeklatscht. Fleisch okay, aber kaum Salat — die Soße schmeckt eher nach Curry-Ketchup als nach klassischer Dönersoße.",
     "videoUrl": null
+  },
+  {
+    "id": "doener-royal",
+    "name": "Döner Royal",
+    "district": "Harburg",
+    "address": "Deichhausweg 5",
+    "plz": "21073",
+    "lat": 53.459584,
+    "lng": 9.982041,
+    "verdict": "mid",
+    "verdictLabel": "Solide",
+    "martinRating": 7.8,
+    "googleRating": null,
+    "googleCount": null,
+    "note": "Sehr günstig für 3,99 € — dafür ist die Füllung auch entsprechend knapp bemessen. Der Döner selbst schmeckt gut, könnte aber ruhig etwas großzügiger belegt sein.",
+    "videoUrl": "https://www.youtube.com/watch?v=cWemcn39L6g"
   },
   {
     "id": "doener-treff-harburg",
@@ -827,12 +843,6 @@ const UNTESTED_SHOPS = [
     "name": "Döner Point",
     "lat": 53.515165,
     "lng": 9.987055
-  },
-  {
-    "id": "doener-royal",
-    "name": "Döner Royal",
-    "lat": 53.459584,
-    "lng": 9.982041
   },
   {
     "id": "doener-time-597c",

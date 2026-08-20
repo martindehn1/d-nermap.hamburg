@@ -3368,26 +3368,38 @@
   {
     "id": "doener-royal",
     "name": "Döner Royal",
-    "status": "untested",
+    "status": "tested",
     "location": {
-      "address": null,
-      "plz": null,
-      "district": null,
+      "address": "Deichhausweg 5",
+      "plz": "21073",
+      "district": "Harburg",
       "lat": 53.459584,
       "lng": 9.982041
     },
-    "rating": null,
+    "rating": {
+      "score": 7.8,
+      "verdict": "mid",
+      "testedBy": "martin",
+      "testedAt": "2026-08-18",
+      "note": "Sehr günstig für 3,99 € — dafür ist die Füllung auch entsprechend knapp bemessen. Der Döner selbst schmeckt gut, könnte aber ruhig etwas großzügiger belegt sein.",
+      "scorecard": null
+    },
     "external": {
       "googleRating": null,
       "googleCount": null
     },
     "media": {
       "images": [],
-      "videoUrl": null
+      "videoUrl": "https://www.youtube.com/watch?v=cWemcn39L6g"
     },
     "communityRating": null,
     "tags": [],
-    "price": null,
+    "price": {
+      "doener": 3.99,
+      "currency": "EUR",
+      "observedAt": "2026-08-18",
+      "observedBy": "martin"
+    },
     "openingHours": null,
     "contact": {
       "phone": null,
