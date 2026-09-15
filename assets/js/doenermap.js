@@ -39,7 +39,7 @@ function mapsLinkHtml(shop) {
 
 function testedCardHtml(shop) {
   return `
-    <article class="shop-card" data-plz="${shop.plz}">
+    <article class="shop-card" data-plz="${shop.plz}" data-dm-shop="${shop.id}">
       <div class="shop-card-top">
         <div>
           <h3>${shop.name}</h3>
@@ -57,9 +57,9 @@ function testedCardHtml(shop) {
       <p class="note">${shop.note}</p>
       <div class="shop-card-actions">
         ${shop.videoUrl
-          ? `<a class="btn-mini video" href="${shop.videoUrl}" target="_blank" rel="noopener">▶ Video ansehen</a>`
+          ? `<a class="btn-mini video" data-dm-kind="video" href="${shop.videoUrl}" target="_blank" rel="noopener">▶ Video ansehen</a>`
           : `<span class="btn-mini video-pending">Video folgt</span>`}
-        <a class="btn-mini" href="${mapsLinkHtml(shop)}" target="_blank" rel="noopener">Auf Google Maps</a>
+        <a class="btn-mini" data-dm-kind="maps" href="${mapsLinkHtml(shop)}" target="_blank" rel="noopener">Auf Google Maps</a>
       </div>
     </article>
   `;
@@ -69,7 +69,7 @@ function testedCardHtml(shop) {
 // Martin genuinely hasn't been here yet.
 function untestedCardHtml(shop) {
   return `
-    <article class="shop-card shop-card-untested" data-plz="${shop.plz}">
+    <article class="shop-card shop-card-untested" data-plz="${shop.plz}" data-dm-shop="${shop.id}">
       <div class="shop-card-top">
         <div>
           <h3>${shop.name}</h3>
@@ -79,7 +79,7 @@ function untestedCardHtml(shop) {
       </div>
       <p class="note">Martin war hier noch nicht — Standort steht schon auf der Karte, Bewertung folgt.</p>
       <div class="shop-card-actions">
-        <a class="btn-mini" href="${mapsLinkHtml(shop)}" target="_blank" rel="noopener">Auf Google Maps</a>
+        <a class="btn-mini" data-dm-kind="maps" href="${mapsLinkHtml(shop)}" target="_blank" rel="noopener">Auf Google Maps</a>
       </div>
     </article>
   `;
@@ -117,6 +117,8 @@ function initMap() {
     testedShops.concat(untestedShops).forEach(shop => {
       const el = document.createElement("div");
       el.className = `doener-marker ${verdictClass(shop.verdict)}`;
+      el.dataset.dmShop=shop.id;
+      el.dataset.dmKind="marker";
 
       const popupHtml = shop.tested ? `
         <img class="popup-figure" src="${VERDICT_FULL_FIGURE[shop.verdict]}" alt="">
@@ -126,7 +128,7 @@ function initMap() {
           <span class="popup-shop-verdict ${verdictClass(shop.verdict)}">${shop.verdictLabel}</span><br/>
           <div class="popup-shop-meta">Martin: <strong>${shop.martinRating.toFixed(1)}/10</strong><br>${shop.googleRating != null ? `Google: <strong>${shop.googleRating.toFixed(1)}★</strong>` : `Google: <strong>folgt</strong>`}</div>
           ${shop.note ? `<p class="popup-note">${shop.note}</p>` : ""}
-          ${shop.videoUrl ? `<a class="popup-video-link" href="${shop.videoUrl}" target="_blank" rel="noopener">▶ Martins Video ansehen</a>` : `<span class="popup-video-link" style="color:var(--text-faint)">Video folgt bald</span>`}
+          ${shop.videoUrl ? `<a class="popup-video-link" data-dm-shop="${shop.id}" data-dm-kind="video" href="${shop.videoUrl}" target="_blank" rel="noopener">▶ Martins Video ansehen</a>` : `<span class="popup-video-link" style="color:var(--text-faint)">Video folgt bald</span>`}
         </div>
       ` : `
         <div class="popup-text popup-text-untested">

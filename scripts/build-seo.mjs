@@ -184,7 +184,7 @@ function bestListHtml() {
       <li class="rank-item ${s.rating.verdict}">
         <span class="rank-pos">${i + 1}</span>
         <div class="rank-body">
-          <h3><a href="/laden/${s.id}/">${esc(s.name)}</a></h3>
+          <h3><a data-dm-shop="${s.id}" data-dm-kind="profile" href="/laden/${s.id}/">${esc(s.name)}</a></h3>
           <p class="rank-meta">${esc([s.location.address, s.location.district, s.location.plz].filter(Boolean).join(" · "))}</p>
           <p class="rank-note">${esc(s.rating.note)}</p>
         </div>
@@ -236,7 +236,7 @@ function shopPage(s) {
   const otherLinks = others
     .map(
       o =>
-        `<li><a href="/laden/${o.id}/">${esc(o.name)}</a> <span>${score(o)}/10 · ${esc(o.location.district)}</span></li>`
+        `<li><a data-dm-shop="${o.id}" data-dm-kind="profile" href="/laden/${o.id}/">${esc(o.name)}</a> <span>${score(o)}/10 · ${esc(o.location.district)}</span></li>`
     )
     .join("\n          ");
 
@@ -324,8 +324,8 @@ ${JSON.stringify({ "@context": "https://schema.org", "@graph": ld }, null, 2)}
       <p class="shop-detail-note">${esc(s.rating.note)}</p>
 
       <div class="shop-card-actions">
-        ${s.media.videoUrl ? `<a class="btn-mini video" href="${esc(s.media.videoUrl)}" target="_blank" rel="noopener">▶ Video zum Test</a>` : ""}
-        <a class="btn-mini" href="https://www.google.com/maps/search/?api=1&amp;query=${mapsQuery}" target="_blank" rel="noopener">Route auf Google Maps</a>
+        ${s.media.videoUrl ? `<a class="btn-mini video" data-dm-shop="${s.id}" data-dm-kind="video" href="${esc(s.media.videoUrl)}" target="_blank" rel="noopener">▶ Video zum Test</a>` : ""}
+        <a class="btn-mini" data-dm-shop="${s.id}" data-dm-kind="maps" href="https://www.google.com/maps/search/?api=1&amp;query=${mapsQuery}" target="_blank" rel="noopener">Route auf Google Maps</a>
       </div>
 
       <h2>Weitere getestete Dönerläden in Hamburg</h2>
@@ -345,6 +345,7 @@ ${JSON.stringify({ "@context": "https://schema.org", "@graph": ld }, null, 2)}
   <p><a href="/datenschutz/" style="color: var(--text-faint);">Datenschutz &amp; Impressum</a></p>
 </footer>
 
+<script defer src="/assets/js/click-tracking.js?v=20260915"></script>
 </body>
 </html>
 `;
