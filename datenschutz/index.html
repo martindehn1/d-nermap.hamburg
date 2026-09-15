@@ -53,7 +53,7 @@
 
       <h2>Kurz gesagt</h2>
       <p>
-        Die Website zählt Klicks auf Läden und deren Links ohne Cookies oder
+        Die Website zählt Seitenaufrufe und Klicks auf Läden und deren Links ohne Cookies oder
         Besucherkennungen. Es gibt keine Weitergabe zu Werbezwecken und kein
         Nutzerkonto für Websitebesucher. Die App enthält keine Klickmessung.
       </p>
@@ -72,10 +72,11 @@
         am technisch fehlerfreien und sicheren Betrieb).
       </p>
 
-      <h3 id="klickmessung">Klickmessung auf der Website</h3>
+      <h3 id="klickmessung">Seitenaufrufe und Klickmessung auf der Website</h3>
       <p>Damit Martin erkennt, welche Läden und Inhalte gefragt sind, zählt die
-        Website Klicks auf Karten-Pins, Ladenprofile, Google-Maps-Links und
-        Testvideos. Gespeichert werden ausschließlich die Laden-ID, die
+        Website Seitenaufrufe sowie Klicks auf Karten-Pins, Ladenprofile, Google-Maps-Links und
+        Testvideos. Bei Seitenaufrufen speichern wir nur den aufgerufenen Seitenpfad,
+        den Kalendertag und die zusammengezählte Anzahl. Bei Klicks speichern wir die Laden-ID, die
         Ausgangsseite ohne URL-Parameter, die Art der Aktion, der Kalendertag
         und die zusammengezählte Anzahl. Es werden keine Cookies gesetzt und
         keine Besucherkennungen, Suchbegriffe, eingegebenen Postleitzahlen,
@@ -83,10 +84,10 @@
       <p>Die Zählung läuft über einen Messdienst auf OpenAI Sites. Bei der
         Übertragung verarbeitet dessen Hosting-Infrastruktur technisch
         notwendige Verbindungsdaten, insbesondere die IP-Adresse.
-        Die Auswertung ist nur für Martin zugänglich. Mehrere Klicks einer
+        Die Auswertung ist nur für Martin zugänglich. Mehrere Aufrufe oder Klicks einer
         Person zählen mehrfach; aus der Zählung lassen sich keine einzelnen
         Besucher oder tatsächlichen Ladenbesuche erkennen.</p>
-      <p>Die Klickmessung startet am 15. September 2026. Links und Karte
+      <p>Die Messung startet am 15. September 2026. Links und Karte
         funktionieren auch, wenn die Messung blockiert wird. Für Google Maps
         und Videos gelten nach dem Öffnen deren eigene Datenschutzhinweise.</p>
 
@@ -180,5 +181,6 @@
   <p>Dönermap Hamburg — ein Projekt von <a href="https://socialfokus.de/" target="_blank" rel="noopener" style="color: var(--accent-2);">Martin Dehn / Social Fokus</a></p>
 </footer>
 
+<script defer src="/assets/js/click-tracking.js?v=pageviews-20260915"></script>
 </body>
 </html>

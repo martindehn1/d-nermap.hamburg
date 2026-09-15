@@ -6,7 +6,7 @@
  if(flags.get("dm_tracking")==="off")return;
  if(!test&&!['xn--dnermap-90a.hamburg','www.xn--dnermap-90a.hamburg'].includes(location.hostname))return;
  var path=location.pathname.replace(/index\.html$/,'').replace(/\/+$/,'')+'/';
- if(path!=='/'&&!/^\/laden\/[a-z0-9-]+\/$/.test(path))return;
+ if(path!=='/'&&path!=='/datenschutz/'&&!/^\/laden\/[a-z0-9-]+\/$/.test(path))return;
  var endpoint='https://rollerkompass-klickstatistik.martin-dehn1.chatgpt.site/api/doenermap/collect';
  function clicked(event){
   if(!event.isTrusted||event.button>1)return;
@@ -26,4 +26,21 @@
  document.addEventListener('click',clicked,true);
  document.addEventListener('auxclick',clicked,true);
  document.addEventListener('keypress',clicked,true);
+
+ // Count visible document visits, including back/forward cache restores.
+ // Visibility changes alone and in-page hash navigation never add a visit.
+ var pageviewSent=false;
+ function pageview(){
+  if(pageviewSent||document.prerendering||document.visibilityState!=="visible")return;
+  pageviewSent=true;
+  var payload={path:path};if(test)payload.test=true;
+  try{fetch('https://rollerkompass-klickstatistik.martin-dehn1.chatgpt.site/api/pageviews/collect',{
+   method:'POST',headers:{'Content-Type':'text/plain;charset=UTF-8'},body:JSON.stringify(payload),
+   credentials:'omit',referrerPolicy:'no-referrer',mode:'cors',cache:'no-store',keepalive:true
+  }).catch(function(){});}catch(_){}
+ }
+ document.addEventListener('visibilitychange',pageview);
+ document.addEventListener('prerenderingchange',pageview);
+ window.addEventListener('pageshow',function(event){if(event.persisted){pageviewSent=false;pageview();}});
+ pageview();
 })();
